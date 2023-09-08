@@ -31,8 +31,6 @@ class EditProfileForm(forms.ModelForm):
         required=False,
         widget=CKEditorWidget(attrs={"placeholder": "Tell us more about you"}),
     )
-    # profile_image = forms.ClearableFileInput(attrs={}, type="image")
-    # cover_image = forms.ClearableFileInput(attrs={})
     
     profile_image = forms.ImageField(widget=forms.ClearableFileInput, required=False)
     cover_image = forms.ImageField(widget=forms.ClearableFileInput, required=False)
