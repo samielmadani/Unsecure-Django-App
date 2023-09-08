@@ -142,7 +142,9 @@ def all_profiles(request):
 
 
 @login_required(login_url='/login/')
-def edit_profile(request, user_id):
+def edit_profile(request):
+    user = request.user
+    user_id = user.id
     all_chat_profiles = UserProfile.objects.all()
     logger.info("GET/POST (edit) profile for %s", user_id)
     profile = get_object_or_404(UserProfile, pk=user_id)

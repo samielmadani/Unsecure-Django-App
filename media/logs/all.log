@@ -409,3 +409,290 @@
 [INFO] django.server 2023-08-24 14:10:43,811 - basehttp 50824 : "GET /static/js/jquery.easypiechart.min.js HTTP/1.1" 200 3990
 [INFO] django.server 2023-08-24 14:10:43,835 - basehttp 50824 : "GET /media/cover_images/RE4NXnV_1920x1080.jpg HTTP/1.1" 200 813080
 [INFO] django.server 2023-08-24 14:10:43,881 - basehttp 50824 : "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+[INFO] django.server 2023-09-08 13:40:51,150 - basehttp 4154716 : "GET /home/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-08 13:40:51,284 - basehttp 4154716 : "GET /login/?next=/home/ HTTP/1.1" 200 4507
+[INFO] django.server 2023-09-08 13:40:51,341 - basehttp 4154716 : "GET /static/css/themify-icons.css HTTP/1.1" 200 16474
+[INFO] django.server 2023-09-08 13:40:51,345 - basehttp 4154716 : "GET /static/css/feather.css HTTP/1.1" 200 13391
+[INFO] django.server 2023-09-08 13:40:51,350 - basehttp 4154716 : "GET /static/css/lightbox.css HTTP/1.1" 200 4352
+[INFO] django.server 2023-09-08 13:40:51,352 - basehttp 4154716 : "GET /static/css/emoji.css HTTP/1.1" 200 411332
+[INFO] django.server 2023-09-08 13:40:51,353 - basehttp 4154716 : "GET /static/css/style.css HTTP/1.1" 200 302860
+[INFO] django.server 2023-09-08 13:40:51,359 - basehttp 4154716 : "GET /static/js/plugin.js HTTP/1.1" 200 250710
+[INFO] django.server 2023-09-08 13:40:51,385 - basehttp 4154716 : "GET /static/js/scripts.js HTTP/1.1" 200 9730
+[INFO] django.server 2023-09-08 13:40:51,390 - basehttp 4154716 : "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+[INFO] django.server 2023-09-08 13:40:51,396 - basehttp 4154716 : "GET /static/vendor/owl-carousel/css/owl.carousel.min.css HTTP/1.1" 200 3351
+[INFO] django.server 2023-09-08 13:40:51,406 - basehttp 4154716 : "GET /static/vendor/owl-carousel/css/owl.theme.default.css HTTP/1.1" 200 1380
+[INFO] django.server 2023-09-08 13:40:52,008 - basehttp 4154716 : "GET /static/svg/preloader.svg HTTP/1.1" 200 686
+[INFO] django.server 2023-09-08 13:40:52,011 - basehttp 4154716 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 200 41173
+[INFO] django.server 2023-09-08 13:40:52,058 - basehttp 4154716 : "GET /static/fonts/Feather.ttf?sdxovp HTTP/1.1" 200 65112
+[INFO] django.server 2023-09-08 13:40:52,060 - basehttp 4154716 : "GET /static/fonts/themify.woff?-fvbane HTTP/1.1" 200 56108
+[INFO] django.server 2023-09-08 13:40:52,063 - basehttp 4154716 : "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+[INFO] django.server 2023-09-08 13:40:52,295 - basehttp 4154716 : "GET /static/svg/zap.svg HTTP/1.1" 200 277
+[INFO] django.server 2023-09-08 13:41:05,983 - basehttp 4154716 : "GET /login/?next=/home/ HTTP/1.1" 200 4507
+[DEBUG] authentication.views 2023-09-08 13:42:49,256 - views 4154716 : <QueryDict: {'csrfmiddlewaretoken': ['NI9NRllzR5z4mgyT7GjaZJfNGFhGoxDahzDq5Be6c2CGlNax3KDYSsBaMig0k9dK'], 'username': ['jth141'], 'password': ['Password1!']}>
+[INFO] django.server 2023-09-08 13:42:49,259 - basehttp 4154716 : "POST /login/?next=/home/ HTTP/1.1" 200 4522
+[INFO] django.server 2023-09-08 13:42:49,288 - basehttp 4154716 : "GET /static/css/themify-icons.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:42:49,289 - basehttp 4154716 : "GET /static/css/lightbox.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:42:49,291 - basehttp 4154716 : "GET /static/css/emoji.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:42:49,293 - basehttp 4154716 : "GET /static/css/feather.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:42:49,294 - basehttp 4154716 : "GET /static/js/plugin.js HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:42:49,297 - basehttp 4154716 : "GET /static/css/style.css HTTP/1.1" 200 302860
+[INFO] django.server 2023-09-08 13:42:49,302 - basehttp 4154716 : "GET /static/js/scripts.js HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:42:49,311 - basehttp 4154716 : "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:42:49,318 - basehttp 4154716 : "GET /static/vendor/owl-carousel/css/owl.carousel.min.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:42:49,318 - basehttp 4154716 : "GET /static/vendor/owl-carousel/css/owl.theme.default.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:42:49,342 - basehttp 4154716 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:42:49,342 - basehttp 4154716 : "GET /static/svg/preloader.svg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:42:49,349 - basehttp 4154716 : "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+[INFO] django.server 2023-09-08 13:43:59,619 - basehttp 4154716 : "GET /register/ HTTP/1.1" 200 6448
+[INFO] django.server 2023-09-08 13:43:59,679 - basehttp 4154716 : "GET /static/jpg/register-bg.jpg HTTP/1.1" 200 47139
+[INFO] django.server 2023-09-08 13:44:10,420 - basehttp 4154716 : "GET /login/?next=/home/ HTTP/1.1" 200 4507
+[INFO] django.server 2023-09-08 13:44:10,446 - basehttp 4154716 : "GET /static/css/themify-icons.css HTTP/1.1" 200 16474
+[INFO] django.server 2023-09-08 13:44:10,449 - basehttp 4154716 : "GET /static/css/emoji.css HTTP/1.1" 200 411332
+[INFO] django.server 2023-09-08 13:44:10,450 - basehttp 4154716 : "GET /static/css/feather.css HTTP/1.1" 200 13391
+[INFO] django.server 2023-09-08 13:44:10,451 - basehttp 4154716 : "GET /static/css/lightbox.css HTTP/1.1" 200 4352
+[INFO] django.server 2023-09-08 13:44:10,454 - basehttp 4154716 : "GET /static/js/plugin.js HTTP/1.1" 200 250710
+[INFO] django.server 2023-09-08 13:44:10,456 - basehttp 4154716 : "GET /static/js/scripts.js HTTP/1.1" 200 9730
+[INFO] django.server 2023-09-08 13:44:10,488 - basehttp 4154716 : "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+[INFO] django.server 2023-09-08 13:44:10,489 - basehttp 4154716 : "GET /static/vendor/owl-carousel/css/owl.theme.default.css HTTP/1.1" 200 1380
+[INFO] django.server 2023-09-08 13:44:10,491 - basehttp 4154716 : "GET /static/vendor/owl-carousel/css/owl.carousel.min.css HTTP/1.1" 200 3351
+[INFO] django.server 2023-09-08 13:44:10,823 - basehttp 4154716 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 200 41173
+[INFO] django.server 2023-09-08 13:44:10,825 - basehttp 4154716 : "GET /static/svg/preloader.svg HTTP/1.1" 200 686
+[INFO] django.server 2023-09-08 13:44:10,826 - basehttp 4154716 : "GET /static/fonts/themify.woff?-fvbane HTTP/1.1" 200 56108
+[INFO] django.server 2023-09-08 13:44:10,827 - basehttp 4154716 : "GET /static/fonts/Feather.ttf?sdxovp HTTP/1.1" 200 65112
+[DEBUG] authentication.views 2023-09-08 13:44:15,429 - views 4154716 : <QueryDict: {'csrfmiddlewaretoken': ['DWGUrTdcfJrVwndIi6LNKJpWGfD7ZZAV7NaxF96JAGuxvUPmea5BDsLjMSCrVBav'], 'username': ['jth141'], 'password': ['Password1!']}>
+[INFO] django.server 2023-09-08 13:44:15,430 - basehttp 4154716 : "POST /login/?next=/home/ HTTP/1.1" 200 4522
+[INFO] django.server 2023-09-08 13:44:17,021 - basehttp 4154716 : "GET /register/ HTTP/1.1" 200 6448
+[INFO] django.server 2023-09-08 13:44:41,119 - basehttp 4154716 : "POST /register/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-08 13:44:41,393 - basehttp 4154716 : "GET / HTTP/1.1" 200 51280
+[INFO] django.server 2023-09-08 13:44:41,422 - basehttp 4154716 : "GET /static/js/lightbox.js HTTP/1.1" 200 20097
+[INFO] django.server 2023-09-08 13:44:41,459 - basehttp 4154716 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 200 220
+[INFO] django.server 2023-09-08 13:44:41,463 - basehttp 4154716 : "GET /media/profile_images/arj.jpg HTTP/1.1" 200 4881
+[INFO] django.server 2023-09-08 13:44:41,464 - basehttp 4154716 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 200 3767
+[INFO] django.server 2023-09-08 13:44:41,465 - basehttp 4154716 : "GET /media/profile_images/joey.jpg HTTP/1.1" 200 5615
+[INFO] django.server 2023-09-08 13:44:41,476 - basehttp 4154716 : "GET /media/post_images/books-436498_1280.jpg HTTP/1.1" 200 264819
+[INFO] django.server 2023-09-08 13:44:41,477 - basehttp 4154716 : "GET /media/post_images/tianjin-2185510_1280.jpg HTTP/1.1" 200 267061
+[INFO] django.server 2023-09-08 13:44:41,482 - basehttp 4154716 : "GET /media/profile_images/heather.jpg HTTP/1.1" 200 4440
+[INFO] django.server 2023-09-08 13:44:41,496 - basehttp 4154716 : "GET /media/profile_images/bob.jpg HTTP/1.1" 200 5616
+[INFO] django.server 2023-09-08 13:44:41,500 - basehttp 4154716 : "GET /media/post_images/coffee-1117933_1280.jpg HTTP/1.1" 200 249491
+[INFO] django.server 2023-09-08 13:44:41,506 - basehttp 4154716 : "GET /media/post_images/RE4CSNW_1920x1080.jpg HTTP/1.1" 200 845866
+[INFO] django.server 2023-09-08 13:44:41,580 - basehttp 4154716 : "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+[INFO] django.server 2023-09-08 13:44:41,582 - basehttp 4154716 : "GET /static/png/close.png HTTP/1.1" 200 280
+[INFO] django.server 2023-09-08 13:44:41,583 - basehttp 4154716 : "GET /static/png/prev.png HTTP/1.1" 200 1360
+[INFO] django.server 2023-09-08 13:44:41,584 - basehttp 4154716 : "GET /static/png/next.png HTTP/1.1" 200 1350
+[INFO] django.server 2023-09-08 13:44:41,587 - basehttp 4154716 : "GET /static/gif/loading.gif HTTP/1.1" 200 8476
+[INFO] django.server 2023-09-08 13:46:37,495 - basehttp 4154716 : "GET /debug-settings HTTP/1.1" 301 0
+[INFO] django.server 2023-09-08 13:46:37,519 - basehttp 4154716 : "GET /debug-settings/ HTTP/1.1" 200 949
+[INFO] django.server 2023-09-08 13:46:37,541 - basehttp 4154716 : "GET /static/css/lightbox.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:46:37,544 - basehttp 4154716 : "GET /static/css/feather.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:46:37,544 - basehttp 4154716 : "GET /static/css/themify-icons.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:46:37,545 - basehttp 4154716 : "GET /static/css/style.css HTTP/1.1" 200 302860
+[INFO] django.server 2023-09-08 13:46:37,552 - basehttp 4154716 : "GET /static/css/emoji.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:46:37,567 - basehttp 4154716 : "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:46:37,568 - basehttp 4154716 : "GET /static/vendor/owl-carousel/css/owl.carousel.min.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:46:37,568 - basehttp 4154716 : "GET /static/vendor/owl-carousel/css/owl.theme.default.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:46:58,237 - basehttp 4154716 : "GET /debug-settings/ HTTP/1.1" 200 949
+[INFO] django.server 2023-09-08 13:46:58,306 - basehttp 4154716 : "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+[INFO] django.server 2023-09-08 13:46:58,316 - basehttp 4154716 : "GET /static/svg/zap.svg HTTP/1.1" 200 277
+[INFO] django.server 2023-09-08 13:48:14,407 - basehttp 4154716 : "GET /debug-settings/ HTTP/1.1" 200 949
+[INFO] django.server 2023-09-08 13:50:17,054 - basehttp 4154716 : "GET /debug-settings/ HTTP/1.1" 200 8273
+[INFO] django.server 2023-09-08 13:50:43,422 - basehttp 4154716 : "GET /debug-settings/ HTTP/1.1" 200 8273
+[WARNING] django.request 2023-09-08 13:50:43,507 - log 4154716 : Not Found: /favicon.ico
+[WARNING] django.server 2023-09-08 13:50:43,507 - basehttp 4154716 : "GET /favicon.ico HTTP/1.1" 404 5607
+[INFO] django.server 2023-09-08 13:50:53,713 - basehttp 4154716 : "GET /static/css/feather.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:50:53,714 - basehttp 4154716 : "GET /static/css/themify-icons.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:50:53,718 - basehttp 4154716 : "GET /static/vendor/owl-carousel/css/owl.carousel.min.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:50:53,718 - basehttp 4154716 : "GET /static/vendor/owl-carousel/css/owl.theme.default.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:50:53,718 - basehttp 4154716 : "GET /static/css/emoji.css HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:50:53,719 - basehttp 4154716 : "GET /static/css/style.css HTTP/1.1" 200 302860
+[INFO] django.server 2023-09-08 13:50:53,728 - basehttp 4154716 : "GET /static/css/lightbox.css HTTP/1.1" 304 0
+[WARNING] django.server 2023-09-08 13:50:53,795 - basehttp 4154716 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[INFO] django.server 2023-09-08 13:50:58,980 - basehttp 4154716 : "GET /debug-settings/ HTTP/1.1" 200 949
+[INFO] django.server 2023-09-08 13:50:59,000 - basehttp 4154716 : "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 13:50:59,049 - basehttp 4154716 : "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+[WARNING] django.server 2023-09-08 13:50:59,082 - basehttp 4154716 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[INFO] django.server 2023-09-08 13:53:04,430 - basehttp 4154716 : "GET /debug-settings/ HTTP/1.1" 200 8273
+[INFO] django.server 2023-09-08 14:28:58,734 - basehttp 17110 : "GET / HTTP/1.1" 200 51280
+[INFO] django.server 2023-09-08 14:28:58,765 - basehttp 17110 : "GET /static/css/themify-icons.css HTTP/1.1" 200 16474
+[INFO] django.server 2023-09-08 14:28:58,767 - basehttp 17110 : "GET /static/css/feather.css HTTP/1.1" 200 13391
+[INFO] django.server 2023-09-08 14:28:58,768 - basehttp 17110 : "GET /static/css/emoji.css HTTP/1.1" 200 411332
+[INFO] django.server 2023-09-08 14:28:58,770 - basehttp 17110 : "GET /static/css/style.css HTTP/1.1" 200 302860
+[INFO] django.server 2023-09-08 14:28:58,771 - basehttp 17110 : "GET /static/css/lightbox.css HTTP/1.1" 200 4352
+[INFO] django.server 2023-09-08 14:28:58,797 - basehttp 17110 : "GET /static/js/lightbox.js HTTP/1.1" 200 20097
+[INFO] django.server 2023-09-08 14:28:58,799 - basehttp 17110 : "GET /static/js/plugin.js HTTP/1.1" 200 250710
+[INFO] django.server 2023-09-08 14:28:58,800 - basehttp 17110 : "GET /static/js/scripts.js HTTP/1.1" 200 9730
+[INFO] django.server 2023-09-08 14:28:58,804 - basehttp 17110 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 200 220
+[INFO] django.server 2023-09-08 14:28:58,804 - basehttp 17110 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 200 3767
+[INFO] django.server 2023-09-08 14:28:58,807 - basehttp 17110 : "GET /media/post_images/books-436498_1280.jpg HTTP/1.1" 200 264819
+[INFO] django.server 2023-09-08 14:28:58,820 - basehttp 17110 : "GET /static/vendor/owl-carousel/css/owl.carousel.min.css HTTP/1.1" 200 3351
+[INFO] django.server 2023-09-08 14:28:58,822 - basehttp 17110 : "GET /static/vendor/owl-carousel/css/owl.theme.default.css HTTP/1.1" 200 1380
+[INFO] django.server 2023-09-08 14:28:58,829 - basehttp 17110 : "GET /media/profile_images/arj.jpg HTTP/1.1" 200 4881
+[INFO] django.server 2023-09-08 14:28:58,829 - basehttp 17110 : "GET /media/profile_images/joey.jpg HTTP/1.1" 200 5615
+[INFO] django.server 2023-09-08 14:28:58,832 - basehttp 17110 : "GET /media/post_images/tianjin-2185510_1280.jpg HTTP/1.1" 200 267061
+[INFO] django.server 2023-09-08 14:28:58,834 - basehttp 17110 : "GET /media/profile_images/heather.jpg HTTP/1.1" 200 4440
+[INFO] django.server 2023-09-08 14:28:58,842 - basehttp 17110 : "GET /media/profile_images/bob.jpg HTTP/1.1" 200 5616
+[INFO] django.server 2023-09-08 14:28:58,843 - basehttp 17110 : "GET /media/post_images/RE4CSNW_1920x1080.jpg HTTP/1.1" 200 845866
+[INFO] django.server 2023-09-08 14:28:58,849 - basehttp 17110 : "GET /media/post_images/coffee-1117933_1280.jpg HTTP/1.1" 200 249491
+[INFO] django.server 2023-09-08 14:28:58,851 - basehttp 17110 : "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+[INFO] django.server 2023-09-08 14:28:59,230 - basehttp 17110 : "GET /static/svg/preloader.svg HTTP/1.1" 200 686
+[INFO] django.server 2023-09-08 14:28:59,233 - basehttp 17110 : "GET /static/fonts/Feather.ttf?sdxovp HTTP/1.1" 200 65112
+[INFO] django.server 2023-09-08 14:28:59,235 - basehttp 17110 : "GET /static/fonts/themify.woff?-fvbane HTTP/1.1" 200 56108
+[INFO] django.server 2023-09-08 14:28:59,283 - basehttp 17110 : "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+[INFO] django.server 2023-09-08 14:28:59,289 - basehttp 17110 : "GET /static/png/prev.png HTTP/1.1" 200 1360
+[INFO] django.server 2023-09-08 14:28:59,290 - basehttp 17110 : "GET /static/png/close.png HTTP/1.1" 200 280
+[INFO] django.server 2023-09-08 14:28:59,292 - basehttp 17110 : "GET /static/gif/loading.gif HTTP/1.1" 200 8476
+[INFO] django.server 2023-09-08 14:28:59,294 - basehttp 17110 : "GET /static/png/next.png HTTP/1.1" 200 1350
+[ERROR] django.request 2023-09-08 14:29:09,458 - log 17110 : Internal Server Error: /profile/9/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/main/views.py", line 67, in user_profile
+    return render(request, 'user-profile.html',
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 321, in render
+    return nodelist.render(context)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'edit-profile' with arguments '(9,)' not found. 1 pattern(s) tried: ['edit\\-profile/\\Z']
+[ERROR] django.server 2023-09-08 14:29:09,487 - basehttp 17110 : "GET /profile/9/ HTTP/1.1" 500 220838
+[INFO] django.server 2023-09-08 14:32:51,028 - basehttp 20267 : "GET / HTTP/1.1" 200 51280
+[INFO] django.server 2023-09-08 14:32:53,157 - basehttp 20267 : "GET /profile/9/ HTTP/1.1" 200 32563
+[INFO] django.server 2023-09-08 14:32:53,193 - basehttp 20267 : "GET /static/js/jquery.easypiechart.min.js HTTP/1.1" 200 3990
+[INFO] django.server 2023-09-08 14:32:53,194 - basehttp 20267 : "GET /static/png/cover_default.png HTTP/1.1" 200 6435
+[INFO] django.server 2023-09-08 14:32:58,621 - basehttp 20267 : "GET /profile/7/ HTTP/1.1" 200 32226
+[INFO] django.server 2023-09-08 14:33:00,690 - basehttp 20267 : "GET /profile/9/ HTTP/1.1" 200 32563
+[INFO] django.server 2023-09-08 14:35:09,135 - basehttp 20267 : "GET /profile/6/ HTTP/1.1" 200 36491
+[INFO] django.server 2023-09-08 14:35:09,164 - basehttp 20267 : "GET /media/cover_images/RE4Rw4s_1920x1080.jpg HTTP/1.1" 200 1729516
+[INFO] django.server 2023-09-08 14:35:14,030 - basehttp 20267 : "GET /profile/9/ HTTP/1.1" 200 32563
+[ERROR] django.request 2023-09-08 14:35:16,205 - log 20267 : Internal Server Error: /edit-profile/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/main/views.py", line 147, in edit_profile
+    user_id = user.user_id
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'user_id'
+[ERROR] django.server 2023-09-08 14:35:16,212 - basehttp 20267 : "GET /edit-profile/ HTTP/1.1" 500 88305
+[DEBUG] main.views 2023-09-08 14:36:00,212 - views 23014 : user_id from request.user: 9
+[INFO] main.views 2023-09-08 14:36:00,213 - views 23014 : GET/POST (edit) profile for 9
+[INFO] django.server 2023-09-08 14:36:00,394 - basehttp 23014 : "GET /edit-profile/ HTTP/1.1" 200 28504
+[INFO] django.server 2023-09-08 14:36:00,422 - basehttp 23014 : "GET /static/css/themify-icons.css HTTP/1.1" 200 16474
+[INFO] django.server 2023-09-08 14:36:00,424 - basehttp 23014 : "GET /static/css/style.css HTTP/1.1" 200 302860
+[INFO] django.server 2023-09-08 14:36:00,425 - basehttp 23014 : "GET /static/css/feather.css HTTP/1.1" 200 13391
+[INFO] django.server 2023-09-08 14:36:00,427 - basehttp 23014 : "GET /static/css/lightbox.css HTTP/1.1" 200 4352
+[INFO] django.server 2023-09-08 14:36:00,429 - basehttp 23014 : "GET /static/css/emoji.css HTTP/1.1" 200 411332
+[INFO] django.server 2023-09-08 14:36:00,432 - basehttp 23014 : "GET /static/ckeditor/ckeditor-init.js HTTP/1.1" 200 1526
+[INFO] django.server 2023-09-08 14:36:00,450 - basehttp 23014 : "GET /static/js/plugin.js HTTP/1.1" 200 250710
+[INFO] django.server 2023-09-08 14:36:00,456 - basehttp 23014 : "GET /static/js/scripts.js HTTP/1.1" 200 9730
+[INFO] django.server 2023-09-08 14:36:00,456 - basehttp 23014 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 200 220
+[INFO] django.server 2023-09-08 14:36:00,461 - basehttp 23014 : "GET /static/ckeditor/ckeditor/ckeditor.js HTTP/1.1" 200 756028
+[INFO] django.server 2023-09-08 14:36:00,461 - basehttp 23014 : "GET /media/profile_images/bob.jpg HTTP/1.1" 200 5616
+[INFO] django.server 2023-09-08 14:36:00,464 - basehttp 23014 : "GET /media/profile_images/heather.jpg HTTP/1.1" 200 4440
+[INFO] django.server 2023-09-08 14:36:00,471 - basehttp 23014 : "GET /static/vendor/owl-carousel/css/owl.carousel.min.css HTTP/1.1" 200 3351
+[INFO] django.server 2023-09-08 14:36:00,479 - basehttp 23014 : "GET /media/profile_images/joey.jpg HTTP/1.1" 200 5615
+[INFO] django.server 2023-09-08 14:36:00,480 - basehttp 23014 : "GET /static/vendor/owl-carousel/css/owl.theme.default.css HTTP/1.1" 200 1380
+[INFO] django.server 2023-09-08 14:36:00,484 - basehttp 23014 : "GET /media/profile_images/arj.jpg HTTP/1.1" 200 4881
+[INFO] django.server 2023-09-08 14:36:00,486 - basehttp 23014 : "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 304 0
+[INFO] django.server 2023-09-08 14:36:00,487 - basehttp 23014 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 200 3767
+[INFO] django.server 2023-09-08 14:36:00,917 - basehttp 23014 : "GET /static/svg/preloader.svg HTTP/1.1" 200 686
+[INFO] django.server 2023-09-08 14:36:00,931 - basehttp 23014 : "GET /static/fonts/Feather.ttf?sdxovp HTTP/1.1" 200 65112
+[INFO] django.server 2023-09-08 14:36:00,932 - basehttp 23014 : "GET /static/fonts/themify.woff?-fvbane HTTP/1.1" 200 56108
+[INFO] django.server 2023-09-08 14:36:00,933 - basehttp 23014 : "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+[INFO] django.server 2023-09-08 14:36:00,935 - basehttp 23014 : "GET /static/ckeditor/ckeditor/config.js?t=M6K9 HTTP/1.1" 200 336
+[INFO] django.server 2023-09-08 14:36:00,965 - basehttp 23014 : "GET /static/ckeditor/ckeditor/skins/moono-lisa/editor.css?t=M6K9 HTTP/1.1" 200 48309
+[INFO] django.server 2023-09-08 14:36:00,966 - basehttp 23014 : "GET /static/ckeditor/ckeditor/lang/en.js?t=M6K9 HTTP/1.1" 200 17503
+[INFO] django.server 2023-09-08 14:36:00,987 - basehttp 23014 : "GET /static/ckeditor/ckeditor/styles.js?t=M6K9 HTTP/1.1" 200 5577
+[INFO] django.server 2023-09-08 14:36:01,008 - basehttp 23014 : "GET /static/ckeditor/ckeditor/plugins/embedsemantic/plugin.js?t=M6K9 HTTP/1.1" 200 1460
+[INFO] django.server 2023-09-08 14:36:01,009 - basehttp 23014 : "GET /static/ckeditor/ckeditor/plugins/autoembed/plugin.js?t=M6K9 HTTP/1.1" 200 2334
+[INFO] django.server 2023-09-08 14:36:01,011 - basehttp 23014 : "GET /static/ckeditor/ckeditor/plugins/autolink/plugin.js?t=M6K9 HTTP/1.1" 200 584
+[INFO] django.server 2023-09-08 14:36:01,033 - basehttp 23014 : "GET /static/ckeditor/ckeditor/plugins/embedbase/plugin.js?t=M6K9 HTTP/1.1" 200 3405
+[INFO] django.server 2023-09-08 14:36:01,054 - basehttp 23014 : "GET /static/ckeditor/ckeditor/plugins/scayt/dialogs/dialog.css?t=M6K9 HTTP/1.1" 200 419
+[INFO] django.server 2023-09-08 14:36:01,056 - basehttp 23014 : "GET /static/ckeditor/ckeditor/plugins/autoembed/lang/en.js?t=M6K9 HTTP/1.1" 200 164
+[INFO] django.server 2023-09-08 14:36:01,057 - basehttp 23014 : "GET /static/ckeditor/ckeditor/plugins/scayt/skins/moono-lisa/scayt.css?t=M6K9 HTTP/1.1" 200 381
+[INFO] django.server 2023-09-08 14:36:01,059 - basehttp 23014 : "GET /static/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css?t=M6K9 HTTP/1.1" 200 1145
+[INFO] django.server 2023-09-08 14:36:01,061 - basehttp 23014 : "GET /static/ckeditor/ckeditor/plugins/embedbase/lang/en.js?t=M6K9 HTTP/1.1" 200 470
+[INFO] django.server 2023-09-08 14:36:01,088 - basehttp 23014 : "GET /static/ckeditor/ckeditor/plugins/copyformatting/styles/copyformatting.css?t=M6K9 HTTP/1.1" 200 1511
+[INFO] django.server 2023-09-08 14:36:01,095 - basehttp 23014 : "GET /static/ckeditor/ckeditor/plugins/dialog/styles/dialog.css?t=M6K9 HTTP/1.1" 200 249
+[INFO] django.server 2023-09-08 14:36:01,106 - basehttp 23014 : "GET /static/ckeditor/ckeditor/skins/moono-lisa/icons.png?t=445cf24ebd HTTP/1.1" 200 12237
+[INFO] django.server 2023-09-08 14:36:01,152 - basehttp 23014 : "GET /static/ckeditor/ckeditor/contents.css?t=M6K9 HTTP/1.1" 200 3092
+[INFO] django.server 2023-09-08 14:36:06,350 - basehttp 23014 : "GET /profile/9/ HTTP/1.1" 200 32563
+[INFO] django.server 2023-09-08 14:36:06,392 - basehttp 23014 : "GET /static/js/lightbox.js HTTP/1.1" 200 20097
+[INFO] django.server 2023-09-08 14:36:06,444 - basehttp 23014 : "GET /static/png/next.png HTTP/1.1" 200 1350
+[INFO] django.server 2023-09-08 14:36:06,446 - basehttp 23014 : "GET /static/gif/loading.gif HTTP/1.1" 200 8476
+[INFO] django.server 2023-09-08 14:36:06,447 - basehttp 23014 : "GET /static/png/close.png HTTP/1.1" 200 280
+[INFO] django.server 2023-09-08 14:36:06,449 - basehttp 23014 : "GET /static/png/prev.png HTTP/1.1" 200 1360
+[INFO] django.server 2023-09-08 14:36:12,626 - basehttp 23014 : "GET /profile/8/ HTTP/1.1" 200 32229
+[WARNING] django.server 2023-09-08 14:36:17,176 - basehttp 23014 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[WARNING] django.server 2023-09-08 14:36:17,177 - basehttp 23014 : "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+[INFO] django.server 2023-09-08 14:36:49,899 - basehttp 23014 : "GET /profile/8/ HTTP/1.1" 200 32229
+[INFO] django.server 2023-09-08 14:36:53,715 - basehttp 23014 : "GET /profile/9/ HTTP/1.1" 200 32563
+[WARNING] django.server 2023-09-08 14:36:55,954 - basehttp 23014 : "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+[WARNING] django.server 2023-09-08 14:36:55,962 - basehttp 23014 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[DEBUG] main.views 2023-09-08 14:37:15,027 - views 23014 : user_id from request.user: 9
+[INFO] main.views 2023-09-08 14:37:15,028 - views 23014 : GET/POST (edit) profile for 9
+[INFO] django.server 2023-09-08 14:37:15,116 - basehttp 23014 : "GET /edit-profile/ HTTP/1.1" 200 28504
+[DEBUG] main.views 2023-09-08 14:38:11,716 - views 23014 : user_id from request.user: 9
+[INFO] main.views 2023-09-08 14:38:11,716 - views 23014 : GET/POST (edit) profile for 9
+[INFO] main.views 2023-09-08 14:38:11,779 - views 23014 : Saved new profile data for user jth141
+[INFO] django.server 2023-09-08 14:38:11,861 - basehttp 23014 : "POST /edit-profile/ HTTP/1.1" 200 28802
+[INFO] django.server 2023-09-08 14:38:11,891 - basehttp 23014 : "GET /media/profile_images/ksnip_20230816-224135.png HTTP/1.1" 200 157489
+[DEBUG] main.views 2023-09-08 14:38:21,094 - views 23014 : user_id from request.user: 9
+[INFO] main.views 2023-09-08 14:38:21,094 - views 23014 : GET/POST (edit) profile for 9
+[INFO] main.views 2023-09-08 14:38:21,137 - views 23014 : Saved new profile data for user jth141
+[INFO] django.server 2023-09-08 14:38:21,222 - basehttp 23014 : "POST /edit-profile/ HTTP/1.1" 200 28504
+[DEBUG] main.views 2023-09-08 14:39:01,740 - views 23014 : user_id from request.user: 9
+[INFO] main.views 2023-09-08 14:39:01,740 - views 23014 : GET/POST (edit) profile for 9
+[INFO] main.views 2023-09-08 14:39:01,779 - views 23014 : Saved new profile data for user jth141
+[INFO] django.server 2023-09-08 14:39:01,862 - basehttp 23014 : "POST /edit-profile/ HTTP/1.1" 200 28504
+[INFO] django.server 2023-09-08 14:39:01,970 - basehttp 23014 : "GET /static/svg/zap.svg HTTP/1.1" 200 277
