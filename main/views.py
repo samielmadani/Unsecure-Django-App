@@ -105,7 +105,7 @@ def help(request):
             filename = os.path.join(dirname, file)
             file = open(filename, "r")
             data = file.read()
-            return render(request, "help.html", {"additional_info": data,
+            return render(request, "help.html", {"additional_info": "",
                                                  'all_chat_profiles': all_chat_profiles})
         except:
             return render(request, "help.html", {"additional_info": "",
