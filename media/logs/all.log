@@ -409,3 +409,596 @@
 [INFO] django.server 2023-08-24 14:10:43,811 - basehttp 50824 : "GET /static/js/jquery.easypiechart.min.js HTTP/1.1" 200 3990
 [INFO] django.server 2023-08-24 14:10:43,835 - basehttp 50824 : "GET /media/cover_images/RE4NXnV_1920x1080.jpg HTTP/1.1" 200 813080
 [INFO] django.server 2023-08-24 14:10:43,881 - basehttp 50824 : "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+[INFO] django.server 2023-09-11 11:39:50,897 - basehttp 21345 : "GET /login/?next=/ HTTP/1.1" 200 4507
+[INFO] django.server 2023-09-11 11:39:50,920 - basehttp 21345 : "GET /static/css/lightbox.css HTTP/1.1" 200 4352
+[INFO] django.server 2023-09-11 11:39:50,922 - basehttp 21345 : "GET /static/css/emoji.css HTTP/1.1" 200 411332
+[INFO] django.server 2023-09-11 11:39:50,923 - basehttp 21345 : "GET /static/css/feather.css HTTP/1.1" 200 13391
+[INFO] django.server 2023-09-11 11:39:50,925 - basehttp 21345 : "GET /static/css/style.css HTTP/1.1" 200 302860
+[INFO] django.server 2023-09-11 11:39:50,926 - basehttp 21345 : "GET /static/css/themify-icons.css HTTP/1.1" 200 16474
+[INFO] django.server 2023-09-11 11:39:50,937 - basehttp 21345 : "GET /static/vendor/owl-carousel/css/owl.theme.default.css HTTP/1.1" 200 1380
+[INFO] django.server 2023-09-11 11:39:50,939 - basehttp 21345 : "GET /static/vendor/owl-carousel/css/owl.carousel.min.css HTTP/1.1" 200 3351
+[INFO] django.server 2023-09-11 11:39:50,945 - basehttp 21345 : "GET /static/js/scripts.js HTTP/1.1" 200 9730
+[INFO] django.server 2023-09-11 11:39:50,965 - basehttp 21345 : "GET /static/js/plugin.js HTTP/1.1" 200 250710
+[INFO] django.server 2023-09-11 11:39:51,277 - basehttp 21345 : "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+[INFO] django.server 2023-09-11 11:39:51,313 - basehttp 21345 : "GET /static/svg/preloader.svg HTTP/1.1" 200 686
+[INFO] django.server 2023-09-11 11:39:51,372 - basehttp 21345 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 200 41173
+[INFO] django.server 2023-09-11 11:39:51,378 - basehttp 21345 : "GET /static/fonts/Feather.ttf?sdxovp HTTP/1.1" 200 65112
+[INFO] django.server 2023-09-11 11:39:51,387 - basehttp 21345 : "GET /static/fonts/themify.woff?-fvbane HTTP/1.1" 200 56108
+[INFO] django.server 2023-09-11 11:39:51,387 - basehttp 21345 : "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+[INFO] django.server 2023-09-11 11:40:02,961 - basehttp 21345 : "GET /login/?next=/ HTTP/1.1" 200 4507
+[INFO] django.server 2023-09-11 11:40:03,003 - basehttp 21345 : "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+[INFO] django.server 2023-09-11 11:40:03,034 - basehttp 21345 : "GET /static/svg/zap.svg HTTP/1.1" 200 277
+[INFO] django.server 2023-09-11 11:40:18,089 - basehttp 21345 : "GET /register/ HTTP/1.1" 200 6448
+[INFO] django.server 2023-09-11 11:40:18,147 - basehttp 21345 : "GET /static/jpg/register-bg.jpg HTTP/1.1" 200 47139
+[INFO] django.server 2023-09-11 11:40:35,287 - basehttp 21345 : "GET / HTTP/1.1" 302 0
+[INFO] django.server 2023-09-11 11:40:35,374 - basehttp 21345 : "GET /login/?next=/ HTTP/1.1" 200 4507
+[INFO] django.server 2023-09-11 11:40:35,417 - basehttp 21345 : "GET /static/css/themify-icons.css HTTP/1.1" 200 16474
+[INFO] django.server 2023-09-11 11:40:35,418 - basehttp 21345 : "GET /static/css/lightbox.css HTTP/1.1" 200 4352
+[INFO] django.server 2023-09-11 11:40:35,420 - basehttp 21345 : "GET /static/css/emoji.css HTTP/1.1" 200 411332
+[INFO] django.server 2023-09-11 11:40:35,422 - basehttp 21345 : "GET /static/css/style.css HTTP/1.1" 200 302860
+[INFO] django.server 2023-09-11 11:40:35,423 - basehttp 21345 : "GET /static/css/feather.css HTTP/1.1" 200 13391
+[INFO] django.server 2023-09-11 11:40:35,428 - basehttp 21345 : "GET /static/js/plugin.js HTTP/1.1" 200 250710
+[INFO] django.server 2023-09-11 11:40:35,440 - basehttp 21345 : "GET /static/js/scripts.js HTTP/1.1" 200 9730
+[INFO] django.server 2023-09-11 11:40:35,460 - basehttp 21345 : "GET /static/vendor/owl-carousel/css/owl.carousel.min.css HTTP/1.1" 200 3351
+[INFO] django.server 2023-09-11 11:40:35,462 - basehttp 21345 : "GET /static/vendor/owl-carousel/css/owl.theme.default.css HTTP/1.1" 200 1380
+[INFO] django.server 2023-09-11 11:40:35,463 - basehttp 21345 : "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+[INFO] django.server 2023-09-11 11:40:35,909 - basehttp 21345 : "GET /static/svg/preloader.svg HTTP/1.1" 200 686
+[INFO] django.server 2023-09-11 11:40:35,911 - basehttp 21345 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 200 41173
+[INFO] django.server 2023-09-11 11:40:35,963 - basehttp 21345 : "GET /static/fonts/themify.woff?-fvbane HTTP/1.1" 200 56108
+[INFO] django.server 2023-09-11 11:40:35,965 - basehttp 21345 : "GET /static/fonts/Feather.ttf?sdxovp HTTP/1.1" 200 65112
+[INFO] django.server 2023-09-11 11:40:35,968 - basehttp 21345 : "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+[INFO] django.server 2023-09-11 11:40:40,700 - basehttp 21345 : "GET /register/ HTTP/1.1" 200 6448
+[INFO] django.server 2023-09-11 11:40:40,752 - basehttp 21345 : "GET /static/jpg/register-bg.jpg HTTP/1.1" 200 47139
+[INFO] django.server 2023-09-11 11:40:59,142 - basehttp 21345 : "POST /register/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-11 11:40:59,576 - basehttp 21345 : "GET / HTTP/1.1" 200 51280
+[INFO] django.server 2023-09-11 11:40:59,639 - basehttp 21345 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 200 220
+[INFO] django.server 2023-09-11 11:40:59,656 - basehttp 21345 : "GET /static/js/lightbox.js HTTP/1.1" 200 20097
+[INFO] django.server 2023-09-11 11:40:59,660 - basehttp 21345 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 200 3767
+[INFO] django.server 2023-09-11 11:40:59,664 - basehttp 21345 : "GET /media/profile_images/arj.jpg HTTP/1.1" 200 4881
+[INFO] django.server 2023-09-11 11:40:59,672 - basehttp 21345 : "GET /media/profile_images/joey.jpg HTTP/1.1" 200 5615
+[INFO] django.server 2023-09-11 11:40:59,692 - basehttp 21345 : "GET /media/post_images/books-436498_1280.jpg HTTP/1.1" 200 264819
+[INFO] django.server 2023-09-11 11:40:59,696 - basehttp 21345 : "GET /media/profile_images/heather.jpg HTTP/1.1" 200 4440
+[INFO] django.server 2023-09-11 11:40:59,702 - basehttp 21345 : "GET /media/post_images/tianjin-2185510_1280.jpg HTTP/1.1" 200 267061
+[INFO] django.server 2023-09-11 11:40:59,704 - basehttp 21345 : "GET /media/profile_images/bob.jpg HTTP/1.1" 200 5616
+[INFO] django.server 2023-09-11 11:40:59,722 - basehttp 21345 : "GET /media/post_images/RE4CSNW_1920x1080.jpg HTTP/1.1" 200 845866
+[INFO] django.server 2023-09-11 11:40:59,735 - basehttp 21345 : "GET /media/post_images/coffee-1117933_1280.jpg HTTP/1.1" 200 249491
+[INFO] django.server 2023-09-11 11:40:59,820 - basehttp 21345 : "GET /static/png/close.png HTTP/1.1" 200 280
+[INFO] django.server 2023-09-11 11:40:59,825 - basehttp 21345 : "GET /static/gif/loading.gif HTTP/1.1" 200 8476
+[INFO] django.server 2023-09-11 11:40:59,827 - basehttp 21345 : "GET /static/png/prev.png HTTP/1.1" 200 1360
+[INFO] django.server 2023-09-11 11:40:59,827 - basehttp 21345 : "GET /static/png/next.png HTTP/1.1" 200 1350
+[INFO] django.server 2023-09-11 11:45:16,359 - basehttp 23366 : "GET /settings/ HTTP/1.1" 200 26084
+[INFO] django.server 2023-09-11 11:45:18,299 - basehttp 23366 : "GET /logout/ HTTP/1.1" 302 0
+[DEBUG] authentication.views 2023-09-11 11:45:18,326 - views 23366 : 1
+[INFO] django.server 2023-09-11 11:45:18,388 - basehttp 23366 : "GET /login/ HTTP/1.1" 200 4507
+[INFO] django.server 2023-09-11 11:45:18,468 - basehttp 23366 : "GET /static/svg/zap.svg HTTP/1.1" 200 277
+[DEBUG] authentication.views 2023-09-11 11:45:39,370 - views 23366 : 1
+[INFO] django.server 2023-09-11 11:45:39,374 - basehttp 23366 : "GET /login/ HTTP/1.1" 200 4507
+[DEBUG] authentication.views 2023-09-11 11:45:44,748 - views 23366 : 1
+[DEBUG] authentication.views 2023-09-11 11:45:44,783 - views 23366 : <QueryDict: {'csrfmiddlewaretoken': ['cyLr9Kfx1DdLpUwU5nvHA4bI5a0ROm7wIDKSlYTSRFRfYrySnQ3ojNOriiJcR9Br'], 'username': ['xz'], 'password': ['czx']}>
+[INFO] django.server 2023-09-11 11:45:44,790 - basehttp 23366 : "POST /login/ HTTP/1.1" 200 4518
+[DEBUG] authentication.views 2023-09-11 11:45:49,124 - views 23366 : 1
+[DEBUG] authentication.views 2023-09-11 11:45:49,156 - views 23366 : <QueryDict: {'csrfmiddlewaretoken': ['Kj9KNeAktFTP7dnwlSHXRv3jQ7aWqGffgo8bZseFjHxjGKpuDlfEAeG23fThttJa'], 'username': ['xz'], 'password': ['ds']}>
+[INFO] django.server 2023-09-11 11:45:49,165 - basehttp 23366 : "POST /login/ HTTP/1.1" 200 4518
+[DEBUG] authentication.views 2023-09-11 11:50:19,679 - views 24374 : 1
+[ERROR] django.request 2023-09-11 11:50:20,021 - log 24374 : Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/authentication/views.py", line 53, in login_user
+    if login_attempts[username] > 5:
+UnboundLocalError: local variable 'username' referenced before assignment
+[ERROR] django.server 2023-09-11 11:50:20,034 - basehttp 24374 : "POST /login/ HTTP/1.1" 500 80136
+[WARNING] django.request 2023-09-11 11:50:20,116 - log 24374 : Not Found: /favicon.ico
+[WARNING] django.server 2023-09-11 11:50:20,116 - basehttp 24374 : "GET /favicon.ico HTTP/1.1" 404 5607
+[DEBUG] authentication.views 2023-09-11 11:50:58,049 - views 24529 : {}
+[ERROR] django.request 2023-09-11 11:50:58,222 - log 24529 : Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/authentication/views.py", line 52, in login_user
+    if login_attempts[username] > 5:
+KeyError: 'xz'
+[ERROR] django.server 2023-09-11 11:50:58,236 - basehttp 24529 : "POST /login/ HTTP/1.1" 500 79906
+[DEBUG] authentication.views 2023-09-11 11:52:22,014 - views 24816 : {}
+[ERROR] django.request 2023-09-11 11:52:22,211 - log 24816 : Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/authentication/views.py", line 53, in login_user
+    if login_attempts[username]:
+KeyError: 'xz'
+[ERROR] django.server 2023-09-11 11:52:22,235 - basehttp 24816 : "POST /login/ HTTP/1.1" 500 79869
+[DEBUG] authentication.views 2023-09-11 11:54:19,817 - views 25995 : {}
+[DEBUG] authentication.views 2023-09-11 11:54:19,848 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['Kj9KNeAktFTP7dnwlSHXRv3jQ7aWqGffgo8bZseFjHxjGKpuDlfEAeG23fThttJa'], 'username': ['xz'], 'password': ['ds']}>
+[INFO] django.server 2023-09-11 11:54:19,954 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4518
+[DEBUG] authentication.views 2023-09-11 11:54:26,530 - views 25995 : {'xz': 1}
+[DEBUG] authentication.views 2023-09-11 11:54:26,561 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['FLAvCK6Sqcoyujv44HgycWIYJldHsUUubQzWOYKdge223Qx2maOfVFlHWtW2vHop'], 'username': ['xz'], 'password': ['fds']}>
+[INFO] django.server 2023-09-11 11:54:26,564 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4518
+[DEBUG] authentication.views 2023-09-11 11:54:28,897 - views 25995 : {'xz': 2}
+[DEBUG] authentication.views 2023-09-11 11:54:28,926 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['4dTovmKEEXHRgM2WHe2rk50Dk9vQ4lyZAiSPHAoZuZllPj4UZHA83ODmxheb782U'], 'username': ['xz'], 'password': ['hgfg']}>
+[INFO] django.server 2023-09-11 11:54:28,933 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4518
+[DEBUG] authentication.views 2023-09-11 11:54:31,265 - views 25995 : {'xz': 3}
+[DEBUG] authentication.views 2023-09-11 11:54:31,294 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['8qSOgZ982Kk7qjyxA3FO25SJC6cdQ55MEvRfsdNtSMYBZQAvSwdvLOvsPeVyTSzH'], 'username': ['xz'], 'password': ['sfdsf']}>
+[INFO] django.server 2023-09-11 11:54:31,302 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4518
+[DEBUG] authentication.views 2023-09-11 11:54:38,857 - views 25995 : {'xz': 4}
+[DEBUG] authentication.views 2023-09-11 11:54:38,890 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['18rH0vcLHy38kCQJOGpBUj7SnAVqvcc4xdq8cJQ6xAHCT9SH69XiD2KBAIELyZGZ'], 'username': ['xz'], 'password': ['asddas']}>
+[INFO] django.server 2023-09-11 11:54:38,898 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4518
+[DEBUG] authentication.views 2023-09-11 11:54:41,979 - views 25995 : {'xz': 5}
+[INFO] django.server 2023-09-11 11:54:42,002 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4518
+[DEBUG] authentication.views 2023-09-11 11:54:43,993 - views 25995 : {'xz': 6}
+[INFO] django.server 2023-09-11 11:54:44,030 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4518
+[DEBUG] authentication.views 2023-09-11 11:54:46,770 - views 25995 : {'xz': 7}
+[INFO] django.server 2023-09-11 11:54:46,808 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4518
+[DEBUG] authentication.views 2023-09-11 11:54:48,497 - views 25995 : {'xz': 8}
+[INFO] django.server 2023-09-11 11:54:48,537 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4518
+[DEBUG] authentication.views 2023-09-11 11:54:58,571 - views 25995 : {'xz': 9}
+[DEBUG] authentication.views 2023-09-11 11:54:58,593 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['dtsOsJcBIcdSJ8Kacl1wU5UYB5Vnl1RDJyrfEXQWyeRmiFM8uOzdDOxHOdEIoOly'], 'username': ['jth141'], 'password': ['s']}>
+[INFO] django.server 2023-09-11 11:54:58,595 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4522
+[DEBUG] authentication.views 2023-09-11 11:55:01,372 - views 25995 : {'xz': 9, 'jth141': 1}
+[DEBUG] authentication.views 2023-09-11 11:55:01,393 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['JL1fuTl7OXzWY6FRyAKmlkUvbaHcW2ixfQ0GG7ZsEZdqxDHPQ3i343xeoiqxZPMs'], 'username': ['jth141'], 'password': ['s']}>
+[INFO] django.server 2023-09-11 11:55:01,395 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4522
+[DEBUG] authentication.views 2023-09-11 11:55:03,812 - views 25995 : {'xz': 9, 'jth141': 2}
+[DEBUG] authentication.views 2023-09-11 11:55:03,833 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['eguKqiknu8KpqGxEXgtprtpX4HIgpIE0KltbCwYIkaoTZdzCfJ16ac2GhPrBsv8V'], 'username': ['jth141'], 'password': ['s']}>
+[INFO] django.server 2023-09-11 11:55:03,835 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4522
+[DEBUG] authentication.views 2023-09-11 11:55:06,811 - views 25995 : {'xz': 9, 'jth141': 3}
+[DEBUG] authentication.views 2023-09-11 11:55:06,873 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['DEXi2EeDNMoyIlPphUMv1DFNPBhKzWpS9JWJeSSYDO22hSRnznkcKmiw2J05CJTN'], 'username': ['jth141'], 'password': ['ad']}>
+[INFO] django.server 2023-09-11 11:55:06,881 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4522
+[DEBUG] authentication.views 2023-09-11 11:55:09,695 - views 25995 : {'xz': 9, 'jth141': 4}
+[DEBUG] authentication.views 2023-09-11 11:55:09,724 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['UJUCyfpP2DgBl7tZyNZrkGdygda2pFReqOT3Kt3aSFU5UEvXQgx83pQhtlTnssl9'], 'username': ['jth141'], 'password': ['dsa']}>
+[INFO] django.server 2023-09-11 11:55:09,732 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4522
+[DEBUG] authentication.views 2023-09-11 11:55:11,452 - views 25995 : {'xz': 9, 'jth141': 5}
+[INFO] django.server 2023-09-11 11:55:11,475 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4522
+[DEBUG] authentication.views 2023-09-11 11:55:14,600 - views 25995 : {'xz': 9, 'jth141': 6}
+[INFO] django.server 2023-09-11 11:55:14,644 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4522
+[DEBUG] authentication.views 2023-09-11 11:55:21,778 - views 25995 : {'xz': 9, 'jth141': 7}
+[INFO] django.server 2023-09-11 11:55:21,815 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4522
+[WARNING] django.server 2023-09-11 11:55:35,785 - basehttp 25995 : "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+[WARNING] django.server 2023-09-11 11:55:35,785 - basehttp 25995 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[DEBUG] authentication.views 2023-09-11 11:55:48,417 - views 25995 : {'xz': 9, 'jth141': 8}
+[INFO] django.server 2023-09-11 11:55:48,451 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4522
+[WARNING] django.server 2023-09-11 11:55:48,516 - basehttp 25995 : "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+[WARNING] django.server 2023-09-11 11:55:48,551 - basehttp 25995 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[WARNING] django.server 2023-09-11 11:56:39,318 - basehttp 25995 : "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+[WARNING] django.server 2023-09-11 11:56:39,344 - basehttp 25995 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[DEBUG] authentication.views 2023-09-11 12:01:31,798 - views 25995 : {'xz': 9, 'jth141': 9}
+[ERROR] django.request 2023-09-11 12:01:32,306 - log 25995 : Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/authentication/views.py", line 72, in login_user
+    return render(
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 51: 'message', expected 'endblock'. Did you forget to register or load this tag?
+[ERROR] django.server 2023-09-11 12:01:32,337 - basehttp 25995 : "POST /login/ HTTP/1.1" 500 201013
+[DEBUG] authentication.views 2023-09-11 12:02:16,384 - views 25995 : {'xz': 9, 'jth141': 10}
+[ERROR] django.request 2023-09-11 12:02:16,590 - log 25995 : Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: '?message'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/authentication/views.py", line 72, in login_user
+    return render(
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 51: '?message', expected 'endblock'. Did you forget to register or load this tag?
+[ERROR] django.server 2023-09-11 12:02:16,591 - basehttp 25995 : "POST /login/ HTTP/1.1" 500 201024
+[DEBUG] authentication.views 2023-09-11 12:09:09,895 - views 25995 : {'xz': 9, 'jth141': 11}
+[ERROR] django.request 2023-09-11 12:09:10,098 - log 25995 : Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 489, in parse
+    command = token.contents.split()[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/authentication/views.py", line 72, in login_user
+    return render(
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 491, in parse
+    raise self.error(token, "Empty block tag on line %d" % token.lineno)
+django.template.exceptions.TemplateSyntaxError: Empty block tag on line 52
+[ERROR] django.server 2023-09-11 12:09:10,100 - basehttp 25995 : "POST /login/ HTTP/1.1" 500 196846
+[DEBUG] authentication.views 2023-09-11 12:09:19,285 - views 25995 : {'xz': 9, 'jth141': 12}
+[ERROR] django.request 2023-09-11 12:09:19,486 - log 25995 : Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 489, in parse
+    command = token.contents.split()[0]
+IndexError: list index out of range
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/authentication/views.py", line 72, in login_user
+    return render(
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/template/base.py", line 491, in parse
+    raise self.error(token, "Empty block tag on line %d" % token.lineno)
+django.template.exceptions.TemplateSyntaxError: Empty block tag on line 52
+[ERROR] django.server 2023-09-11 12:09:19,488 - basehttp 25995 : "POST /login/ HTTP/1.1" 500 196918
+[DEBUG] authentication.views 2023-09-11 12:09:44,333 - views 25995 : {'xz': 9, 'jth141': 13}
+[INFO] django.server 2023-09-11 12:09:44,382 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4858
+[WARNING] django.server 2023-09-11 12:09:44,868 - basehttp 25995 : "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+[WARNING] django.server 2023-09-11 12:09:44,894 - basehttp 25995 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[DEBUG] authentication.views 2023-09-11 12:09:55,317 - views 25995 : {'xz': 9, 'jth141': 14}
+[DEBUG] authentication.views 2023-09-11 12:09:55,348 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['e59O164kcRCNwh2plRrNgKOfKslUt0DnKa8fdkIF2Tgh5O4nDkZuZtrYXA4fwN7i'], 'username': ['gf'], 'password': ['ds']}>
+[INFO] django.server 2023-09-11 12:09:55,356 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4867
+[WARNING] django.server 2023-09-11 12:09:55,443 - basehttp 25995 : "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+[WARNING] django.server 2023-09-11 12:09:55,479 - basehttp 25995 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[DEBUG] authentication.views 2023-09-11 12:10:57,869 - views 25995 : {'xz': 9, 'jth141': 14, 'gf': 1}
+[DEBUG] authentication.views 2023-09-11 12:10:57,897 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['e59O164kcRCNwh2plRrNgKOfKslUt0DnKa8fdkIF2Tgh5O4nDkZuZtrYXA4fwN7i'], 'username': ['gf'], 'password': ['ds']}>
+[INFO] django.server 2023-09-11 12:10:57,913 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4868
+[WARNING] django.server 2023-09-11 12:10:57,985 - basehttp 25995 : "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+[WARNING] django.server 2023-09-11 12:10:58,012 - basehttp 25995 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[DEBUG] authentication.views 2023-09-11 12:11:23,605 - views 25995 : {'xz': 9, 'jth141': 14, 'gf': 2}
+[DEBUG] authentication.views 2023-09-11 12:11:23,629 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['e59O164kcRCNwh2plRrNgKOfKslUt0DnKa8fdkIF2Tgh5O4nDkZuZtrYXA4fwN7i'], 'username': ['gf'], 'password': ['ds']}>
+[INFO] django.server 2023-09-11 12:11:23,640 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4869
+[WARNING] django.server 2023-09-11 12:11:23,693 - basehttp 25995 : "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+[WARNING] django.server 2023-09-11 12:11:23,724 - basehttp 25995 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[DEBUG] authentication.views 2023-09-11 12:12:46,679 - views 25995 : {'xz': 9, 'jth141': 14, 'gf': 3}
+[DEBUG] authentication.views 2023-09-11 12:12:46,944 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['e59O164kcRCNwh2plRrNgKOfKslUt0DnKa8fdkIF2Tgh5O4nDkZuZtrYXA4fwN7i'], 'username': ['gf'], 'password': ['ds']}>
+[INFO] django.server 2023-09-11 12:12:46,968 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4867
+[WARNING] django.server 2023-09-11 12:12:47,068 - basehttp 25995 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[WARNING] django.server 2023-09-11 12:12:47,079 - basehttp 25995 : "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+[DEBUG] authentication.views 2023-09-11 12:13:06,509 - views 25995 : {'xz': 9, 'jth141': 14, 'gf': 4}
+[DEBUG] authentication.views 2023-09-11 12:13:06,539 - views 25995 : <QueryDict: {'csrfmiddlewaretoken': ['e59O164kcRCNwh2plRrNgKOfKslUt0DnKa8fdkIF2Tgh5O4nDkZuZtrYXA4fwN7i'], 'username': ['gf'], 'password': ['ds']}>
+[INFO] django.server 2023-09-11 12:13:06,560 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4866
+[WARNING] django.server 2023-09-11 12:13:06,669 - basehttp 25995 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[WARNING] django.server 2023-09-11 12:13:06,676 - basehttp 25995 : "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+[DEBUG] authentication.views 2023-09-11 12:13:21,378 - views 25995 : {'xz': 9, 'jth141': 14, 'gf': 5}
+[INFO] django.server 2023-09-11 12:13:21,408 - basehttp 25995 : "POST /login/ HTTP/1.1" 200 4857
+[WARNING] django.server 2023-09-11 12:13:21,475 - basehttp 25995 : "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+[WARNING] django.server 2023-09-11 12:13:21,475 - basehttp 25995 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[DEBUG] authentication.views 2023-09-11 12:23:19,230 - views 33634 : {}
+[DEBUG] authentication.views 2023-09-11 12:23:19,230 - views 33634 : {}
+[DEBUG] authentication.views 2023-09-11 12:23:19,253 - views 33634 : <QueryDict: {'csrfmiddlewaretoken': ['wryo1Odi1q1h8uVNC6eCLQ7WAyz1p1OZ2wxPd2RDRsFLH1XLUzMjuzKFNGimsOiU'], 'username': ['jth141'], 'password': ['Th0mas2002']}>
+[INFO] django.server 2023-09-11 12:23:19,331 - basehttp 33634 : "POST /login/ HTTP/1.1" 200 4833
+[WARNING] django.server 2023-09-11 12:23:19,470 - basehttp 33634 : "GET /static/css/style.css.map HTTP/1.1" 404 1810
+[WARNING] django.server 2023-09-11 12:23:19,472 - basehttp 33634 : "GET /static/js/bootstrap.bundle.min.js.map HTTP/1.1" 404 1849
+[DEBUG] authentication.views 2023-09-11 12:24:55,633 - views 33634 : {'jth141': 1}
+[DEBUG] authentication.views 2023-09-11 12:24:55,634 - views 33634 : {'jth141': datetime.datetime(2023, 9, 11, 12, 23, 19, 254002)}
+[DEBUG] authentication.views 2023-09-11 12:24:55,660 - views 33634 : <QueryDict: {'csrfmiddlewaretoken': ['wryo1Odi1q1h8uVNC6eCLQ7WAyz1p1OZ2wxPd2RDRsFLH1XLUzMjuzKFNGimsOiU'], 'username': ['jth141'], 'password': ['Th0mas2002']}>
+[INFO] django.server 2023-09-11 12:24:55,673 - basehttp 33634 : "POST /login/ HTTP/1.1" 200 4833
+[DEBUG] authentication.views 2023-09-11 12:25:14,391 - views 33634 : {'jth141': 1}
+[DEBUG] authentication.views 2023-09-11 12:25:14,391 - views 33634 : {'jth141': datetime.datetime(2023, 9, 11, 12, 24, 55, 660657)}
+[DEBUG] authentication.views 2023-09-11 12:25:14,422 - views 33634 : <QueryDict: {'csrfmiddlewaretoken': ['QOuKd7zBYktRNBswOOrzAm5FhsQpYuRomTtbpldWOm7lm8uu6hZgj5IouAzK1hlj'], 'username': ['jth141'], 'password': ['password']}>
+[INFO] django.server 2023-09-11 12:25:14,430 - basehttp 33634 : "POST /login/ HTTP/1.1" 200 4833
+[DEBUG] authentication.views 2023-09-11 12:25:21,931 - views 33634 : {'jth141': 1}
+[DEBUG] authentication.views 2023-09-11 12:25:21,932 - views 33634 : {'jth141': datetime.datetime(2023, 9, 11, 12, 25, 14, 422824)}
+[INFO] django.server 2023-09-11 12:25:22,060 - basehttp 33634 : "POST /login/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-11 12:25:22,424 - basehttp 33634 : "GET / HTTP/1.1" 200 51280
+[INFO] django.server 2023-09-11 12:25:28,482 - basehttp 33634 : "GET / HTTP/1.1" 200 51280
+[INFO] django.server 2023-09-11 12:25:30,194 - basehttp 33634 : "GET /settings/ HTTP/1.1" 200 26084
+[INFO] django.server 2023-09-11 12:25:31,577 - basehttp 33634 : "GET /logout/ HTTP/1.1" 302 0
+[DEBUG] authentication.views 2023-09-11 12:25:31,601 - views 33634 : {'jth141': 0}
+[DEBUG] authentication.views 2023-09-11 12:25:31,602 - views 33634 : {'jth141': datetime.datetime(2023, 9, 11, 12, 25, 14, 422824)}
+[INFO] django.server 2023-09-11 12:25:31,610 - basehttp 33634 : "GET /login/ HTTP/1.1" 200 4778
+[DEBUG] authentication.views 2023-09-11 12:25:40,080 - views 33634 : {'jth141': 0}
+[DEBUG] authentication.views 2023-09-11 12:25:40,080 - views 33634 : {'jth141': datetime.datetime(2023, 9, 11, 12, 25, 14, 422824)}
+[DEBUG] authentication.views 2023-09-11 12:25:40,113 - views 33634 : <QueryDict: {'csrfmiddlewaretoken': ['caQkLkGq4OGnB89B1mR55k3EfaWFjJOY5IxSfKBguWPGwmrB4SovHvKOG2DoLQP0'], 'username': ['fdg'], 'password': ['as']}>
+[INFO] django.server 2023-09-11 12:25:40,121 - basehttp 33634 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:25:47,079 - views 33634 : {'jth141': 0, 'fdg': 1}
+[DEBUG] authentication.views 2023-09-11 12:25:47,079 - views 33634 : {'jth141': datetime.datetime(2023, 9, 11, 12, 25, 14, 422824), 'fdg': datetime.datetime(2023, 9, 11, 12, 25, 40, 113289)}
+[DEBUG] authentication.views 2023-09-11 12:25:47,112 - views 33634 : <QueryDict: {'csrfmiddlewaretoken': ['dZGxI0hxvMn4JnQTwED80exPnJltXT2S6xn5cqcnVUwnEB8TzaayCpeZOB2cp03U'], 'username': ['fdg'], 'password': ['fds']}>
+[INFO] django.server 2023-09-11 12:25:47,119 - basehttp 33634 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:25:57,591 - views 33634 : {'jth141': 0, 'fdg': 1}
+[DEBUG] authentication.views 2023-09-11 12:25:57,591 - views 33634 : {'jth141': datetime.datetime(2023, 9, 11, 12, 25, 14, 422824), 'fdg': datetime.datetime(2023, 9, 11, 12, 25, 47, 112634)}
+[DEBUG] authentication.views 2023-09-11 12:25:57,623 - views 33634 : <QueryDict: {'csrfmiddlewaretoken': ['B5DzNA4YxhizgNo1UOvZ8IqrwpZoFEAouDk7h0ZOXprSb1G1Xk2pKT7BXhG77LBq'], 'username': ['fdg'], 'password': ['hgf']}>
+[INFO] django.server 2023-09-11 12:25:57,631 - basehttp 33634 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:29:13,186 - views 34835 : {}
+[DEBUG] authentication.views 2023-09-11 12:29:13,186 - views 34835 : {}
+[DEBUG] authentication.views 2023-09-11 12:29:13,219 - views 34835 : <QueryDict: {'csrfmiddlewaretoken': ['B5DzNA4YxhizgNo1UOvZ8IqrwpZoFEAouDk7h0ZOXprSb1G1Xk2pKT7BXhG77LBq'], 'username': ['fdg'], 'password': ['hgf']}>
+[INFO] django.server 2023-09-11 12:29:13,323 - basehttp 34835 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:29:21,054 - views 34835 : {'fdg': 1}
+[DEBUG] authentication.views 2023-09-11 12:29:21,054 - views 34835 : {'fdg': datetime.datetime(2023, 9, 11, 12, 29, 13, 220276)}
+[DEBUG] authentication.views 2023-09-11 12:29:21,127 - views 34835 : <QueryDict: {'csrfmiddlewaretoken': ['vOPUfvsFcJIby3eLMq1Up61OtGfu8VIWomwsJVnvCRRuthwLPWyk1hIYUyWdA2JY'], 'username': ['fdg'], 'password': ['fdg']}>
+[INFO] django.server 2023-09-11 12:29:21,136 - basehttp 34835 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:29:30,463 - views 34835 : {'fdg': 1}
+[DEBUG] authentication.views 2023-09-11 12:29:30,463 - views 34835 : {'fdg': datetime.datetime(2023, 9, 11, 12, 29, 21, 128112)}
+[DEBUG] authentication.views 2023-09-11 12:29:30,496 - views 34835 : <QueryDict: {'csrfmiddlewaretoken': ['3Pq4tfZw2l8eOnHFI6X9LgNQ9AcopKUlWn7CXFUmsthxJBZFLCuznru0AsT7RRVn'], 'username': ['fdg'], 'password': ['fds']}>
+[INFO] django.server 2023-09-11 12:29:30,504 - basehttp 34835 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:29:52,990 - views 34835 : {'fdg': 1}
+[DEBUG] authentication.views 2023-09-11 12:29:52,991 - views 34835 : {'fdg': datetime.datetime(2023, 9, 11, 12, 29, 30, 496441)}
+[DEBUG] authentication.views 2023-09-11 12:29:53,028 - views 34835 : <QueryDict: {'csrfmiddlewaretoken': ['vrAjowAhS5d4kO8xcZUNgyyBp5ZUNRSeoZhRSWv7idmnf2qxfvrdSJfLQXGDfYTg'], 'username': ['fdg'], 'password': ['gfh']}>
+[INFO] django.server 2023-09-11 12:29:53,035 - basehttp 34835 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:30:18,836 - views 36138 : {}
+[DEBUG] authentication.views 2023-09-11 12:30:18,836 - views 36138 : {}
+[DEBUG] authentication.views 2023-09-11 12:30:18,872 - views 36138 : <QueryDict: {'csrfmiddlewaretoken': ['vrAjowAhS5d4kO8xcZUNgyyBp5ZUNRSeoZhRSWv7idmnf2qxfvrdSJfLQXGDfYTg'], 'username': ['fdg'], 'password': ['gfh']}>
+[INFO] django.server 2023-09-11 12:30:18,969 - basehttp 36138 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:30:27,430 - views 36138 : {'fdg': 1}
+[DEBUG] authentication.views 2023-09-11 12:30:27,430 - views 36138 : {'fdg': datetime.datetime(2023, 9, 11, 12, 30, 18, 872746)}
+[DEBUG] authentication.views 2023-09-11 12:30:27,465 - views 36138 : 2023-09-11 12:35:27.465345
+[DEBUG] authentication.views 2023-09-11 12:30:27,465 - views 36138 : 2023-09-11 12:30:18.872746
+[DEBUG] authentication.views 2023-09-11 12:30:27,465 - views 36138 : <QueryDict: {'csrfmiddlewaretoken': ['eYaU7iOCMoYGjk8qB9AC3z8uZ2hI3Cgc7wRsBIJscw7ZeyqqEF72FKPEqUYrvJhe'], 'username': ['fdg'], 'password': ['gfd']}>
+[INFO] django.server 2023-09-11 12:30:27,474 - basehttp 36138 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:31:33,965 - views 36394 : {}
+[DEBUG] authentication.views 2023-09-11 12:31:33,965 - views 36394 : {}
+[DEBUG] authentication.views 2023-09-11 12:31:34,001 - views 36394 : <QueryDict: {'csrfmiddlewaretoken': ['eYaU7iOCMoYGjk8qB9AC3z8uZ2hI3Cgc7wRsBIJscw7ZeyqqEF72FKPEqUYrvJhe'], 'username': ['fdg'], 'password': ['gfd']}>
+[INFO] django.server 2023-09-11 12:31:34,104 - basehttp 36394 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:31:37,129 - views 36394 : {'fdg': 1}
+[DEBUG] authentication.views 2023-09-11 12:31:37,129 - views 36394 : {'fdg': datetime.datetime(2023, 9, 11, 12, 31, 34, 1641)}
+[DEBUG] authentication.views 2023-09-11 12:31:37,161 - views 36394 : 2023-09-11 12:26:37.161539
+[DEBUG] authentication.views 2023-09-11 12:31:37,162 - views 36394 : 2023-09-11 12:31:34.001641
+[DEBUG] authentication.views 2023-09-11 12:31:37,162 - views 36394 : False
+[DEBUG] authentication.views 2023-09-11 12:31:37,163 - views 36394 : <QueryDict: {'csrfmiddlewaretoken': ['loUoRUdssOtE8h43Rww4F6mkqH8ZbgrQeWBWlk8iSWCX3vm3U23uhh3uRzPIDnsS'], 'username': ['fdg'], 'password': ['hf']}>
+[INFO] django.server 2023-09-11 12:31:37,171 - basehttp 36394 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:32:08,196 - views 36504 : {}
+[DEBUG] authentication.views 2023-09-11 12:32:08,196 - views 36504 : {}
+[DEBUG] authentication.views 2023-09-11 12:32:08,228 - views 36504 : <QueryDict: {'csrfmiddlewaretoken': ['loUoRUdssOtE8h43Rww4F6mkqH8ZbgrQeWBWlk8iSWCX3vm3U23uhh3uRzPIDnsS'], 'username': ['fdg'], 'password': ['hf']}>
+[INFO] django.server 2023-09-11 12:32:08,324 - basehttp 36504 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:32:11,040 - views 36504 : {'fdg': 1}
+[DEBUG] authentication.views 2023-09-11 12:32:11,040 - views 36504 : {'fdg': datetime.datetime(2023, 9, 11, 12, 32, 8, 229279)}
+[DEBUG] authentication.views 2023-09-11 12:32:11,058 - views 36504 : 2023-09-11 12:31:11.058606
+[DEBUG] authentication.views 2023-09-11 12:32:11,058 - views 36504 : 2023-09-11 12:32:08.229279
+[DEBUG] authentication.views 2023-09-11 12:32:11,058 - views 36504 : False
+[DEBUG] authentication.views 2023-09-11 12:32:11,058 - views 36504 : <QueryDict: {'csrfmiddlewaretoken': ['141KWBYra1xcy3FM6P161f9mJcyEkNYTUCIiq1ThA9GvthXM9lywDqQwa4fnMUZV'], 'username': ['fdg'], 'password': ['432']}>
+[INFO] django.server 2023-09-11 12:32:11,061 - basehttp 36504 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:33:36,370 - views 36792 : {}
+[DEBUG] authentication.views 2023-09-11 12:33:36,370 - views 36792 : {}
+[DEBUG] authentication.views 2023-09-11 12:33:36,399 - views 36792 : <QueryDict: {'csrfmiddlewaretoken': ['GMsSWewqytizS1ZYEXTMZn2nRRG76vdSzk9qqErgYBrSNfhYHtqcByJxiJnQyCeU'], 'username': ['fdg'], 'password': ['dhgg']}>
+[INFO] django.server 2023-09-11 12:33:36,505 - basehttp 36792 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:33:40,071 - views 36792 : {'fdg': 1}
+[DEBUG] authentication.views 2023-09-11 12:33:40,071 - views 36792 : {'fdg': datetime.datetime(2023, 9, 11, 12, 33, 36, 399889)}
+[DEBUG] authentication.views 2023-09-11 12:33:40,104 - views 36792 : 2023-09-11 12:32:40.104656
+[DEBUG] authentication.views 2023-09-11 12:33:40,105 - views 36792 : 2023-09-11 12:33:36.399889
+[DEBUG] authentication.views 2023-09-11 12:33:40,105 - views 36792 : False
+[DEBUG] authentication.views 2023-09-11 12:33:40,106 - views 36792 : <QueryDict: {'csrfmiddlewaretoken': ['tVS7IEyiYYzO82be1d5k0B98miQzPwIUmtzFc4t8o6I73gte4JCKCMQiNaxihDJW'], 'username': ['fdg'], 'password': ['asd']}>
+[INFO] django.server 2023-09-11 12:33:40,114 - basehttp 36792 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:34:53,277 - views 36792 : {'fdg': 2}
+[DEBUG] authentication.views 2023-09-11 12:34:53,278 - views 36792 : {'fdg': datetime.datetime(2023, 9, 11, 12, 33, 40, 107098)}
+[DEBUG] authentication.views 2023-09-11 12:34:53,311 - views 36792 : 2023-09-11 12:33:53.311036
+[DEBUG] authentication.views 2023-09-11 12:34:53,311 - views 36792 : 2023-09-11 12:33:40.107098
+[DEBUG] authentication.views 2023-09-11 12:34:53,311 - views 36792 : True
+[DEBUG] authentication.views 2023-09-11 12:34:53,313 - views 36792 : <QueryDict: {'csrfmiddlewaretoken': ['SdtDe5YMQAKV23FnW48iIZSTG0VSNQRkLLabIvTCgITeXhXnZAFIkaz37SCBfXSm'], 'username': ['fdg'], 'password': ['jkh']}>
+[INFO] django.server 2023-09-11 12:34:53,320 - basehttp 36792 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:35:05,481 - views 36792 : {'fdg': 1}
+[DEBUG] authentication.views 2023-09-11 12:35:05,482 - views 36792 : {'fdg': datetime.datetime(2023, 9, 11, 12, 34, 53, 313383)}
+[DEBUG] authentication.views 2023-09-11 12:35:05,510 - views 36792 : 2023-09-11 12:34:05.510468
+[DEBUG] authentication.views 2023-09-11 12:35:05,510 - views 36792 : 2023-09-11 12:34:53.313383
+[DEBUG] authentication.views 2023-09-11 12:35:05,510 - views 36792 : False
+[DEBUG] authentication.views 2023-09-11 12:35:05,512 - views 36792 : <QueryDict: {'csrfmiddlewaretoken': ['Siqov8CU1bpFXYnYwEgnq6IFV0Eo8e78LQ7WZyxKrjyYScFYzaNN2hpPmSl7Al8a'], 'username': ['fdg'], 'password': ['gfd']}>
+[INFO] django.server 2023-09-11 12:35:05,519 - basehttp 36792 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:35:08,036 - views 36792 : {'fdg': 2}
+[DEBUG] authentication.views 2023-09-11 12:35:08,037 - views 36792 : {'fdg': datetime.datetime(2023, 9, 11, 12, 35, 5, 512730)}
+[DEBUG] authentication.views 2023-09-11 12:35:08,060 - views 36792 : 2023-09-11 12:34:08.060597
+[DEBUG] authentication.views 2023-09-11 12:35:08,060 - views 36792 : 2023-09-11 12:35:05.512730
+[DEBUG] authentication.views 2023-09-11 12:35:08,060 - views 36792 : False
+[DEBUG] authentication.views 2023-09-11 12:35:08,060 - views 36792 : <QueryDict: {'csrfmiddlewaretoken': ['IAV4S9aGsI9YjUHMXwTXX8ehC4TLC0fEB8CCmz5wSQihe8ZM02qnzjVr3WAu47gG'], 'username': ['fdg'], 'password': ['sfd']}>
+[INFO] django.server 2023-09-11 12:35:08,063 - basehttp 36792 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:35:10,804 - views 36792 : {'fdg': 3}
+[DEBUG] authentication.views 2023-09-11 12:35:10,804 - views 36792 : {'fdg': datetime.datetime(2023, 9, 11, 12, 35, 8, 62045)}
+[DEBUG] authentication.views 2023-09-11 12:35:10,835 - views 36792 : 2023-09-11 12:34:10.835300
+[DEBUG] authentication.views 2023-09-11 12:35:10,835 - views 36792 : 2023-09-11 12:35:08.062045
+[DEBUG] authentication.views 2023-09-11 12:35:10,835 - views 36792 : False
+[DEBUG] authentication.views 2023-09-11 12:35:10,837 - views 36792 : <QueryDict: {'csrfmiddlewaretoken': ['V9sdjicpwy3QzBr1BMNefE2CbAhXa3wbOH9LNI7fWGc9uPJ1EikERPJMCsYGCaxd'], 'username': ['fdg'], 'password': ['asd']}>
+[INFO] django.server 2023-09-11 12:35:10,842 - basehttp 36792 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:35:13,021 - views 36792 : {'fdg': 4}
+[DEBUG] authentication.views 2023-09-11 12:35:13,021 - views 36792 : {'fdg': datetime.datetime(2023, 9, 11, 12, 35, 10, 837173)}
+[DEBUG] authentication.views 2023-09-11 12:35:13,054 - views 36792 : 2023-09-11 12:34:13.054127
+[DEBUG] authentication.views 2023-09-11 12:35:13,054 - views 36792 : 2023-09-11 12:35:10.837173
+[DEBUG] authentication.views 2023-09-11 12:35:13,054 - views 36792 : False
+[DEBUG] authentication.views 2023-09-11 12:35:13,055 - views 36792 : <QueryDict: {'csrfmiddlewaretoken': ['kcbgiIgiBYjitgWMrvkaeMoyphBvu2gCdKSOM8b816sBoueMu1RAQX5IQ9ieW9hE'], 'username': ['fdg'], 'password': ['asd']}>
+[INFO] django.server 2023-09-11 12:35:13,063 - basehttp 36792 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:35:15,788 - views 36792 : {'fdg': 5}
+[DEBUG] authentication.views 2023-09-11 12:35:15,788 - views 36792 : {'fdg': datetime.datetime(2023, 9, 11, 12, 35, 13, 56169)}
+[DEBUG] authentication.views 2023-09-11 12:35:15,820 - views 36792 : 2023-09-11 12:34:15.820012
+[DEBUG] authentication.views 2023-09-11 12:35:15,820 - views 36792 : 2023-09-11 12:35:13.056169
+[DEBUG] authentication.views 2023-09-11 12:35:15,820 - views 36792 : False
+[INFO] django.server 2023-09-11 12:35:15,829 - basehttp 36792 : "POST /login/ HTTP/1.1" 200 4841
+[DEBUG] authentication.views 2023-09-11 12:35:24,451 - views 36792 : {'fdg': 6}
+[DEBUG] authentication.views 2023-09-11 12:35:24,451 - views 36792 : {'fdg': datetime.datetime(2023, 9, 11, 12, 35, 13, 56169)}
+[DEBUG] authentication.views 2023-09-11 12:35:24,476 - views 36792 : 2023-09-11 12:34:24.476241
+[DEBUG] authentication.views 2023-09-11 12:35:24,476 - views 36792 : 2023-09-11 12:35:13.056169
+[DEBUG] authentication.views 2023-09-11 12:35:24,476 - views 36792 : False
+[INFO] django.server 2023-09-11 12:35:24,478 - basehttp 36792 : "POST /login/ HTTP/1.1" 200 4841
+[DEBUG] authentication.views 2023-09-11 12:35:35,988 - views 36792 : {'fdg': 7}
+[DEBUG] authentication.views 2023-09-11 12:35:35,988 - views 36792 : {'fdg': datetime.datetime(2023, 9, 11, 12, 35, 13, 56169)}
+[DEBUG] authentication.views 2023-09-11 12:35:36,020 - views 36792 : 2023-09-11 12:34:36.020674
+[DEBUG] authentication.views 2023-09-11 12:35:36,021 - views 36792 : 2023-09-11 12:35:13.056169
+[DEBUG] authentication.views 2023-09-11 12:35:36,021 - views 36792 : False
+[INFO] django.server 2023-09-11 12:35:36,029 - basehttp 36792 : "POST /login/ HTTP/1.1" 200 4841
+[DEBUG] authentication.views 2023-09-11 12:35:55,508 - views 36792 : {'fdg': 8}
+[DEBUG] authentication.views 2023-09-11 12:35:55,509 - views 36792 : {'fdg': datetime.datetime(2023, 9, 11, 12, 35, 13, 56169)}
+[DEBUG] authentication.views 2023-09-11 12:35:55,537 - views 36792 : 2023-09-11 12:34:55.537249
+[DEBUG] authentication.views 2023-09-11 12:35:55,537 - views 36792 : 2023-09-11 12:35:13.056169
+[DEBUG] authentication.views 2023-09-11 12:35:55,537 - views 36792 : False
+[INFO] django.server 2023-09-11 12:35:55,538 - basehttp 36792 : "POST /login/ HTTP/1.1" 200 4841
+[DEBUG] authentication.views 2023-09-11 12:36:07,952 - views 36792 : {'fdg': 9}
+[DEBUG] authentication.views 2023-09-11 12:36:07,952 - views 36792 : {'fdg': datetime.datetime(2023, 9, 11, 12, 35, 13, 56169)}
+[DEBUG] authentication.views 2023-09-11 12:36:07,976 - views 36792 : 2023-09-11 12:35:07.976835
+[DEBUG] authentication.views 2023-09-11 12:36:07,976 - views 36792 : 2023-09-11 12:35:13.056169
+[DEBUG] authentication.views 2023-09-11 12:36:07,977 - views 36792 : False
+[INFO] django.server 2023-09-11 12:36:07,980 - basehttp 36792 : "POST /login/ HTTP/1.1" 200 4841
+[DEBUG] authentication.views 2023-09-11 12:36:13,701 - views 36792 : {'fdg': 10}
+[DEBUG] authentication.views 2023-09-11 12:36:13,701 - views 36792 : {'fdg': datetime.datetime(2023, 9, 11, 12, 35, 13, 56169)}
+[DEBUG] authentication.views 2023-09-11 12:36:13,735 - views 36792 : 2023-09-11 12:35:13.735361
+[DEBUG] authentication.views 2023-09-11 12:36:13,735 - views 36792 : 2023-09-11 12:35:13.056169
+[DEBUG] authentication.views 2023-09-11 12:36:13,735 - views 36792 : True
+[DEBUG] authentication.views 2023-09-11 12:36:13,738 - views 36792 : <QueryDict: {'csrfmiddlewaretoken': ['8FIaI1Krbt5RE3MDILpuC600yifLLCVr1dpIcrFhBBeazh4DLhWUehHaZaWudJWt'], 'username': ['fdg'], 'password': ['qweqe']}>
+[INFO] django.server 2023-09-11 12:36:13,745 - basehttp 36792 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:36:19,116 - views 36792 : {'fdg': 1}
+[DEBUG] authentication.views 2023-09-11 12:36:19,116 - views 36792 : {'fdg': datetime.datetime(2023, 9, 11, 12, 36, 13, 738431)}
+[DEBUG] authentication.views 2023-09-11 12:36:19,152 - views 36792 : 2023-09-11 12:35:19.151945
+[DEBUG] authentication.views 2023-09-11 12:36:19,152 - views 36792 : 2023-09-11 12:36:13.738431
+[DEBUG] authentication.views 2023-09-11 12:36:19,152 - views 36792 : False
+[DEBUG] authentication.views 2023-09-11 12:36:19,154 - views 36792 : <QueryDict: {'csrfmiddlewaretoken': ['MtvjOBqlCNRB3ZbbDfO0qER3bmm1vJMnF1cRi1lb2V0UYdtbGLlq2PydCe3KXQNp'], 'username': ['fdg'], 'password': ['qwe']}>
+[INFO] django.server 2023-09-11 12:36:19,162 - basehttp 36792 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:38:25,063 - views 37837 : <QueryDict: {'csrfmiddlewaretoken': ['MtvjOBqlCNRB3ZbbDfO0qER3bmm1vJMnF1cRi1lb2V0UYdtbGLlq2PydCe3KXQNp'], 'username': ['fdg'], 'password': ['qwe']}>
+[INFO] django.server 2023-09-11 12:38:25,189 - basehttp 37837 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:38:31,147 - views 37837 : <QueryDict: {'csrfmiddlewaretoken': ['NQWBpMjyHucyQE3DxL0EdwIxQMkwCkm5GoD9Tceo7ClRLSlDAhx4PHpHhE1f4rn7'], 'username': ['fdg'], 'password': ['sdffds']}>
+[INFO] django.server 2023-09-11 12:38:31,155 - basehttp 37837 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:38:38,917 - views 37837 : <QueryDict: {'csrfmiddlewaretoken': ['WqGtgHqfKWlPXjaAwCpfUcyE1iWmPL3tPYn1K7l5a4u8SxsAz8WFwnfOsaD5hS4v'], 'username': ['fdg'], 'password': ['sdffds']}>
+[INFO] django.server 2023-09-11 12:38:38,919 - basehttp 37837 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:38:40,957 - views 37837 : <QueryDict: {'csrfmiddlewaretoken': ['dbv8NK2yv9rHq5gmp1ZUZoqZYWqs8cVV6JcGhaXoVhA0ljymsxwkBz79pO7bAjWX'], 'username': ['fdg'], 'password': ['sfdfds']}>
+[INFO] django.server 2023-09-11 12:38:40,964 - basehttp 37837 : "POST /login/ HTTP/1.1" 200 4830
+[DEBUG] authentication.views 2023-09-11 12:38:43,419 - views 37837 : <QueryDict: {'csrfmiddlewaretoken': ['7EBDSnw4YkNQEpOg4ixG37TNikFVUIET0cibmNrUosW9zD6g7O46FiAXJcmEmPFV'], 'username': ['fdg'], 'password': ['sfdfdsfds']}>
+[INFO] django.server 2023-09-11 12:38:43,426 - basehttp 37837 : "POST /login/ HTTP/1.1" 200 4830
+[INFO] django.server 2023-09-11 12:38:46,164 - basehttp 37837 : "POST /login/ HTTP/1.1" 200 4841
+[INFO] django.server 2023-09-11 12:38:49,792 - basehttp 37837 : "POST /login/ HTTP/1.1" 200 4841
+[INFO] django.server 2023-09-11 12:38:51,803 - basehttp 37837 : "POST /login/ HTTP/1.1" 200 4841
+[WARNING] django.request 2023-09-11 12:38:58,428 - log 37837 : Not Found: /sd/
+[WARNING] django.server 2023-09-11 12:38:58,429 - basehttp 37837 : "GET /sd/ HTTP/1.1" 404 5583
+[INFO] django.server 2023-09-11 12:39:03,644 - basehttp 37837 : "POST /login/ HTTP/1.1" 200 4841
+[INFO] django.server 2023-09-11 12:39:05,826 - basehttp 37837 : "POST /login/ HTTP/1.1" 200 4841
