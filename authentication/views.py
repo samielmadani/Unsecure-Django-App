@@ -22,7 +22,7 @@ def register_user(request):
     if request.method == "POST":
         form = SignUpForm(request.POST)
 
-        if user_does_not_exist(form) and validate_password(form) and form.is_valid():
+        if user_does_not_exist(form) and form.is_valid():
             user = form.save()
 
             UserProfile(user_id=user.id).save()
@@ -97,31 +97,3 @@ def logout_user(request):
     response = HttpResponseRedirect("/login/")
     logout(request)
     return response
-
-
-def validate_password(form):
-    ret = True
-    SpecialChar = ['!', '@', '#', '$', '%', '_']
-
-    password1 = form.data["password1"]
-
-    if len(password1) < 8:
-        ret = False
-        form.add_error("password1", "Password must be at least 8 characters.")
-
-    if not any(char.isdigit() for char in password1):
-        ret = False
-        form.add_error("password1", "Password must contain a number.")
-
-    if not any(char.isupper() for char in password1):
-        ret = False
-        form.add_error("password1", "Password must contain a upper case letter.")
-
-    if not any(char.islower() for char in password1):
-        ret = False
-        form.add_error("password1", "Password must contain a lower case letter.")
-
-    if not any(char in SpecialChar for char in password1):
-        ret = False
-        form.add_error("password1", "Password must contain at least one special character of: !, @, #, $, %, _")
-    return ret

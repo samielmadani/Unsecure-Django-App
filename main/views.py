@@ -3,6 +3,7 @@ import os
 
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
+from django.contrib.auth.password_validation import validate_password
 from django.core.exceptions import ValidationError
 from django.core import mail, validators, serializers
 from django.db.models import Q
@@ -119,9 +120,14 @@ def change_password(request):
         user = request.user
         if form.is_valid() and user is not None:
             if form.cleaned_data["password1"] == form.cleaned_data["password2"]:
-                user.set_password(form.cleaned_data["password1"])
-                user.save()
-                return HttpResponseRedirect("/")
+                try:
+                    if validate_password(form.cleaned_data["password1"], user) is None:
+                        user.set_password(form.cleaned_data["password1"])
+                        user.save()
+                        return HttpResponseRedirect("/")
+                except ValidationError as ex:
+                    for error in ex.error_list:
+                        form.add_error("password2", error)
             else:
                 form.add_error("password2", "Passwords don't match")
         else:
