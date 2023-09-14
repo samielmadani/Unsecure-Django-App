@@ -86,6 +86,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'seng406_unsecure.wsgi.application'
 
 PASSWORD_HASHERS = [
+    "django.contrib.auth.hashers.Argon2PasswordHasher",
     "django.contrib.auth.hashers.UnsaltedMD5PasswordHasher",
 ]
 
