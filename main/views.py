@@ -126,7 +126,6 @@ def change_password(request):
                         user.save()
                         return HttpResponseRedirect("/")
                 except ValidationError as ex:
-                    logger.debug(ex.error_dict)
                     for error in ex.error_list:
                         form.add_error("new_password2", error)
             else:
