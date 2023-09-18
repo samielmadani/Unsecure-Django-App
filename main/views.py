@@ -47,8 +47,12 @@ def settings(request):
 
 @login_required(login_url='/login/')
 def payment_methods(request):
-    all_chat_profiles = UserProfile.objects.all()
-    return render(request, 'payment_methods.html', context={'all_chat_profiles': all_chat_profiles})
+    user = request.user
+    if user is not None and user.is_superuser:
+        all_chat_profiles = UserProfile.objects.all()
+        return render(request, 'payment_methods.html', context={'all_chat_profiles': all_chat_profiles})
+    else: 
+        return render(request, "403.html", {"msg": "Invalid credentials"})
 
 
 @login_required(login_url='/login/')
