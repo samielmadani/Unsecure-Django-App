@@ -130,9 +130,6 @@ def change_password(request):
                         form.add_error("new_password2", error)
             else:
                 form.add_error("new_password2", "Passwords don't match")
-        else:
-            logger.debug(form.data)
-
     else:
         form = ChangePasswordForm(user)
 
