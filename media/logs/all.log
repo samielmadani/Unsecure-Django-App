@@ -988,3 +988,1341 @@ django.template.exceptions.TemplateSyntaxError: Empty block tag on line 52
 [INFO] django.server 2023-09-11 16:45:14,923 - basehttp 495 : "POST /login/ HTTP/1.1" 200 4832
 [DEBUG] authentication.views 2023-09-11 16:45:23,351 - views 495 : emo58
 [INFO] django.server 2023-09-11 16:45:23,353 - basehttp 495 : "POST /login/ HTTP/1.1" 200 4832
+[INFO] django.server 2023-09-18 18:32:28,692 - basehttp 51 : "GET / HTTP/1.1" 302 0
+[INFO] django.server 2023-09-18 18:32:28,743 - basehttp 51 : "GET /login/?next=/ HTTP/1.1" 200 4584
+[WARNING] django.request 2023-09-18 18:32:28,768 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:32:28,768 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:32:28,770 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:32:28,770 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:32:28,772 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 18:32:28,772 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:32:28,773 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 18:32:28,774 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:32:28,775 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:32:28,775 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:32:28,776 - log 51 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 18:32:28,777 - basehttp 51 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:32:28,778 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:32:28,778 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:32:28,859 - log 51 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 18:32:28,859 - basehttp 51 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:32:28,899 - log 51 : Not Found: /static/svg/zap.svg
+[WARNING] django.server 2023-09-18 18:32:28,900 - basehttp 51 : "GET /static/svg/zap.svg HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:32:35,425 - basehttp 51 : "GET /home/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-18 18:32:35,428 - basehttp 51 : "GET /login/?next=/home/ HTTP/1.1" 200 4584
+[WARNING] django.request 2023-09-18 18:32:35,446 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.request 2023-09-18 18:32:35,447 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 18:32:35,448 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:32:35,448 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:32:35,449 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 18:32:35,450 - log 51 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 18:32:35,450 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:35,451 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:35,451 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:35,451 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:32:35,452 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:32:35,452 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:35,452 - basehttp 51 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:35,453 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:32:35,496 - log 51 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 18:32:35,497 - basehttp 51 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:32:36,592 - basehttp 51 : "GET /register/ HTTP/1.1" 200 6258
+[WARNING] django.request 2023-09-18 18:32:36,606 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.request 2023-09-18 18:32:36,607 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 18:32:36,607 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:32:36,608 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:32:36,609 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:32:36,609 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:36,610 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:36,610 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:36,610 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:36,610 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:32:36,615 - log 51 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 18:32:36,616 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:32:36,616 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:36,616 - basehttp 51 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:32:36,654 - log 51 : Not Found: /static/jpg/register-bg.jpg
+[WARNING] django.server 2023-09-18 18:32:36,655 - basehttp 51 : "GET /static/jpg/register-bg.jpg HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:32:37,496 - basehttp 51 : "GET /login/ HTTP/1.1" 200 4584
+[WARNING] django.request 2023-09-18 18:32:37,511 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.request 2023-09-18 18:32:37,512 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 18:32:37,512 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:32:37,513 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:32:37,514 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:32:37,514 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:37,514 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:37,514 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:37,515 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:37,515 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:32:37,516 - log 51 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 18:32:37,517 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:32:37,517 - basehttp 51 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:32:37,517 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:32:37,558 - log 51 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 18:32:37,559 - basehttp 51 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:33:23,871 - basehttp 51 : "GET /login/ HTTP/1.1" 200 4584
+[WARNING] django.request 2023-09-18 18:33:23,885 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.request 2023-09-18 18:33:23,886 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 18:33:23,887 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:33:23,888 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:33:23,888 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 18:33:23,889 - log 51 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 18:33:23,889 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:23,889 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:23,889 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:23,890 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:23,890 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:23,890 - basehttp 51 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:33:23,891 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:33:23,891 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:33:23,937 - log 51 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 18:33:23,937 - basehttp 51 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:33:24,456 - basehttp 51 : "GET /login/ HTTP/1.1" 200 4584
+[WARNING] django.request 2023-09-18 18:33:24,470 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.request 2023-09-18 18:33:24,471 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 18:33:24,472 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:33:24,472 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:33:24,473 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 18:33:24,473 - log 51 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 18:33:24,474 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,474 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,474 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,474 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,475 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,475 - basehttp 51 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:33:24,476 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:33:24,476 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:33:24,520 - log 51 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 18:33:24,520 - basehttp 51 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:33:24,651 - basehttp 51 : "GET /login/ HTTP/1.1" 200 4584
+[WARNING] django.request 2023-09-18 18:33:24,671 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.request 2023-09-18 18:33:24,671 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 18:33:24,672 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:33:24,673 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:33:24,674 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 18:33:24,675 - log 51 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 18:33:24,675 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,675 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,675 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,676 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,676 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,676 - basehttp 51 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:33:24,677 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:33:24,677 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:33:24,718 - log 51 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 18:33:24,718 - basehttp 51 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:33:24,854 - basehttp 51 : "GET /login/ HTTP/1.1" 200 4584
+[WARNING] django.request 2023-09-18 18:33:24,872 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.request 2023-09-18 18:33:24,874 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 18:33:24,875 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:33:24,875 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:33:24,876 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 18:33:24,877 - log 51 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 18:33:24,877 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,878 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,878 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,878 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,878 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:24,878 - basehttp 51 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:33:24,880 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:33:24,880 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:33:24,929 - log 51 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 18:33:24,929 - basehttp 51 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:33:25,113 - basehttp 51 : "GET /login/ HTTP/1.1" 200 4584
+[WARNING] django.request 2023-09-18 18:33:25,126 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.request 2023-09-18 18:33:25,127 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 18:33:25,128 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:33:25,130 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:33:25,132 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:33:25,132 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:25,132 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:25,133 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:33:25,134 - log 51 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 18:33:25,135 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:33:25,136 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:33:25,136 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:25,137 - basehttp 51 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:25,137 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:33:25,190 - log 51 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 18:33:25,190 - basehttp 51 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:33:25,286 - basehttp 51 : "GET /login/ HTTP/1.1" 200 4584
+[WARNING] django.request 2023-09-18 18:33:25,301 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.request 2023-09-18 18:33:25,302 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 18:33:25,302 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:33:25,303 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:33:25,303 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 18:33:25,304 - log 51 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 18:33:25,304 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:25,305 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:25,305 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:25,305 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:25,305 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:25,305 - basehttp 51 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:33:25,307 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:33:25,307 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:33:25,348 - log 51 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 18:33:25,349 - basehttp 51 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:33:35,306 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.request 2023-09-18 18:33:35,306 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 18:33:35,307 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:33:35,308 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:33:35,308 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:33:35,309 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:35,309 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:35,309 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:35,309 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:33:35,309 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:34:07,134 - basehttp 51 : "GET / HTTP/1.1" 302 0
+[INFO] django.server 2023-09-18 18:34:07,233 - basehttp 51 : "GET /login/?next=/ HTTP/1.1" 200 4584
+[WARNING] django.request 2023-09-18 18:34:07,376 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:34:07,376 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:34:07,580 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:34:07,581 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:34:07,582 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:34:07,583 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:34:07,594 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:34:07,594 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:34:07,595 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.request 2023-09-18 18:34:07,609 - log 51 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 18:34:07,610 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:34:07,624 - basehttp 51 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:34:07,704 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:34:07,704 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:34:07,940 - log 51 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 18:34:07,940 - basehttp 51 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:34:08,263 - log 51 : Not Found: /static/svg/zap.svg
+[WARNING] django.server 2023-09-18 18:34:08,264 - basehttp 51 : "GET /static/svg/zap.svg HTTP/1.1" 404 695
+[ERROR] django.request 2023-09-18 18:38:27,740 - log 51 : Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/backends.py", line 46, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 54, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/hashers.py", line 203, in _load_library
+    module = importlib.import_module(mod_path)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'argon2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/authentication/views.py", line 48, in login_user
+    user = authenticate(
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/views/decorators/debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 77, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/backends.py", line 50, in authenticate
+    UserModel().set_password(password)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 108, in set_password
+    self.password = make_password(raw_password)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/hashers.py", line 91, in make_password
+    return hasher.encode(password, salt)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/hashers.py", line 374, in encode
+    argon2 = self._load_library()
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/hashers.py", line 205, in _load_library
+    raise ValueError(
+ValueError: Couldn't load 'Argon2PasswordHasher' algorithm library: No module named 'argon2'
+[ERROR] django.server 2023-09-18 18:38:27,813 - basehttp 51 : "POST /login/?next=/ HTTP/1.1" 500 707
+[WARNING] django.request 2023-09-18 18:38:27,834 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:38:27,834 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:38:28,000 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:38:28,000 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:38:28,155 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:38:28,156 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 18:38:28,156 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 18:38:28,156 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:38:28,157 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:38:28,157 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:38:32,077 - basehttp 51 : "GET /register/ HTTP/1.1" 200 6258
+[WARNING] django.request 2023-09-18 18:38:32,107 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:38:32,107 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:38:32,416 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:38:32,418 - log 51 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 18:38:32,419 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 18:38:32,419 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:38:32,419 - basehttp 51 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:38:32,420 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:38:32,446 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:38:32,447 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 18:38:32,448 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:38:32,462 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:38:32,463 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:38:32,463 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:38:32,741 - log 51 : Not Found: /static/jpg/register-bg.jpg
+[WARNING] django.server 2023-09-18 18:38:32,741 - basehttp 51 : "GET /static/jpg/register-bg.jpg HTTP/1.1" 404 695
+[DEBUG] authentication.views 2023-09-18 18:38:56,631 - views 51 : emo58
+[INFO] django.server 2023-09-18 18:38:56,634 - basehttp 51 : "POST /register/ HTTP/1.1" 200 7284
+[WARNING] django.request 2023-09-18 18:38:56,658 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:38:56,658 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:38:56,878 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:38:56,879 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:38:56,970 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:38:56,971 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 18:38:56,971 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:38:56,972 - log 51 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 18:38:56,972 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:38:56,973 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:38:56,998 - basehttp 51 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:38:57,000 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:38:57,014 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:38:57,016 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:38:57,346 - log 51 : Not Found: /static/jpg/register-bg.jpg
+[WARNING] django.server 2023-09-18 18:38:57,347 - basehttp 51 : "GET /static/jpg/register-bg.jpg HTTP/1.1" 404 695
+[ERROR] django.request 2023-09-18 18:39:10,217 - log 51 : Internal Server Error: /register/
+Traceback (most recent call last):
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/hashers.py", line 203, in _load_library
+    module = importlib.import_module(mod_path)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'argon2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/authentication/views.py", line 26, in register_user
+    user = form.save()
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/forms.py", line 141, in save
+    user.set_password(self.cleaned_data["password1"])
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 108, in set_password
+    self.password = make_password(raw_password)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/hashers.py", line 91, in make_password
+    return hasher.encode(password, salt)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/hashers.py", line 374, in encode
+    argon2 = self._load_library()
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/hashers.py", line 205, in _load_library
+    raise ValueError(
+ValueError: Couldn't load 'Argon2PasswordHasher' algorithm library: No module named 'argon2'
+[ERROR] django.server 2023-09-18 18:39:10,227 - basehttp 51 : "POST /register/ HTTP/1.1" 500 707
+[WARNING] django.request 2023-09-18 18:39:10,530 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:39:10,530 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:39:10,561 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 18:39:10,562 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:39:10,562 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 18:39:10,562 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:39:10,563 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:39:10,564 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:39:10,588 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:39:10,604 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:39:22,184 - basehttp 51 : "GET /register/ HTTP/1.1" 200 6258
+[INFO] django.server 2023-09-18 18:39:25,309 - basehttp 51 : "GET /login/ HTTP/1.1" 200 4584
+[WARNING] django.request 2023-09-18 18:39:25,339 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:39:25,339 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:39:25,651 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:39:25,653 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:39:25,653 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:39:25,654 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 18:39:25,654 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:39:25,656 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 18:39:25,667 - log 51 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 18:39:25,668 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:39:25,670 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:39:25,671 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:39:25,671 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:39:25,679 - basehttp 51 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:39:25,978 - log 51 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 18:39:25,978 - basehttp 51 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[ERROR] django.request 2023-09-18 18:39:30,947 - log 51 : Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/backends.py", line 46, in authenticate
+    user = UserModel._default_manager.get_by_natural_key(username)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 54, in get_by_natural_key
+    return self.get(**{self.model.USERNAME_FIELD: username})
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/db/models/query.py", line 637, in get
+    raise self.model.DoesNotExist(
+django.contrib.auth.models.User.DoesNotExist: User matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/hashers.py", line 203, in _load_library
+    module = importlib.import_module(mod_path)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 973, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'argon2'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/authentication/views.py", line 48, in login_user
+    user = authenticate(
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/views/decorators/debug.py", line 42, in sensitive_variables_wrapper
+    return func(*func_args, **func_kwargs)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/__init__.py", line 77, in authenticate
+    user = backend.authenticate(request, **credentials)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/backends.py", line 50, in authenticate
+    UserModel().set_password(password)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/base_user.py", line 108, in set_password
+    self.password = make_password(raw_password)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/hashers.py", line 91, in make_password
+    return hasher.encode(password, salt)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/hashers.py", line 374, in encode
+    argon2 = self._load_library()
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/hashers.py", line 205, in _load_library
+    raise ValueError(
+ValueError: Couldn't load 'Argon2PasswordHasher' algorithm library: No module named 'argon2'
+[ERROR] django.server 2023-09-18 18:39:30,950 - basehttp 51 : "POST /login/ HTTP/1.1" 500 707
+[WARNING] django.request 2023-09-18 18:39:30,976 - log 51 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:39:30,976 - basehttp 51 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:39:31,220 - log 51 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:39:31,220 - basehttp 51 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:39:31,282 - log 51 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:39:31,283 - log 51 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:39:31,284 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:39:31,284 - basehttp 51 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:39:31,285 - basehttp 51 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:39:31,285 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:39:35,013 - log 51 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 18:39:35,014 - log 51 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:39:35,014 - basehttp 51 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:39:35,027 - basehttp 51 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:54:53,213 - basehttp 171 : "GET /login/ HTTP/1.1" 200 4584
+[WARNING] django.request 2023-09-18 18:54:53,241 - log 171 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:54:53,241 - basehttp 171 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:54:53,460 - log 171 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:54:53,460 - basehttp 171 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:54:53,554 - log 171 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:54:53,555 - log 171 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 18:54:53,556 - log 171 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:54:53,557 - basehttp 171 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:54:53,557 - basehttp 171 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:54:53,558 - log 171 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 18:54:53,568 - basehttp 171 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:54:53,584 - basehttp 171 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:54:53,585 - log 171 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:54:53,600 - basehttp 171 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:54:53,916 - log 171 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 18:54:53,916 - basehttp 171 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:54:58,930 - basehttp 171 : "GET /register/ HTTP/1.1" 200 6258
+[WARNING] django.request 2023-09-18 18:54:59,004 - log 171 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:54:59,004 - basehttp 171 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:54:59,191 - log 171 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:54:59,192 - basehttp 171 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:54:59,272 - log 171 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:54:59,273 - log 171 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 18:54:59,273 - basehttp 171 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:54:59,274 - log 171 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 18:54:59,275 - log 171 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:54:59,286 - basehttp 171 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:54:59,300 - basehttp 171 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:54:59,301 - basehttp 171 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:54:59,334 - log 171 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:54:59,335 - basehttp 171 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:54:59,525 - log 171 : Not Found: /static/jpg/register-bg.jpg
+[WARNING] django.server 2023-09-18 18:54:59,525 - basehttp 171 : "GET /static/jpg/register-bg.jpg HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:55:11,846 - basehttp 171 : "POST /register/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-18 18:55:11,914 - basehttp 171 : "GET / HTTP/1.1" 200 51828
+[WARNING] django.request 2023-09-18 18:55:12,001 - log 171 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:55:12,001 - basehttp 171 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:12,253 - log 171 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 18:55:12,254 - log 171 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:55:12,256 - log 171 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 18:55:12,256 - basehttp 171 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:55:12,256 - basehttp 171 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:12,257 - log 171 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 18:55:12,257 - basehttp 171 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:12,258 - log 171 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:55:12,267 - basehttp 171 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:55:12,268 - basehttp 171 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:12,332 - log 171 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 18:55:12,332 - basehttp 171 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:12,582 - log 171 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.request 2023-09-18 18:55:12,583 - log 171 : Not Found: /media/post_images/tianjin-2185510_1280.jpg
+[WARNING] django.request 2023-09-18 18:55:12,584 - log 171 : Not Found: /media/post_images/books-436498_1280.jpg
+[WARNING] django.server 2023-09-18 18:55:12,584 - basehttp 171 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:55:12,584 - basehttp 171 : "GET /media/post_images/tianjin-2185510_1280.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:55:12,595 - basehttp 171 : "GET /media/post_images/books-436498_1280.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:12,612 - log 171 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 18:55:12,614 - log 171 : Not Found: /static/js/lightbox.js
+[WARNING] django.server 2023-09-18 18:55:12,614 - basehttp 171 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:55:12,614 - basehttp 171 : "GET /static/js/lightbox.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:12,662 - log 171 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:55:12,662 - basehttp 171 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:12,915 - log 171 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.request 2023-09-18 18:55:12,916 - log 171 : Not Found: /media/profile_images/logo.png
+[WARNING] django.request 2023-09-18 18:55:12,917 - log 171 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 18:55:12,917 - basehttp 171 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:55:12,917 - basehttp 171 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:55:12,928 - basehttp 171 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:12,930 - log 171 : Not Found: /media/post_images/RE4CSNW_1920x1080.jpg
+[WARNING] django.request 2023-09-18 18:55:12,932 - log 171 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 18:55:12,932 - basehttp 171 : "GET /media/post_images/RE4CSNW_1920x1080.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:55:12,932 - basehttp 171 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:12,992 - log 171 : Not Found: /media/post_images/coffee-1117933_1280.jpg
+[WARNING] django.server 2023-09-18 18:55:12,992 - basehttp 171 : "GET /media/post_images/coffee-1117933_1280.jpg HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:55:16,786 - basehttp 171 : "GET /settings/ HTTP/1.1" 200 26630
+[WARNING] django.request 2023-09-18 18:55:16,887 - log 171 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:55:16,888 - basehttp 171 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:17,030 - log 171 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:55:17,030 - basehttp 171 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:17,126 - log 171 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 18:55:17,127 - log 171 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:55:17,129 - log 171 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 18:55:17,129 - basehttp 171 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:55:17,129 - basehttp 171 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:17,130 - log 171 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 18:55:17,140 - basehttp 171 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:55:17,141 - basehttp 171 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:17,222 - log 171 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 18:55:17,222 - basehttp 171 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:17,365 - log 171 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 18:55:17,365 - basehttp 171 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:17,457 - log 171 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 18:55:17,459 - log 171 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 18:55:17,459 - basehttp 171 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:55:17,459 - basehttp 171 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:17,472 - log 171 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.request 2023-09-18 18:55:17,473 - log 171 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:55:17,474 - basehttp 171 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:55:17,474 - basehttp 171 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:17,551 - log 171 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 18:55:17,552 - basehttp 171 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:17,693 - log 171 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 18:55:17,694 - basehttp 171 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[ERROR] django.request 2023-09-18 18:55:19,565 - log 171 : Internal Server Error: /change-password/
+Traceback (most recent call last):
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/main/views.py", line 137, in change_password
+    form = ChangePasswordForm()
+TypeError: __init__() missing 1 required positional argument: 'user'
+[ERROR] django.server 2023-09-18 18:55:19,575 - basehttp 171 : "GET /change-password/ HTTP/1.1" 500 707
+[WARNING] django.request 2023-09-18 18:55:19,671 - log 171 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:55:19,671 - basehttp 171 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:19,827 - log 171 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:55:19,827 - basehttp 171 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:19,907 - log 171 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:55:19,908 - log 171 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 18:55:19,908 - basehttp 171 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:55:19,909 - log 171 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:55:19,910 - basehttp 171 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:55:19,920 - basehttp 171 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:57:04,225 - basehttp 302 : "GET /settings/ HTTP/1.1" 200 26630
+[WARNING] django.request 2023-09-18 18:57:04,261 - log 302 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:57:04,261 - basehttp 302 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:04,560 - log 302 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:57:04,561 - log 302 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 18:57:04,562 - basehttp 302 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:04,562 - log 302 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 18:57:04,575 - log 302 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:57:04,575 - basehttp 302 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:04,577 - log 302 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 18:57:04,577 - basehttp 302 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:57:04,589 - basehttp 302 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:04,590 - log 302 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 18:57:04,591 - basehttp 302 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:57:04,591 - basehttp 302 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:04,888 - log 302 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 18:57:04,888 - basehttp 302 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:04,904 - log 302 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 18:57:04,905 - log 302 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 18:57:04,906 - basehttp 302 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:57:04,906 - basehttp 302 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:04,920 - log 302 : Not Found: /static/js/scripts.js
+[WARNING] django.request 2023-09-18 18:57:04,921 - log 302 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.request 2023-09-18 18:57:04,922 - log 302 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 18:57:04,922 - basehttp 302 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:57:04,923 - basehttp 302 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:57:04,923 - basehttp 302 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:05,222 - log 302 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 18:57:05,222 - basehttp 302 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:57:06,267 - basehttp 302 : "GET /change-password/ HTTP/1.1" 200 23776
+[WARNING] django.request 2023-09-18 18:57:06,326 - log 302 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:57:06,327 - basehttp 302 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:06,512 - log 302 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:57:06,512 - basehttp 302 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:06,606 - log 302 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:57:06,607 - log 302 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.request 2023-09-18 18:57:06,608 - log 302 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 18:57:06,608 - basehttp 302 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:57:06,608 - basehttp 302 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:06,609 - log 302 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:57:06,620 - basehttp 302 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:57:06,621 - basehttp 302 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:06,653 - log 302 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 18:57:06,654 - basehttp 302 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:06,840 - log 302 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 18:57:06,840 - basehttp 302 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:06,932 - log 302 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.request 2023-09-18 18:57:06,933 - log 302 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 18:57:06,933 - basehttp 302 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:57:06,933 - basehttp 302 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:06,947 - log 302 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.request 2023-09-18 18:57:06,948 - log 302 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:57:06,948 - basehttp 302 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:57:06,948 - basehttp 302 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:06,979 - log 302 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 18:57:06,979 - basehttp 302 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:57:07,167 - log 302 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 18:57:07,167 - basehttp 302 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:58:16,263 - basehttp 302 : "GET /change-password/ HTTP/1.1" 200 24274
+[WARNING] django.request 2023-09-18 18:58:16,293 - log 302 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:58:16,294 - basehttp 302 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:16,508 - log 302 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:58:16,508 - basehttp 302 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:16,599 - log 302 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:58:16,600 - log 302 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 18:58:16,601 - log 302 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 18:58:16,601 - basehttp 302 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:58:16,602 - basehttp 302 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:16,603 - log 302 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 18:58:16,613 - basehttp 302 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:16,615 - log 302 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 18:58:16,625 - basehttp 302 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:58:16,625 - basehttp 302 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:16,830 - log 302 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 18:58:16,831 - basehttp 302 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:16,923 - log 302 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 18:58:16,924 - log 302 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 18:58:16,925 - basehttp 302 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:58:16,925 - basehttp 302 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:16,940 - log 302 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 18:58:16,940 - basehttp 302 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:16,955 - log 302 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.request 2023-09-18 18:58:16,956 - log 302 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.server 2023-09-18 18:58:16,956 - basehttp 302 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:58:16,956 - basehttp 302 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:17,155 - log 302 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 18:58:17,155 - basehttp 302 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:58:51,660 - basehttp 358 : "GET /change-password/ HTTP/1.1" 200 24274
+[WARNING] django.request 2023-09-18 18:58:51,922 - log 358 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:58:51,923 - basehttp 358 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:51,999 - log 358 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:58:52,000 - log 358 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 18:58:52,002 - log 358 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 18:58:52,002 - basehttp 358 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:58:52,002 - basehttp 358 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:52,003 - log 358 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 18:58:52,012 - basehttp 358 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:58:52,013 - basehttp 358 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:52,014 - log 358 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:58:52,025 - basehttp 358 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:52,247 - log 358 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 18:58:52,247 - basehttp 358 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:52,326 - log 358 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.request 2023-09-18 18:58:52,328 - log 358 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 18:58:52,328 - basehttp 358 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:58:52,330 - basehttp 358 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:52,342 - log 358 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.request 2023-09-18 18:58:52,343 - log 358 : Not Found: /static/js/scripts.js
+[WARNING] django.request 2023-09-18 18:58:52,344 - log 358 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 18:58:52,344 - basehttp 358 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:58:52,344 - basehttp 358 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:58:52,356 - basehttp 358 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:52,579 - log 358 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 18:58:52,580 - basehttp 358 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:58:52,659 - log 358 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 18:58:52,659 - basehttp 358 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 18:59:19,535 - basehttp 358 : "GET /change-password/ HTTP/1.1" 200 24431
+[WARNING] django.request 2023-09-18 18:59:19,567 - log 358 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:59:19,567 - basehttp 358 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:59:19,776 - log 358 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:59:19,776 - basehttp 358 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:59:19,873 - log 358 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.request 2023-09-18 18:59:19,873 - log 358 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 18:59:19,874 - log 358 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 18:59:19,875 - basehttp 358 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:59:19,875 - log 358 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 18:59:19,875 - basehttp 358 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:59:19,875 - basehttp 358 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:59:19,887 - basehttp 358 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:59:19,888 - log 358 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 18:59:19,889 - basehttp 358 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:59:20,105 - log 358 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 18:59:20,105 - basehttp 358 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:59:20,196 - log 358 : Not Found: /static/js/scripts.js
+[WARNING] django.request 2023-09-18 18:59:20,198 - log 358 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 18:59:20,198 - basehttp 358 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:59:20,199 - log 358 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 18:59:20,209 - basehttp 358 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:59:20,210 - basehttp 358 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:59:20,226 - log 358 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.request 2023-09-18 18:59:20,240 - log 358 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 18:59:20,240 - basehttp 358 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:59:20,254 - basehttp 358 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:59:20,429 - log 358 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 18:59:20,429 - basehttp 358 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[ERROR] django.request 2023-09-18 18:59:39,947 - log 358 : Internal Server Error: /change-password/
+Traceback (most recent call last):
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/main/views.py", line 121, in change_password
+    if form.is_valid() and user is not None:
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/forms/forms.py", line 201, in is_valid
+    return self.is_bound and not self.errors
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/forms/forms.py", line 196, in errors
+    self.full_clean()
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/forms/forms.py", line 433, in full_clean
+    self._clean_fields()
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/forms/forms.py", line 440, in _clean_fields
+    value = bf.initial if field.disabled else bf.data
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/forms/boundfield.py", line 135, in data
+    return self.form._widget_data_value(self.field.widget, self.html_name)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/forms/forms.py", line 220, in _widget_data_value
+    return widget.value_from_datadict(self.data, self.files, html_name)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/forms/widgets.py", line 297, in value_from_datadict
+    return data.get(name)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/utils/functional.py", line 268, in inner
+    return func(_wrapped, *args)
+AttributeError: 'User' object has no attribute 'get'
+[ERROR] django.server 2023-09-18 18:59:39,975 - basehttp 358 : "POST /change-password/ HTTP/1.1" 500 707
+[WARNING] django.request 2023-09-18 18:59:40,005 - log 358 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 18:59:40,006 - basehttp 358 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:59:40,223 - log 358 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 18:59:40,223 - basehttp 358 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 18:59:40,315 - log 358 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 18:59:40,316 - log 358 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 18:59:40,317 - log 358 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 18:59:40,318 - basehttp 358 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:59:40,318 - basehttp 358 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 18:59:40,318 - basehttp 358 : "GET /static/css/style.css HTTP/1.1" 404 695
+[DEBUG] main.views 2023-09-18 19:16:27,665 - views 402 : <QueryDict: {'csrfmiddlewaretoken': ['FkcwqsjhObj7EPCKRHIxDHO2XKFjStoraaqMYOx3YR0awv4ELbk4etgnfGZ2MNOj'], 'old_password': ['pp'], 'password1': ['pp'], 'password2': ['pp']}>
+[INFO] django.server 2023-09-18 19:16:27,693 - basehttp 402 : "POST /change-password/ HTTP/1.1" 200 25886
+[WARNING] django.request 2023-09-18 19:16:27,728 - log 402 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:16:27,728 - basehttp 402 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:28,025 - log 402 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.request 2023-09-18 19:16:28,026 - log 402 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:16:28,026 - basehttp 402 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:28,027 - log 402 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 19:16:28,028 - log 402 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 19:16:28,028 - basehttp 402 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:28,040 - log 402 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 19:16:28,040 - basehttp 402 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:16:28,054 - basehttp 402 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:16:28,054 - basehttp 402 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:28,086 - log 402 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:16:28,087 - basehttp 402 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:28,354 - log 402 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.request 2023-09-18 19:16:28,355 - log 402 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 19:16:28,355 - basehttp 402 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:16:28,355 - basehttp 402 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:28,370 - log 402 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 19:16:28,371 - log 402 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 19:16:28,371 - basehttp 402 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:28,372 - log 402 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.server 2023-09-18 19:16:28,372 - basehttp 402 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:16:28,384 - basehttp 402 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:28,417 - log 402 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:16:28,417 - basehttp 402 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:28,685 - log 402 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:16:28,685 - basehttp 402 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[DEBUG] main.views 2023-09-18 19:16:49,526 - views 402 : <QueryDict: {'csrfmiddlewaretoken': ['f3brZuNtBgSnk5LGGRej1OSn0dnNujBXKTpHxQ1fLWzqcLdAAlQQCAkIi9HwoD1P'], 'old_password': ['substrate1'], 'password1': ['substrate2'], 'password2': ['substrate2']}>
+[INFO] django.server 2023-09-18 19:16:49,533 - basehttp 402 : "POST /change-password/ HTTP/1.1" 200 25560
+[WARNING] django.request 2023-09-18 19:16:49,559 - log 402 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:16:49,559 - basehttp 402 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:49,729 - log 402 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:16:49,729 - basehttp 402 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:49,866 - log 402 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 19:16:49,867 - log 402 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 19:16:49,868 - log 402 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 19:16:49,868 - basehttp 402 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:16:49,868 - basehttp 402 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:49,868 - log 402 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 19:16:49,879 - basehttp 402 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:16:49,880 - basehttp 402 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:49,895 - log 402 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:16:49,895 - basehttp 402 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:50,051 - log 402 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 19:16:50,051 - basehttp 402 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:50,191 - log 402 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.request 2023-09-18 19:16:50,192 - log 402 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 19:16:50,192 - basehttp 402 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:16:50,192 - basehttp 402 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:50,220 - log 402 : Not Found: /static/js/scripts.js
+[WARNING] django.request 2023-09-18 19:16:50,221 - log 402 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.server 2023-09-18 19:16:50,221 - basehttp 402 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:50,222 - log 402 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:16:50,222 - basehttp 402 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:16:50,235 - basehttp 402 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:16:50,374 - log 402 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:16:50,374 - basehttp 402 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 19:20:21,468 - basehttp 402 : "GET /settings/ HTTP/1.1" 200 26630
+[WARNING] django.request 2023-09-18 19:20:21,536 - log 402 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:20:21,536 - basehttp 402 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:21,711 - log 402 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:20:21,711 - basehttp 402 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:21,803 - log 402 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 19:20:21,804 - log 402 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 19:20:21,806 - log 402 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 19:20:21,806 - basehttp 402 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:21,807 - log 402 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 19:20:21,807 - basehttp 402 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:21,807 - basehttp 402 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:21,807 - basehttp 402 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:21,866 - log 402 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:20:21,866 - basehttp 402 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:22,038 - log 402 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 19:20:22,039 - basehttp 402 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:22,134 - log 402 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.request 2023-09-18 19:20:22,135 - log 402 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.request 2023-09-18 19:20:22,136 - log 402 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 19:20:22,136 - basehttp 402 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:22,137 - log 402 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 19:20:22,137 - basehttp 402 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:22,148 - basehttp 402 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:22,178 - basehttp 402 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:22,195 - log 402 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:20:22,196 - basehttp 402 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:22,370 - log 402 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:20:22,370 - basehttp 402 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 19:20:24,755 - basehttp 402 : "GET /logout/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-18 19:20:24,846 - basehttp 402 : "GET /login/ HTTP/1.1" 200 4584
+[WARNING] django.request 2023-09-18 19:20:25,000 - log 402 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:20:25,000 - basehttp 402 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:25,190 - log 402 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 19:20:25,191 - log 402 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 19:20:25,192 - log 402 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 19:20:25,192 - basehttp 402 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:25,192 - basehttp 402 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:25,193 - log 402 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:20:25,204 - basehttp 402 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:25,205 - log 402 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 19:20:25,205 - basehttp 402 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:25,219 - basehttp 402 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:25,332 - log 402 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 19:20:25,332 - basehttp 402 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:25,523 - log 402 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 19:20:25,523 - basehttp 402 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[DEBUG] authentication.views 2023-09-18 19:20:32,373 - views 402 : emo58
+[INFO] django.server 2023-09-18 19:20:32,375 - basehttp 402 : "POST /login/ HTTP/1.1" 200 4642
+[WARNING] django.request 2023-09-18 19:20:32,396 - log 402 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:20:32,396 - basehttp 402 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:32,569 - log 402 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:20:32,570 - basehttp 402 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:32,709 - log 402 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 19:20:32,710 - log 402 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 19:20:32,711 - basehttp 402 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:32,711 - log 402 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 19:20:32,722 - basehttp 402 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:32,724 - log 402 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 19:20:32,724 - basehttp 402 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:32,725 - log 402 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 19:20:32,737 - basehttp 402 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:32,753 - basehttp 402 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:33,071 - log 402 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 19:20:33,071 - basehttp 402 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 19:20:38,917 - basehttp 402 : "POST /login/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-18 19:20:38,954 - basehttp 402 : "GET / HTTP/1.1" 200 51828
+[WARNING] django.request 2023-09-18 19:20:39,104 - log 402 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:20:39,105 - basehttp 402 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:39,295 - log 402 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 19:20:39,296 - log 402 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 19:20:39,297 - log 402 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:20:39,297 - basehttp 402 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:39,309 - log 402 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 19:20:39,309 - basehttp 402 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:39,309 - basehttp 402 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:39,310 - log 402 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 19:20:39,323 - basehttp 402 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:39,339 - basehttp 402 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:39,436 - log 402 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:20:39,436 - basehttp 402 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:39,626 - log 402 : Not Found: /media/post_images/books-436498_1280.jpg
+[WARNING] django.server 2023-09-18 19:20:39,626 - basehttp 402 : "GET /media/post_images/books-436498_1280.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:39,641 - log 402 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.request 2023-09-18 19:20:39,642 - log 402 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 19:20:39,642 - basehttp 402 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:39,643 - log 402 : Not Found: /media/post_images/tianjin-2185510_1280.jpg
+[WARNING] django.server 2023-09-18 19:20:39,643 - basehttp 402 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:39,644 - basehttp 402 : "GET /media/post_images/tianjin-2185510_1280.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:39,657 - log 402 : Not Found: /static/js/lightbox.js
+[WARNING] django.server 2023-09-18 19:20:39,657 - basehttp 402 : "GET /static/js/lightbox.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:39,768 - log 402 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 19:20:39,769 - basehttp 402 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:39,958 - log 402 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 19:20:39,958 - basehttp 402 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:39,974 - log 402 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.request 2023-09-18 19:20:39,975 - log 402 : Not Found: /media/post_images/RE4CSNW_1920x1080.jpg
+[WARNING] django.request 2023-09-18 19:20:39,976 - log 402 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:20:39,977 - basehttp 402 : "GET /media/post_images/RE4CSNW_1920x1080.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:39,977 - log 402 : Not Found: /media/post_images/coffee-1117933_1280.jpg
+[WARNING] django.server 2023-09-18 19:20:39,986 - basehttp 402 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:39,986 - basehttp 402 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:40,002 - basehttp 402 : "GET /media/post_images/coffee-1117933_1280.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:40,098 - log 402 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:20:40,098 - basehttp 402 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 19:20:42,114 - basehttp 402 : "GET /settings/ HTTP/1.1" 200 26630
+[WARNING] django.request 2023-09-18 19:20:42,199 - log 402 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:20:42,199 - basehttp 402 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:42,371 - log 402 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:20:42,372 - basehttp 402 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:42,450 - log 402 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.request 2023-09-18 19:20:42,452 - log 402 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 19:20:42,452 - log 402 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 19:20:42,453 - basehttp 402 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:42,453 - basehttp 402 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:42,453 - basehttp 402 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:42,454 - log 402 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 19:20:42,479 - basehttp 402 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:42,529 - log 402 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:20:42,530 - basehttp 402 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:42,702 - log 402 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 19:20:42,703 - basehttp 402 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:42,781 - log 402 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 19:20:42,782 - log 402 : Not Found: /static/js/scripts.js
+[WARNING] django.request 2023-09-18 19:20:42,783 - log 402 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 19:20:42,783 - basehttp 402 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:42,783 - basehttp 402 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:42,794 - basehttp 402 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:42,811 - log 402 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.server 2023-09-18 19:20:42,812 - basehttp 402 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:42,859 - log 402 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:20:42,859 - basehttp 402 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:43,033 - log 402 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:20:43,033 - basehttp 402 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 19:20:45,924 - basehttp 402 : "GET /change-password/ HTTP/1.1" 200 24431
+[WARNING] django.request 2023-09-18 19:20:45,979 - log 402 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:20:45,979 - basehttp 402 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:46,181 - log 402 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:20:46,182 - basehttp 402 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:46,261 - log 402 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 19:20:46,262 - log 402 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 19:20:46,263 - log 402 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 19:20:46,263 - basehttp 402 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:46,264 - log 402 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 19:20:46,264 - basehttp 402 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:46,273 - basehttp 402 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:46,274 - basehttp 402 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:46,307 - log 402 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:20:46,307 - basehttp 402 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:46,513 - log 402 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 19:20:46,513 - basehttp 402 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:46,591 - log 402 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 19:20:46,592 - log 402 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 19:20:46,592 - basehttp 402 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:46,592 - basehttp 402 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:46,607 - log 402 : Not Found: /static/js/scripts.js
+[WARNING] django.request 2023-09-18 19:20:46,608 - log 402 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.server 2023-09-18 19:20:46,608 - basehttp 402 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:20:46,608 - basehttp 402 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:46,637 - log 402 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:20:46,637 - basehttp 402 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:20:46,844 - log 402 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:20:46,844 - basehttp 402 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[DEBUG] main.views 2023-09-18 19:21:18,959 - views 402 : <QueryDict: {'csrfmiddlewaretoken': ['yC502yGo7nHjjassQnS20nJ2pmWOOeG9c9uPNpB6LA3VT5LVw6uS8mg636qyQeqU'], 'old_password': ['substrate1'], 'password1': ['substrate2'], 'password2': ['substrate2']}>
+[INFO] django.server 2023-09-18 19:21:18,966 - basehttp 402 : "POST /change-password/ HTTP/1.1" 200 25560
+[WARNING] django.request 2023-09-18 19:21:18,998 - log 402 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:21:18,999 - basehttp 402 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:21:19,137 - log 402 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:21:19,137 - basehttp 402 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:21:19,310 - log 402 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 19:21:19,311 - log 402 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.request 2023-09-18 19:21:19,312 - log 402 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 19:21:19,312 - basehttp 402 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:21:19,313 - log 402 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 19:21:19,313 - basehttp 402 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:21:19,314 - basehttp 402 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:21:19,339 - basehttp 402 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:21:19,340 - log 402 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:21:19,340 - basehttp 402 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:21:19,468 - log 402 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 19:21:19,468 - basehttp 402 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:21:19,641 - log 402 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.request 2023-09-18 19:21:19,642 - log 402 : Not Found: /static/js/scripts.js
+[WARNING] django.request 2023-09-18 19:21:19,643 - log 402 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 19:21:19,644 - basehttp 402 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:21:19,644 - basehttp 402 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:21:19,644 - basehttp 402 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:21:19,672 - log 402 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.request 2023-09-18 19:21:19,673 - log 402 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:21:19,673 - basehttp 402 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:21:19,674 - basehttp 402 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:21:19,799 - log 402 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:21:19,799 - basehttp 402 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:28:01,175 - log 402 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 19:28:01,176 - log 402 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 19:28:01,176 - basehttp 402 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:28:01,177 - log 402 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 19:28:01,179 - log 402 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:28:01,179 - basehttp 402 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:28:01,180 - log 402 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:28:01,180 - basehttp 402 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:28:01,202 - basehttp 402 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:28:01,203 - basehttp 402 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[DEBUG] main.views 2023-09-18 19:28:56,169 - views 860 : <QueryDict: {'csrfmiddlewaretoken': ['yC502yGo7nHjjassQnS20nJ2pmWOOeG9c9uPNpB6LA3VT5LVw6uS8mg636qyQeqU'], 'old_password': ['substrate1'], 'password1': ['substrate2'], 'password2': ['substrate2']}>
+[INFO] django.server 2023-09-18 19:28:56,198 - basehttp 860 : "POST /change-password/ HTTP/1.1" 200 25560
+[WARNING] django.request 2023-09-18 19:28:56,383 - log 860 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:28:56,383 - basehttp 860 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:28:56,539 - log 860 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 19:28:56,540 - log 860 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 19:28:56,540 - basehttp 860 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:28:56,541 - log 860 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:28:56,553 - basehttp 860 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:28:56,554 - log 860 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 19:28:56,568 - basehttp 860 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:28:56,569 - log 860 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 19:28:56,569 - basehttp 860 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:28:56,599 - basehttp 860 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:28:56,711 - log 860 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:28:56,711 - basehttp 860 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:28:56,871 - log 860 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 19:28:56,871 - basehttp 860 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:28:56,887 - log 860 : Not Found: /static/js/scripts.js
+[WARNING] django.request 2023-09-18 19:28:56,888 - log 860 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 19:28:56,888 - basehttp 860 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:28:56,889 - log 860 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 19:28:56,889 - basehttp 860 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:28:56,901 - basehttp 860 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:28:56,919 - log 860 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.server 2023-09-18 19:28:56,919 - basehttp 860 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:28:57,046 - log 860 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:28:57,046 - basehttp 860 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:28:57,202 - log 860 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:28:57,202 - basehttp 860 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 19:29:01,234 - basehttp 860 : "GET /settings/ HTTP/1.1" 200 26630
+[WARNING] django.request 2023-09-18 19:29:01,333 - log 860 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:29:01,334 - basehttp 860 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:01,475 - log 860 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:29:01,476 - basehttp 860 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:01,567 - log 860 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 19:29:01,569 - log 860 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 19:29:01,569 - log 860 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 19:29:01,569 - basehttp 860 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:01,570 - log 860 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 19:29:01,580 - basehttp 860 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:29:01,581 - basehttp 860 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:29:01,596 - basehttp 860 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:01,661 - log 860 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:29:01,661 - basehttp 860 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:01,802 - log 860 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 19:29:01,803 - basehttp 860 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:01,897 - log 860 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 19:29:01,897 - basehttp 860 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:01,913 - log 860 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 19:29:01,914 - log 860 : Not Found: /static/js/scripts.js
+[WARNING] django.request 2023-09-18 19:29:01,914 - log 860 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.server 2023-09-18 19:29:01,915 - basehttp 860 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:29:01,915 - basehttp 860 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:29:01,915 - basehttp 860 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:01,991 - log 860 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:29:01,991 - basehttp 860 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:02,133 - log 860 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:29:02,133 - basehttp 860 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 19:29:03,145 - basehttp 860 : "GET /change-password/ HTTP/1.1" 200 24431
+[WARNING] django.request 2023-09-18 19:29:03,230 - log 860 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:29:03,231 - basehttp 860 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:03,402 - log 860 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:29:03,402 - basehttp 860 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:03,479 - log 860 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 19:29:03,480 - log 860 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 19:29:03,481 - basehttp 860 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:03,481 - log 860 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.request 2023-09-18 19:29:03,483 - log 860 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 19:29:03,483 - basehttp 860 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:29:03,483 - basehttp 860 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:29:03,483 - basehttp 860 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:03,559 - log 860 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:29:03,559 - basehttp 860 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:03,734 - log 860 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 19:29:03,734 - basehttp 860 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:03,813 - log 860 : Not Found: /static/js/scripts.js
+[WARNING] django.request 2023-09-18 19:29:03,814 - log 860 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.request 2023-09-18 19:29:03,815 - log 860 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 19:29:03,815 - basehttp 860 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:29:03,816 - basehttp 860 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:03,817 - log 860 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 19:29:03,817 - basehttp 860 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:29:03,827 - basehttp 860 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:03,876 - log 860 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:29:03,876 - basehttp 860 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:04,063 - log 860 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:29:04,063 - basehttp 860 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[DEBUG] main.views 2023-09-18 19:29:16,569 - views 860 : <QueryDict: {'csrfmiddlewaretoken': ['TzQWXhe8rnOH1pd9DCriqeWIBes0XHNFx6fLI89Q5AajBkwCjl38ydtMfYWKZHxq'], 'old_password': ['substrate1'], 'password1': ['substrate2'], 'password2': ['substrate2']}>
+[INFO] django.server 2023-09-18 19:29:16,575 - basehttp 860 : "POST /change-password/ HTTP/1.1" 200 25560
+[WARNING] django.request 2023-09-18 19:29:16,605 - log 860 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:29:16,605 - basehttp 860 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:16,763 - log 860 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:29:16,763 - basehttp 860 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:16,906 - log 860 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.request 2023-09-18 19:29:16,907 - log 860 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 19:29:16,907 - basehttp 860 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:16,908 - log 860 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 19:29:16,909 - log 860 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 19:29:16,909 - basehttp 860 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:29:16,909 - basehttp 860 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:29:16,920 - basehttp 860 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:16,953 - log 860 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:29:16,953 - basehttp 860 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:17,093 - log 860 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 19:29:17,094 - basehttp 860 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:17,236 - log 860 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 19:29:17,237 - log 860 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 19:29:17,238 - basehttp 860 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:17,238 - log 860 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 19:29:17,250 - basehttp 860 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:29:17,266 - basehttp 860 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:17,267 - log 860 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.server 2023-09-18 19:29:17,281 - basehttp 860 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:17,298 - log 860 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:29:17,298 - basehttp 860 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:29:17,426 - log 860 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:29:17,426 - basehttp 860 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[DEBUG] main.views 2023-09-18 19:31:30,469 - views 1051 : <QueryDict: {'csrfmiddlewaretoken': ['YieL16hZ4I9zQ1q5jFVUnxk5LRL1KqoICPDAMXcHIVvbqWJyZoxKvwR9pBfLMq8t'], 'old_password': ['substrate1'], 'password1': ['substrate2'], 'password2': ['substrate2']}>
+[INFO] django.server 2023-09-18 19:31:30,494 - basehttp 1051 : "POST /change-password/ HTTP/1.1" 200 25055
+[WARNING] django.request 2023-09-18 19:31:30,528 - log 1051 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:31:30,528 - basehttp 1051 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:31:30,650 - log 1051 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:31:30,651 - basehttp 1051 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:31:30,823 - log 1051 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 19:31:30,824 - log 1051 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 19:31:30,824 - basehttp 1051 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:31:30,825 - log 1051 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 19:31:30,825 - basehttp 1051 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:31:30,838 - log 1051 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 19:31:30,838 - basehttp 1051 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:31:30,853 - basehttp 1051 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:31:30,870 - log 1051 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:31:30,870 - basehttp 1051 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:31:30,982 - log 1051 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 19:31:30,982 - basehttp 1051 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:31:31,155 - log 1051 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 19:31:31,156 - log 1051 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 19:31:31,156 - basehttp 1051 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:31:31,168 - basehttp 1051 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:31:31,185 - log 1051 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.request 2023-09-18 19:31:31,186 - log 1051 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 19:31:31,187 - basehttp 1051 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:31:31,200 - basehttp 1051 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:31:31,217 - log 1051 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:31:31,217 - basehttp 1051 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:31:31,312 - log 1051 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:31:31,312 - basehttp 1051 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[DEBUG] main.views 2023-09-18 19:32:05,504 - views 1051 : <QueryDict: {'csrfmiddlewaretoken': ['YieL16hZ4I9zQ1q5jFVUnxk5LRL1KqoICPDAMXcHIVvbqWJyZoxKvwR9pBfLMq8t'], 'old_password': ['substrate1'], 'password1': ['substrate2'], 'password2': ['substrate2']}>
+[INFO] django.server 2023-09-18 19:32:05,518 - basehttp 1051 : "POST /change-password/ HTTP/1.1" 200 25373
+[WARNING] django.request 2023-09-18 19:32:05,546 - log 1051 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:32:05,546 - basehttp 1051 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:05,704 - log 1051 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:32:05,704 - basehttp 1051 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:05,862 - log 1051 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 19:32:05,863 - log 1051 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 19:32:05,864 - basehttp 1051 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:05,865 - log 1051 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 19:32:05,866 - log 1051 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 19:32:05,866 - basehttp 1051 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:32:05,866 - basehttp 1051 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:32:05,866 - basehttp 1051 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:05,893 - log 1051 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:32:05,894 - basehttp 1051 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:06,034 - log 1051 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 19:32:06,034 - basehttp 1051 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:06,189 - log 1051 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 19:32:06,190 - log 1051 : Not Found: /static/js/scripts.js
+[WARNING] django.request 2023-09-18 19:32:06,191 - log 1051 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.server 2023-09-18 19:32:06,192 - basehttp 1051 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:32:06,192 - basehttp 1051 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:06,193 - log 1051 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 19:32:06,202 - basehttp 1051 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:32:06,219 - basehttp 1051 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:06,220 - log 1051 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:32:06,221 - basehttp 1051 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:06,360 - log 1051 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:32:06,360 - basehttp 1051 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 19:32:11,397 - basehttp 1051 : "GET /settings/ HTTP/1.1" 200 26630
+[WARNING] django.request 2023-09-18 19:32:11,480 - log 1051 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:32:11,480 - basehttp 1051 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:11,653 - log 1051 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:32:11,653 - basehttp 1051 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:11,732 - log 1051 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 19:32:11,733 - log 1051 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 19:32:11,733 - basehttp 1051 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:11,734 - log 1051 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 19:32:11,734 - basehttp 1051 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:11,735 - log 1051 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 19:32:11,735 - basehttp 1051 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:32:11,761 - basehttp 1051 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:11,811 - log 1051 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:32:11,811 - basehttp 1051 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:11,984 - log 1051 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 19:32:11,984 - basehttp 1051 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:12,063 - log 1051 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.request 2023-09-18 19:32:12,064 - log 1051 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 19:32:12,065 - basehttp 1051 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:12,065 - log 1051 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 19:32:12,066 - basehttp 1051 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:32:12,092 - basehttp 1051 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:12,094 - log 1051 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.server 2023-09-18 19:32:12,109 - basehttp 1051 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:12,142 - log 1051 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:32:12,142 - basehttp 1051 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:12,317 - log 1051 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:32:12,318 - basehttp 1051 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 19:32:13,372 - basehttp 1051 : "GET /change-password/ HTTP/1.1" 200 24447
+[WARNING] django.request 2023-09-18 19:32:13,471 - log 1051 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:32:13,471 - basehttp 1051 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:13,626 - log 1051 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:32:13,626 - basehttp 1051 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:13,704 - log 1051 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 19:32:13,705 - log 1051 : Not Found: /static/css/emoji.css
+[WARNING] django.server 2023-09-18 19:32:13,706 - basehttp 1051 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:13,707 - log 1051 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 19:32:13,707 - basehttp 1051 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:13,708 - log 1051 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 19:32:13,718 - basehttp 1051 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:32:13,733 - basehttp 1051 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:13,798 - log 1051 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:32:13,798 - basehttp 1051 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:13,951 - log 1051 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 19:32:13,951 - basehttp 1051 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:14,028 - log 1051 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 19:32:14,029 - log 1051 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 19:32:14,029 - basehttp 1051 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:32:14,030 - basehttp 1051 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:14,043 - log 1051 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 19:32:14,043 - basehttp 1051 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:14,059 - log 1051 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.server 2023-09-18 19:32:14,059 - basehttp 1051 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:14,121 - log 1051 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:32:14,121 - basehttp 1051 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:14,277 - log 1051 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:32:14,277 - basehttp 1051 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[ERROR] django.request 2023-09-18 19:32:26,957 - log 1051 : Internal Server Error: /change-password/
+Traceback (most recent call last):
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/.venv/lib/python3.8/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Users/Euan/OneDrive - University of Canterbury/SENG406/secure-coding/main/views.py", line 122, in change_password
+    if form.cleaned_data["password1"] == form.cleaned_data["password2"]:
+KeyError: 'password1'
+[ERROR] django.server 2023-09-18 19:32:26,960 - basehttp 1051 : "POST /change-password/ HTTP/1.1" 500 707
+[WARNING] django.request 2023-09-18 19:32:26,986 - log 1051 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:32:26,986 - basehttp 1051 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:27,141 - log 1051 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:32:27,142 - basehttp 1051 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:32:27,292 - log 1051 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 19:32:27,293 - log 1051 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 19:32:27,294 - log 1051 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 19:32:27,294 - basehttp 1051 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:32:27,295 - basehttp 1051 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:32:27,307 - basehttp 1051 : "GET /static/css/style.css HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 19:33:24,080 - basehttp 1316 : "GET /change-password/ HTTP/1.1" 200 24447
+[WARNING] django.request 2023-09-18 19:33:24,104 - log 1316 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:33:24,105 - basehttp 1316 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:24,414 - log 1316 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 19:33:24,415 - log 1316 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 19:33:24,415 - basehttp 1316 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:24,416 - log 1316 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:33:24,417 - basehttp 1316 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:24,418 - log 1316 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 19:33:24,418 - basehttp 1316 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:24,419 - log 1316 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 19:33:24,420 - basehttp 1316 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:33:24,443 - basehttp 1316 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:24,444 - log 1316 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:33:24,458 - basehttp 1316 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:24,740 - log 1316 : Not Found: /static/js/plugin.js
+[WARNING] django.request 2023-09-18 19:33:24,741 - log 1316 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.request 2023-09-18 19:33:24,742 - log 1316 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.server 2023-09-18 19:33:24,742 - basehttp 1316 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:33:24,743 - basehttp 1316 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:24,744 - log 1316 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 19:33:24,744 - basehttp 1316 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:33:24,771 - basehttp 1316 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:24,772 - log 1316 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.server 2023-09-18 19:33:24,785 - basehttp 1316 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:24,802 - log 1316 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:33:24,802 - basehttp 1316 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:25,072 - log 1316 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:33:25,072 - basehttp 1316 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 19:33:36,212 - basehttp 1316 : "POST /change-password/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-18 19:33:36,246 - basehttp 1316 : "GET / HTTP/1.1" 302 0
+[INFO] django.server 2023-09-18 19:33:36,302 - basehttp 1316 : "GET /login/?next=/ HTTP/1.1" 200 4584
+[WARNING] django.request 2023-09-18 19:33:36,643 - log 1316 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 19:33:36,644 - log 1316 : Not Found: /static/css/feather.css
+[WARNING] django.request 2023-09-18 19:33:36,645 - log 1316 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 19:33:36,645 - basehttp 1316 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:36,646 - log 1316 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:33:36,646 - basehttp 1316 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:33:36,657 - basehttp 1316 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:36,674 - log 1316 : Not Found: /static/css/style.css
+[WARNING] django.request 2023-09-18 19:33:36,675 - log 1316 : Not Found: /static/css/lightbox.css
+[WARNING] django.server 2023-09-18 19:33:36,675 - basehttp 1316 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:33:36,688 - basehttp 1316 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:33:36,688 - basehttp 1316 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:36,975 - log 1316 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 19:33:36,975 - basehttp 1316 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:37,020 - log 1316 : Not Found: /static/jpg/login-bg.jpg
+[WARNING] django.server 2023-09-18 19:33:37,021 - basehttp 1316 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 404 695
+[INFO] django.server 2023-09-18 19:33:43,906 - basehttp 1316 : "POST /login/?next=/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-18 19:33:43,945 - basehttp 1316 : "GET / HTTP/1.1" 200 51828
+[WARNING] django.request 2023-09-18 19:33:44,095 - log 1316 : Not Found: /static/css/themify-icons.css
+[WARNING] django.server 2023-09-18 19:33:44,095 - basehttp 1316 : "GET /static/css/themify-icons.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:44,285 - log 1316 : Not Found: /static/css/emoji.css
+[WARNING] django.request 2023-09-18 19:33:44,286 - log 1316 : Not Found: /static/css/lightbox.css
+[WARNING] django.request 2023-09-18 19:33:44,287 - log 1316 : Not Found: /static/css/feather.css
+[WARNING] django.server 2023-09-18 19:33:44,287 - basehttp 1316 : "GET /static/css/emoji.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:44,288 - log 1316 : Not Found: /static/svg/default_profile_image.svg
+[WARNING] django.server 2023-09-18 19:33:44,288 - basehttp 1316 : "GET /static/css/feather.css HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:33:44,288 - basehttp 1316 : "GET /static/css/lightbox.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:44,298 - log 1316 : Not Found: /static/css/style.css
+[WARNING] django.server 2023-09-18 19:33:44,298 - basehttp 1316 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:33:44,329 - basehttp 1316 : "GET /static/css/style.css HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:44,424 - log 1316 : Not Found: /media/profile_images/leyla.jpg
+[WARNING] django.server 2023-09-18 19:33:44,424 - basehttp 1316 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:44,612 - log 1316 : Not Found: /media/post_images/books-436498_1280.jpg
+[WARNING] django.request 2023-09-18 19:33:44,613 - log 1316 : Not Found: /media/post_images/tianjin-2185510_1280.jpg
+[WARNING] django.request 2023-09-18 19:33:44,614 - log 1316 : Not Found: /media/profile_images/arj.jpg
+[WARNING] django.server 2023-09-18 19:33:44,614 - basehttp 1316 : "GET /media/post_images/books-436498_1280.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:33:44,615 - basehttp 1316 : "GET /media/post_images/tianjin-2185510_1280.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:33:44,626 - basehttp 1316 : "GET /media/profile_images/arj.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:44,643 - log 1316 : Not Found: /static/js/plugin.js
+[WARNING] django.server 2023-09-18 19:33:44,643 - basehttp 1316 : "GET /static/js/plugin.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:44,659 - log 1316 : Not Found: /static/js/lightbox.js
+[WARNING] django.server 2023-09-18 19:33:44,659 - basehttp 1316 : "GET /static/js/lightbox.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:44,753 - log 1316 : Not Found: /static/js/scripts.js
+[WARNING] django.server 2023-09-18 19:33:44,753 - basehttp 1316 : "GET /static/js/scripts.js HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:44,940 - log 1316 : Not Found: /media/profile_images/joey.jpg
+[WARNING] django.request 2023-09-18 19:33:44,941 - log 1316 : Not Found: /media/profile_images/heather.jpg
+[WARNING] django.server 2023-09-18 19:33:44,941 - basehttp 1316 : "GET /media/profile_images/joey.jpg HTTP/1.1" 404 695
+[WARNING] django.server 2023-09-18 19:33:44,942 - basehttp 1316 : "GET /media/profile_images/heather.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:44,955 - log 1316 : Not Found: /media/post_images/RE4CSNW_1920x1080.jpg
+[WARNING] django.server 2023-09-18 19:33:44,956 - basehttp 1316 : "GET /media/post_images/RE4CSNW_1920x1080.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:44,971 - log 1316 : Not Found: /media/profile_images/bob.jpg
+[WARNING] django.server 2023-09-18 19:33:44,971 - basehttp 1316 : "GET /media/profile_images/bob.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:44,985 - log 1316 : Not Found: /media/post_images/coffee-1117933_1280.jpg
+[WARNING] django.server 2023-09-18 19:33:44,986 - basehttp 1316 : "GET /media/post_images/coffee-1117933_1280.jpg HTTP/1.1" 404 695
+[WARNING] django.request 2023-09-18 19:33:45,081 - log 1316 : Not Found: /media/profile_images/logo.png
+[WARNING] django.server 2023-09-18 19:33:45,082 - basehttp 1316 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695

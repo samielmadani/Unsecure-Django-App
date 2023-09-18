@@ -115,26 +115,23 @@ def help(request):
 @login_required(login_url='/login/')
 def change_password(request):
     all_chat_profiles = UserProfile.objects.all()
+    user = request.user
     if request.method == "POST":
-        form = ChangePasswordForm(request.POST)
-        user = request.user
+        form = ChangePasswordForm(user, request.POST)
         if form.is_valid() and user is not None:
-            if form.cleaned_data["password1"] == form.cleaned_data["password2"]:
+            if form.cleaned_data["new_password1"] == form.cleaned_data["new_password2"]:
                 try:
-                    if validate_password(form.cleaned_data["password1"], user) is None:
-                        user.set_password(form.cleaned_data["password1"])
+                    if validate_password(form.cleaned_data["new_password1"], user) is None:
+                        user.set_password(form.cleaned_data["new_password1"])
                         user.save()
                         return HttpResponseRedirect("/")
                 except ValidationError as ex:
                     for error in ex.error_list:
-                        form.add_error("password2", error)
+                        form.add_error("new_password2", error)
             else:
-                form.add_error("password2", "Passwords don't match")
-        else:
-            logger.debug(form.data)
-
+                form.add_error("new_password2", "Passwords don't match")
     else:
-        form = ChangePasswordForm()
+        form = ChangePasswordForm(user)
 
     return render(request, "change-password.html", {"form": form,
                                                     'all_chat_profiles': all_chat_profiles})
