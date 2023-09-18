@@ -1,5 +1,6 @@
 from ckeditor.widgets import CKEditorWidget
 from django import forms
+from django.contrib.auth.forms import PasswordChangeForm
 from django.forms import FileInput
 
 from authentication.models import UserProfile, UserAddress
@@ -15,12 +16,16 @@ class PostForm(forms.ModelForm):
         fields = ('text', 'image')
 
 
-class ChangePasswordForm(forms.Form):
-    password1 = forms.CharField(
+class ChangePasswordForm(PasswordChangeForm):
+    old_password = forms.CharField(
+        label="Current Password",
+        widget=forms.PasswordInput(attrs={"placeholder": "••••••••••••••••"}),
+    )
+    new_password1 = forms.CharField(
         label="Password",
         widget=forms.PasswordInput(attrs={"placeholder": "••••••••••••••••"}),
     )
-    password2 = forms.CharField(
+    new_password2 = forms.CharField(
         label="Password Check",
         widget=forms.PasswordInput(attrs={"placeholder": "••••••••••••••••"}),
     )
