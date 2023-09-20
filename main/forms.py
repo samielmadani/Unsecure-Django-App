@@ -2,6 +2,8 @@ from ckeditor.widgets import CKEditorWidget
 from django import forms
 from django.contrib.auth.forms import PasswordChangeForm
 from django.forms import FileInput
+from django.utils.html import strip_tags
+
 
 from authentication.models import UserProfile, UserAddress
 from main.models import Post
@@ -39,6 +41,11 @@ class EditProfileForm(forms.ModelForm):
     
     profile_image = forms.ImageField(widget=forms.ClearableFileInput, required=False)
     cover_image = forms.ImageField(widget=forms.ClearableFileInput, required=False)
+
+    def clean_bio(self):
+        bio = self.cleaned_data['bio']
+        stripped = strip_tags(bio)
+        return "<p>" + stripped + "</p>"
 
     class Meta:
         model = UserProfile
