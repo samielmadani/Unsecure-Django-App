@@ -1,5 +1,6 @@
-from django.urls import path
+from django.urls import path, re_path
 from django.conf.urls.static import static
+from django.views.static import serve
 
 from main.views import debug_settings
 from seng406_unsecure import settings as SETTINGS
@@ -20,7 +21,9 @@ urlpatterns = [
     path("edit-profile/", views.edit_profile, name='edit-profile'),
     path("edit-address/", views.edit_address, name='edit-address'),
     path("debug-settings/", debug_settings, name="debug-settings"),
-    path('events/', views.events, name='events')
+    path('events/', views.events, name='events'),
+    re_path(r'media/(?P<path>.*)$', serve, {'document_root': SETTINGS.MEDIA_ROOT}), 
+    re_path(r'^static/(?P<path>.*)$', serve, {'document_root': SETTINGS.STATIC_ROOT}), 
 ]
 
 urlpatterns += static(SETTINGS.MEDIA_URL, document_root=SETTINGS.MEDIA_ROOT)
