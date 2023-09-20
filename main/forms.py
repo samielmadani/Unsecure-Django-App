@@ -36,6 +36,7 @@ class ChangePasswordForm(PasswordChangeForm):
 class EditProfileForm(forms.ModelForm):
     bio = forms.CharField(
         required=False,
+        max_length=1000,
         widget=CKEditorWidget(attrs={"placeholder": "Tell us more about you"}),
     )
     
