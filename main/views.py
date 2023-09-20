@@ -194,12 +194,11 @@ def edit_address(request):
         address_form = EditAddressForm(request.POST, request.FILES, instance=address)
 
         if address_form.is_valid():
-
-            query = ("select * from authentication_useraddress where user_id != "
-                     + str(request.user.id) + " AND street like '" + address_form.data['street'] + "'")
-            result = UserAddress.objects.raw(query)
-
-            if len(result) > 0:
+            # Check if there is another user with the same street address
+            street = address_form.cleaned_data['street']
+            duplicate_address = UserAddress.objects.filter(Q(user__id=request.user.id) | Q(street=street)).exclude(id=address.id).first()
+            
+            if duplicate_address:
                 return render(
                     request,
                     "edit-address.html",
@@ -225,6 +224,7 @@ def edit_address(request):
     return render(request, "edit-address.html", context={
         'form': address_form, 'all_chat_profiles': all_chat_profiles
     })
+
 
 
 def send_confirmation_email(to_email):
