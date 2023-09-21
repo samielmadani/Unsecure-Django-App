@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 env = environ.Env(
     # set casting, default value
-    DEBUG=(bool, True)
+    DEBUG=(bool, False)
 )
 
 # Take environment variables from .env file
