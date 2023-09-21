@@ -33,12 +33,12 @@ def register_user(request):
             register_attempt_times = []
 
         register_attempts += 1
-        register_attempt_times.append(datetime.now())
 
         if register_attempts > 5:
             msg = "Register failed: Too many attempts. Come back in 5 minutes"
 
         else:
+            register_attempt_times.append(datetime.now())
             if user_does_not_exist(form) and form.is_valid():
                 user = form.save()
 
