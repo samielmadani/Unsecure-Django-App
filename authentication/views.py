@@ -48,7 +48,6 @@ def register_user(request):
                 return HttpResponseRedirect("/")
 
             else:
-                logger.debug(form.data["username"])
                 msg = "Error(s) in form"
 
     else:
@@ -90,7 +89,6 @@ def login_user(request):
                     login(request, user)
                     return HttpResponseRedirect("/")
                 else:
-                    logger.debug(form.cleaned_data["username"])
                     message = "Login failed: Username or password incorrect"
                     login_attempt_times[username] = datetime.now()
 
