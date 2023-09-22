@@ -114,8 +114,9 @@
             </div>
         </div>
         <!-- main content -->
-
-        {% include 'right-chat.html' %}
+        {% if user.id != null %}
+            {% include 'right-chat.html' %}
+        {% endif %}
 
         {% include 'footer.html' %}
 
