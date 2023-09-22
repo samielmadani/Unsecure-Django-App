@@ -15,24 +15,40 @@ logger = logging.getLogger(__name__)
 login_attempts = {}
 login_attempt_times = {}
 
+register_attempts = 0
+register_attempt_times = []
+
 
 def register_user(request):
+    global register_attempts, register_attempt_times
     msg = None
 
     if request.method == "POST":
         form = SignUpForm(request.POST)
 
-        if user_does_not_exist(form) and form.is_valid():
-            user = form.save()
 
-            UserProfile(user_id=user.id).save()
+        five_mins_ago = datetime.now() - timedelta(minutes=5)
+        if len(register_attempt_times) > 0 and register_attempt_times[-1] < five_mins_ago:
+            register_attempts = 0
+            register_attempt_times = []
 
-            login(request, user)
-            return HttpResponseRedirect("/")
+        register_attempts += 1
+
+        if register_attempts > 5:
+            msg = "Register failed: Too many attempts. Come back in 5 minutes"
 
         else:
-            logger.debug(form.data["username"])
-            msg = "Error(s) in form"
+            register_attempt_times.append(datetime.now())
+            if user_does_not_exist(form) and form.is_valid():
+                user = form.save()
+
+                UserProfile(user_id=user.id).save()
+
+                login(request, user)
+                return HttpResponseRedirect("/")
+
+            else:
+                msg = "Error(s) in form"
 
     else:
         form = SignUpForm()
@@ -73,7 +89,6 @@ def login_user(request):
                     login(request, user)
                     return HttpResponseRedirect("/")
                 else:
-                    logger.debug(form.cleaned_data["username"])
                     message = "Login failed: Username or password incorrect"
                     login_attempt_times[username] = datetime.now()
 
