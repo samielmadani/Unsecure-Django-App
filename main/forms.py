@@ -10,7 +10,7 @@ from main.models import Post
 
 
 class PostForm(forms.ModelForm):
-    text = forms.CharField(widget=forms.Textarea(attrs={"placeholder": "What's on your mind?"}))
+    text = forms.CharField(widget=forms.Textarea(attrs={"placeholder": "What's on your mind?"}), max_length=1000, help_text="1000 characters max.")
     image = forms.ImageField(widget=FileInput, required=False)
 
     class Meta:

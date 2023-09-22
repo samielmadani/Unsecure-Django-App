@@ -1,5 +1,6 @@
 import logging
 import os
+from datetime import datetime, timedelta
 
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
@@ -18,6 +19,9 @@ from main.forms import PostForm, ChangePasswordForm, EditProfileForm, EditAddres
 from main.models import Post
 
 logger = logging.getLogger(__name__)
+
+post_attempts = {}
+post_attempt_times = {}
 
 
 @login_required(login_url='/login/')
@@ -78,22 +82,43 @@ def user_profile(request, user_id):
 @login_required(login_url='/login/')
 def create_post(request):
     all_chat_profiles = UserProfile.objects.all()
+    message = ""
 
     if request.method == "POST":
-        print(request.POST)
-        form = PostForm(request.POST, request.FILES)
-        if form.is_valid():
-            form_post = form.save(commit=False)
-            print(form_post.text)
-            form_post.user = request.user
-            form_post.save()
-            print("SAVED POST")
-            return HttpResponseRedirect("/")
+        
+        username = request.user.username
+
+        # Check to see if failed post attempt was more than 3 minutes ago
+        three_mins_ago = datetime.now() - timedelta(minutes=3)
+        if username in post_attempt_times.keys():
+            if post_attempt_times[username] < three_mins_ago:
+                post_attempts[username] = 0
+
+        # Adds post attempts to to username
+        if username in post_attempts.keys():
+            post_attempts[username] = post_attempts[username] + 1
+        else:
+            post_attempts[username] = 1
+        
+        # Don't attempt post if there is too many post attempts
+        if post_attempts[username] > 1:
+            message = "Post failed: Too many attempts. Come back in 3 minutes"
+            user_id = request.user.id
+            logger.info("create-post attempt failed. User ID: '" + str(user_id) + "', attempts: '" + str(post_attempts[username]) + "'. ")
+            form = PostForm()
+        else:
+            post_attempt_times[username] = datetime.now()
+            form = PostForm(request.POST, request.FILES)
+            if form.is_valid():
+                form_post = form.save(commit=False)
+                form_post.user = request.user
+                form_post.save()
+                return HttpResponseRedirect("/")
     else:
         form = PostForm()
 
     return render(
-        request, 'create_post.html', context={'form': form, 'all_chat_profiles': all_chat_profiles})
+        request, 'create_post.html', context={'form': form, 'all_chat_profiles': all_chat_profiles, 'message': message})
 
 
 @login_required(login_url='/login/')
@@ -209,7 +234,6 @@ def edit_address(request):
             address_form.save()
             logger.info("Saved new address data for user %s", request.user.id)
             send_confirmation_email(user.email)
-
         else:
             logger.debug(address_form.errors)
             return render(

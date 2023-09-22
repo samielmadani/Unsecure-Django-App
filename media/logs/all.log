@@ -2326,3 +2326,817 @@ KeyError: 'password1'
 [WARNING] django.server 2023-09-18 19:33:44,986 - basehttp 1316 : "GET /media/post_images/coffee-1117933_1280.jpg HTTP/1.1" 404 695
 [WARNING] django.request 2023-09-18 19:33:45,081 - log 1316 : Not Found: /media/profile_images/logo.png
 [WARNING] django.server 2023-09-18 19:33:45,082 - basehttp 1316 : "GET /media/profile_images/logo.png HTTP/1.1" 404 695
+[INFO] django.server 2023-09-21 15:24:11,565 - basehttp 583988 : "GET /home/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 15:24:11,670 - basehttp 583988 : "GET /login/?next=/home/ HTTP/1.1" 200 4584
+[INFO] django.server 2023-09-21 15:24:11,845 - basehttp 583988 : "GET /static/jpg/login-bg.jpg HTTP/1.1" 200 41173
+[INFO] django.server 2023-09-21 15:24:11,902 - basehttp 583988 : "GET /static/svg/zap.svg HTTP/1.1" 200 277
+[INFO] django.server 2023-09-21 15:24:16,126 - basehttp 583988 : "GET /register/ HTTP/1.1" 200 6258
+[INFO] django.server 2023-09-21 15:24:16,245 - basehttp 583988 : "GET /static/jpg/register-bg.jpg HTTP/1.1" 200 47139
+[INFO] django.server 2023-09-21 15:24:37,660 - basehttp 583988 : "POST /register/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 15:24:38,146 - basehttp 583988 : "GET / HTTP/1.1" 200 52557
+[INFO] django.server 2023-09-21 15:27:13,899 - basehttp 583988 : "GET /create-post/ HTTP/1.1" 200 25933
+[INFO] django.server 2023-09-21 15:27:36,510 - basehttp 583988 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 15:27:36,898 - basehttp 583988 : "GET / HTTP/1.1" 200 56099
+[INFO] django.server 2023-09-21 15:27:36,969 - basehttp 583988 : "GET /media/post_images/Real_4k.jpg HTTP/1.1" 200 811509
+[INFO] django.server 2023-09-21 15:41:49,590 - basehttp 587836 : "GET /create-post/ HTTP/1.1" 200 25949
+[INFO] django.server 2023-09-21 15:42:18,652 - basehttp 587836 : "GET /home/ HTTP/1.1" 200 56099
+[INFO] django.server 2023-09-21 15:42:18,725 - basehttp 587836 : "GET /media/post_images/Real_4k.jpg HTTP/1.1" 200 811509
+[INFO] django.server 2023-09-21 15:42:32,281 - basehttp 587836 : "GET /create-post/ HTTP/1.1" 200 25949
+[INFO] django.server 2023-09-21 15:44:34,674 - basehttp 588853 : "GET /create-post/ HTTP/1.1" 200 26097
+[INFO] django.server 2023-09-21 15:44:49,981 - basehttp 588853 : "GET /home/ HTTP/1.1" 200 56099
+[INFO] django.server 2023-09-21 15:44:50,049 - basehttp 588853 : "GET /media/post_images/Real_4k.jpg HTTP/1.1" 200 811509
+[INFO] django.server 2023-09-21 15:44:57,097 - basehttp 588853 : "GET /home/ HTTP/1.1" 200 56099
+[INFO] django.server 2023-09-21 15:45:00,309 - basehttp 588853 : "GET /create-post/ HTTP/1.1" 200 26097
+[INFO] django.server 2023-09-21 15:45:07,469 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 15:45:07,899 - basehttp 588853 : "GET / HTTP/1.1" 200 59578
+[INFO] django.server 2023-09-21 15:59:52,149 - basehttp 588853 : "GET /create-post/ HTTP/1.1" 200 25950
+[INFO] django.server 2023-09-21 16:03:52,624 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:04:03,645 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:04:07,866 - basehttp 588853 : "GET / HTTP/1.1" 200 68604
+[INFO] django.server 2023-09-21 16:04:07,949 - basehttp 588853 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:04:07,971 - basehttp 588853 : "GET /media/post_images/Real_4k.jpg HTTP/1.1" 200 811509
+[INFO] django.server 2023-09-21 16:04:07,981 - basehttp 588853 : "GET /media/post_images/Bitcoin.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:14:09,380 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:16:33,188 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:16:33,356 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:16:42,981 - basehttp 588853 : "GET / HTTP/1.1" 200 73125
+[INFO] django.server 2023-09-21 16:16:43,053 - basehttp 588853 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:16:43,064 - basehttp 588853 : "GET /media/post_images/Bitcoin.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:16:43,064 - basehttp 588853 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:16:43,065 - basehttp 588853 : "GET /media/post_images/Real_4k.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:17:55,984 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:45,432 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:45,585 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:45,700 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:45,716 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:45,825 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:46,029 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:46,206 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:46,373 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:46,613 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:46,815 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:47,062 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:47,280 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:47,511 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:47,799 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:48,082 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:48,265 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:48,589 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:48,890 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:49,149 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:49,468 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:49,997 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:50,268 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:50,890 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:51,254 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:51,757 - basehttp 588853 : "GET / HTTP/1.1" 200 73125
+[INFO] django.server 2023-09-21 16:18:51,776 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:51,783 - basehttp 588853 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:18:51,802 - basehttp 588853 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:18:51,803 - basehttp 588853 : "GET /media/post_images/Bitcoin.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:18:52,329 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:52,803 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:53,382 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:53,892 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:54,453 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:55,028 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:55,611 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:56,266 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:56,895 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:57,546 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:58,156 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:58,842 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:18:59,479 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:00,272 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:00,953 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:01,755 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:02,514 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:03,162 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:03,248 - basehttp 588853 : "GET / HTTP/1.1" 200 73125
+[INFO] django.server 2023-09-21 16:19:04,062 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:04,849 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:05,612 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:06,498 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:07,343 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:08,220 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:09,089 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:09,936 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:10,888 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:19:11,875 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:00,111 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:00,276 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:00,316 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:00,407 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:00,622 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:00,653 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:00,825 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:01,061 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:01,295 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:01,507 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:01,715 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:01,980 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:02,205 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:02,432 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:02,820 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:03,045 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:03,226 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:03,646 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:03,991 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:04,289 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:04,541 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:04,862 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:05,457 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:05,745 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:06,387 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:06,700 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:07,267 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:07,380 - basehttp 588853 : "GET / HTTP/1.1" 200 73125
+[INFO] django.server 2023-09-21 16:21:07,437 - basehttp 588853 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:21:07,462 - basehttp 588853 : "GET /media/post_images/Bitcoin.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:21:07,463 - basehttp 588853 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:21:07,906 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:08,399 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:08,929 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:09,560 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:10,095 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:10,765 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:11,394 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:12,024 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:12,696 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:13,392 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:13,904 - basehttp 588853 : "GET /home/ HTTP/1.1" 200 73125
+[INFO] django.server 2023-09-21 16:21:13,980 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:14,759 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:15,525 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:16,212 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:16,931 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:17,780 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:18,542 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:19,352 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:20,136 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:21,031 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:21,804 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:22,743 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:23,540 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:24,441 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:25,408 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:21:37,737 - basehttp 588853 : "GET /profile/11/ HTTP/1.1" 200 54533
+[INFO] django.server 2023-09-21 16:21:37,823 - basehttp 588853 : "GET /media/post_images/Real_4k.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:21:57,340 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:22:23,696 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:22:30,294 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:22:40,612 - basehttp 588853 : "GET /media/post_images/Real_4k.jpg HTTP/1.1" 200 811509
+[WARNING] django.request 2023-09-21 16:22:40,693 - log 588853 : Not Found: /favicon.ico
+[WARNING] django.server 2023-09-21 16:22:40,693 - basehttp 588853 : "GET /favicon.ico HTTP/1.1" 404 695
+[INFO] django.server 2023-09-21 16:22:43,261 - basehttp 588853 : "GET /home/ HTTP/1.1" 200 86688
+[INFO] django.server 2023-09-21 16:22:43,299 - basehttp 588853 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:22:43,323 - basehttp 588853 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:22:43,324 - basehttp 588853 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:22:43,350 - basehttp 588853 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:22:45,976 - basehttp 588853 : "GET /create-post/ HTTP/1.1" 200 25950
+[INFO] django.server 2023-09-21 16:22:55,807 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:22:56,395 - basehttp 588853 : "GET / HTTP/1.1" 200 91209
+[INFO] django.server 2023-09-21 16:22:56,421 - basehttp 588853 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:22:56,435 - basehttp 588853 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:22:56,447 - basehttp 588853 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:22:56,447 - basehttp 588853 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:22:56,448 - basehttp 588853 : "GET /media/post_images/Bitcoin.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:22:56,448 - basehttp 588853 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:22:58,896 - basehttp 588853 : "GET /create-post/ HTTP/1.1" 200 25950
+[INFO] django.server 2023-09-21 16:23:17,556 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:23:18,629 - basehttp 588853 : "GET / HTTP/1.1" 200 95730
+[INFO] django.server 2023-09-21 16:23:18,709 - basehttp 588853 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:23:18,733 - basehttp 588853 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:23:18,734 - basehttp 588853 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:23:18,735 - basehttp 588853 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:23:18,736 - basehttp 588853 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:23:18,737 - basehttp 588853 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:23:18,739 - basehttp 588853 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:23:18,760 - basehttp 588853 : "GET /media/post_images/Bitcoin.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:23:26,756 - basehttp 588853 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:23:44,300 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:44,300 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:44,471 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:44,567 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:44,589 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:44,777 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:44,971 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:45,175 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:45,358 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:45,584 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:45,828 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:46,016 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:46,325 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:46,566 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:46,767 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:47,043 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:47,342 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:47,638 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:47,975 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:48,316 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:48,612 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:49,099 - basehttp 588853 : "GET / HTTP/1.1" 200 95730
+[INFO] django.server 2023-09-21 16:23:49,125 - basehttp 588853 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:23:49,146 - basehttp 588853 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:23:49,146 - basehttp 588853 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:23:49,147 - basehttp 588853 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:23:49,148 - basehttp 588853 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:23:49,182 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:49,485 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:50,057 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:50,606 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:50,963 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:51,556 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:52,112 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:52,656 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:53,200 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:53,819 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:54,375 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:55,027 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:55,668 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:56,309 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:56,976 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:57,568 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:58,267 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:58,947 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:23:59,713 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:00,464 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:01,192 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:01,980 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:02,742 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:03,599 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:04,370 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:05,203 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:06,086 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:06,920 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:07,796 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:08,729 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:09,620 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:10,567 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:11,495 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27451
+[INFO] django.server 2023-09-21 16:24:13,914 - basehttp 588853 : "GET / HTTP/1.1" 200 95730
+[INFO] django.server 2023-09-21 16:24:13,967 - basehttp 588853 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:24:13,995 - basehttp 588853 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:24:13,997 - basehttp 588853 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:24:13,997 - basehttp 588853 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:24:13,998 - basehttp 588853 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:24:13,998 - basehttp 588853 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:24:55,245 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:55,339 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:55,355 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:55,451 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:55,748 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:55,766 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:55,957 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:56,228 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:56,238 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:56,708 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:56,807 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:57,005 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:57,281 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:57,574 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:57,835 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:57,924 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:58,369 - basehttp 588853 : "GET / HTTP/1.1" 200 95730
+[INFO] django.server 2023-09-21 16:24:58,396 - basehttp 588853 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:24:58,416 - basehttp 588853 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:24:58,416 - basehttp 588853 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:24:58,416 - basehttp 588853 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:24:58,417 - basehttp 588853 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:24:58,427 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:58,667 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:59,018 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:59,320 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:59,627 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:24:59,995 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:00,332 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:00,901 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:01,209 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:01,816 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:02,358 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:02,900 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:03,469 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:03,845 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:04,604 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:05,173 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:05,724 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:06,395 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:07,035 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:07,678 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:08,355 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:09,073 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:09,755 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:10,479 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:11,188 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:11,970 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:12,674 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:13,455 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:14,256 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:15,113 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:15,916 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:16,764 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:17,602 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:18,511 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:19,458 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:20,357 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:21,269 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:22,175 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:23,159 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 27452
+[INFO] django.server 2023-09-21 16:25:41,133 - basehttp 588853 : "GET / HTTP/1.1" 200 95730
+[INFO] django.server 2023-09-21 16:25:41,189 - basehttp 588853 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:25:41,216 - basehttp 588853 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:25:41,216 - basehttp 588853 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:25:41,219 - basehttp 588853 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:25:41,219 - basehttp 588853 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:25:41,220 - basehttp 588853 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:25:41,220 - basehttp 588853 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:25:41,230 - basehttp 588853 : "GET /media/post_images/Bitcoin.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:25:56,636 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:26:17,232 - basehttp 588853 : "GET /create-post/ HTTP/1.1" 200 25950
+[INFO] django.server 2023-09-21 16:26:32,542 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:26:36,396 - basehttp 588853 : "GET / HTTP/1.1" 200 104048
+[INFO] django.server 2023-09-21 16:26:36,448 - basehttp 588853 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:26:36,461 - basehttp 588853 : "GET /media/post_images/Bitcoin_kncvmhS.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:26:36,499 - basehttp 588853 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:26:36,500 - basehttp 588853 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:26:36,500 - basehttp 588853 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:26:36,500 - basehttp 588853 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:26:44,948 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:12,097 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:12,185 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:12,267 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:12,388 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:12,505 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:12,631 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:12,757 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:12,982 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:13,191 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:13,388 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:13,622 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:13,855 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:14,084 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:14,347 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:14,607 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:14,871 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:15,133 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:15,425 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:15,726 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:15,999 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:16,345 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:16,774 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:17,332 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:17,803 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:18,283 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:18,772 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:19,297 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:19,831 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:20,379 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:20,939 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:21,490 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:22,113 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:22,717 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:27:51,890 - basehttp 588853 : "GET /home/ HTTP/1.1" 200 233146
+[INFO] django.server 2023-09-21 16:27:51,899 - basehttp 588853 : "GET / HTTP/1.1" 200 233146
+[INFO] django.server 2023-09-21 16:27:51,978 - basehttp 588853 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:27:51,978 - basehttp 588853 : "GET /media/post_images/Bitcoin_kncvmhS.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:27:51,979 - basehttp 588853 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:27:51,979 - basehttp 588853 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:27:51,979 - basehttp 588853 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:27:51,979 - basehttp 588853 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:27:51,986 - basehttp 588853 : "GET / HTTP/1.1" 200 233146
+[INFO] django.server 2023-09-21 16:27:51,996 - basehttp 588853 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:27:51,997 - basehttp 588853 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:27:51,998 - basehttp 588853 : "GET /media/post_images/Bitcoin.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:28:55,113 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:55,211 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:55,314 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:55,416 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:55,529 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:55,642 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:55,824 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:56,047 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:56,249 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:56,455 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:56,682 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:56,901 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:57,159 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:57,390 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:57,666 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:57,931 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:58,211 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:58,480 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:58,771 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:59,067 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:59,403 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:28:59,810 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:00,254 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:00,842 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:01,348 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:01,827 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:02,360 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:02,886 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:03,426 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:03,996 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:04,568 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:05,158 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:05,782 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:06,394 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:07,021 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:07,692 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:08,357 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:09,058 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:09,777 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:10,485 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:11,227 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:11,979 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:12,764 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:13,531 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:14,336 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:15,180 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:16,012 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:16,843 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:17,728 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:18,590 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:19,507 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:20,426 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:21,356 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:22,282 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:23,256 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:24,241 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:25,229 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:26,248 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:27,251 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 16:29:32,625 - basehttp 588853 : "GET /home/ HTTP/1.1" 200 457169
+[INFO] django.server 2023-09-21 16:29:32,693 - basehttp 588853 : "GET /media/post_images/Bitcoin_kncvmhS.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:29:32,719 - basehttp 588853 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:29:32,721 - basehttp 588853 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:29:32,722 - basehttp 588853 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:29:32,722 - basehttp 588853 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:29:32,722 - basehttp 588853 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:29:32,723 - basehttp 588853 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:29:32,734 - basehttp 588853 : "GET /media/post_images/Real_4k.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 16:38:11,775 - basehttp 588853 : "GET /create-post/ HTTP/1.1" 200 25950
+[INFO] django.server 2023-09-21 16:38:39,204 - basehttp 588853 : "POST /create-post/ HTTP/1.1" 200 26489
+[INFO] django.server 2023-09-21 16:38:47,849 - basehttp 588853 : "GET /create-post/ HTTP/1.1" 200 25950
+[INFO] django.server 2023-09-21 16:38:51,235 - basehttp 588853 : "GET /profile/11/ HTTP/1.1" 200 441077
+[INFO] django.server 2023-09-21 16:38:51,304 - basehttp 588853 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:38:51,307 - basehttp 588853 : "GET /media/post_images/Bitcoin.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:38:51,309 - basehttp 588853 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:38:51,310 - basehttp 588853 : "GET /media/post_images/Real_4k.jpg HTTP/1.1" 200 811509
+[INFO] django.server 2023-09-21 16:38:51,312 - basehttp 588853 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:38:51,314 - basehttp 588853 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:38:51,332 - basehttp 588853 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:38:51,340 - basehttp 588853 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:38:51,341 - basehttp 588853 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:38:51,343 - basehttp 588853 : "GET /media/post_images/Bitcoin_kncvmhS.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 16:38:58,884 - basehttp 588853 : "GET /home/ HTTP/1.1" 200 457169
+[INFO] django.server 2023-09-21 17:12:45,856 - basehttp 610066 : "GET /home/ HTTP/1.1" 200 457169
+[INFO] django.server 2023-09-21 17:12:45,976 - basehttp 610066 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:12:45,977 - basehttp 610066 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:12:45,977 - basehttp 610066 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:12:45,978 - basehttp 610066 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:12:45,980 - basehttp 610066 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:12:45,982 - basehttp 610066 : "GET /media/post_images/Bitcoin_kncvmhS.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:12:46,002 - basehttp 610066 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:12:46,005 - basehttp 610066 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:12:46,008 - basehttp 610066 : "GET /media/post_images/Real_4k.jpg HTTP/1.1" 200 811509
+[INFO] django.server 2023-09-21 17:12:46,011 - basehttp 610066 : "GET /media/post_images/Bitcoin.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:12:51,511 - basehttp 610066 : "GET /create-post/ HTTP/1.1" 200 26097
+[ERROR] django.request 2023-09-21 17:12:56,752 - log 610066 : Internal Server Error: /create-post/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/main/views.py", line 116, in create_post
+    request, 'create_post.html', context={'form': form, 'all_chat_profiles': all_chat_profiles, 'message': message})
+UnboundLocalError: local variable 'form' referenced before assignment
+[ERROR] django.server 2023-09-21 17:12:57,309 - basehttp 610066 : "POST /create-post/ HTTP/1.1" 500 707
+[ERROR] django.request 2023-09-21 17:13:04,640 - log 610066 : Internal Server Error: /create-post/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/main/views.py", line 116, in create_post
+    request, 'create_post.html', context={'form': form, 'all_chat_profiles': all_chat_profiles, 'message': message})
+UnboundLocalError: local variable 'form' referenced before assignment
+[ERROR] django.server 2023-09-21 17:13:04,641 - basehttp 610066 : "GET /create-post/ HTTP/1.1" 500 707
+[ERROR] django.request 2023-09-21 17:13:10,027 - log 610066 : Internal Server Error: /create-post/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/main/views.py", line 116, in create_post
+    request, 'create_post.html', context={'form': form, 'all_chat_profiles': all_chat_profiles, 'message': message})
+UnboundLocalError: local variable 'form' referenced before assignment
+[ERROR] django.server 2023-09-21 17:13:10,039 - basehttp 610066 : "GET /create-post/ HTTP/1.1" 500 707
+[INFO] django.server 2023-09-21 17:13:10,069 - basehttp 610066 : "GET /home/ HTTP/1.1" 200 457169
+[INFO] django.server 2023-09-21 17:13:10,173 - basehttp 610066 : "GET /profile/11/ HTTP/1.1" 200 441077
+[ERROR] django.request 2023-09-21 17:13:11,640 - log 610066 : Internal Server Error: /create-post/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/main/views.py", line 116, in create_post
+    request, 'create_post.html', context={'form': form, 'all_chat_profiles': all_chat_profiles, 'message': message})
+UnboundLocalError: local variable 'form' referenced before assignment
+[ERROR] django.server 2023-09-21 17:13:11,641 - basehttp 610066 : "GET /create-post/ HTTP/1.1" 500 707
+[INFO] django.server 2023-09-21 17:13:17,165 - basehttp 610066 : "GET / HTTP/1.1" 200 457169
+[ERROR] django.request 2023-09-21 17:13:23,564 - log 610066 : Internal Server Error: /create-post/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/main/views.py", line 116, in create_post
+    request, 'create_post.html', context={'form': form, 'all_chat_profiles': all_chat_profiles, 'message': message})
+UnboundLocalError: local variable 'form' referenced before assignment
+[ERROR] django.server 2023-09-21 17:13:23,565 - basehttp 610066 : "GET /create-post/ HTTP/1.1" 500 707
+[INFO] django.server 2023-09-21 17:13:28,958 - basehttp 610066 : "GET / HTTP/1.1" 200 457169
+[INFO] django.server 2023-09-21 17:14:42,908 - basehttp 610508 : "GET / HTTP/1.1" 200 457169
+[ERROR] django.request 2023-09-21 17:14:44,750 - log 610508 : Internal Server Error: /create-post/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/main/views.py", line 120, in create_post
+    request, 'create_post.html', context={'form': form, 'all_chat_profiles': all_chat_profiles, 'message': message})
+UnboundLocalError: local variable 'message' referenced before assignment
+[ERROR] django.server 2023-09-21 17:14:44,769 - basehttp 610508 : "GET /create-post/ HTTP/1.1" 500 707
+[INFO] django.server 2023-09-21 17:14:49,077 - basehttp 610508 : "GET / HTTP/1.1" 200 457169
+[ERROR] django.request 2023-09-21 17:14:49,235 - log 610508 : Internal Server Error: /create-post/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/main/views.py", line 120, in create_post
+    request, 'create_post.html', context={'form': form, 'all_chat_profiles': all_chat_profiles, 'message': message})
+UnboundLocalError: local variable 'message' referenced before assignment
+[ERROR] django.server 2023-09-21 17:14:49,235 - basehttp 610508 : "GET /create-post/ HTTP/1.1" 500 707
+[INFO] django.server 2023-09-21 17:14:52,475 - basehttp 610508 : "GET / HTTP/1.1" 200 457169
+[INFO] django.server 2023-09-21 17:15:14,751 - basehttp 612609 : "GET / HTTP/1.1" 200 457169
+[ERROR] django.request 2023-09-21 17:15:16,424 - log 612609 : Internal Server Error: /create-post/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/main/views.py", line 120, in create_post
+    request, 'create_post.html', context={'form': form, 'all_chat_profiles': all_chat_profiles, 'message': message})
+UnboundLocalError: local variable 'message' referenced before assignment
+[ERROR] django.server 2023-09-21 17:15:16,437 - basehttp 612609 : "GET /create-post/ HTTP/1.1" 500 707
+[INFO] django.server 2023-09-21 17:15:21,341 - basehttp 612609 : "GET / HTTP/1.1" 200 457169
+[INFO] django.server 2023-09-21 17:15:42,576 - basehttp 613479 : "GET / HTTP/1.1" 200 457359
+[INFO] django.server 2023-09-21 17:15:42,657 - basehttp 613479 : "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+[INFO] django.server 2023-09-21 17:15:42,763 - basehttp 613479 : "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+[ERROR] django.request 2023-09-21 17:15:44,873 - log 613479 : Internal Server Error: /create-post/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/main/views.py", line 120, in create_post
+    request, 'create_post.html', context={'form': form, 'all_chat_profiles': all_chat_profiles, 'message': message})
+UnboundLocalError: local variable 'message' referenced before assignment
+[ERROR] django.server 2023-09-21 17:15:44,881 - basehttp 613479 : "GET /create-post/ HTTP/1.1" 500 84711
+[INFO] django.server 2023-09-21 17:16:11,449 - basehttp 613753 : "GET /create-post/ HTTP/1.1" 200 26287
+[INFO] django.server 2023-09-21 17:16:28,826 - basehttp 613753 : "GET / HTTP/1.1" 200 457359
+[INFO] django.server 2023-09-21 17:16:35,800 - basehttp 613753 : "GET /create-post/ HTTP/1.1" 200 26287
+[INFO] django.server 2023-09-21 17:16:39,618 - basehttp 613753 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 17:16:42,787 - basehttp 613753 : "GET / HTTP/1.1" 200 461139
+[INFO] django.server 2023-09-21 17:16:46,744 - basehttp 613753 : "GET /create-post/ HTTP/1.1" 200 26287
+[ERROR] django.request 2023-09-21 17:16:49,552 - log 613753 : Internal Server Error: /create-post/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/main/views.py", line 120, in create_post
+    request, 'create_post.html', context={'form': form, 'all_chat_profiles': all_chat_profiles, 'message': message})
+UnboundLocalError: local variable 'form' referenced before assignment
+[ERROR] django.server 2023-09-21 17:16:49,561 - basehttp 613753 : "POST /create-post/ HTTP/1.1" 500 87198
+[INFO] django.server 2023-09-21 17:17:42,106 - basehttp 614197 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 17:17:45,148 - basehttp 614197 : "GET / HTTP/1.1" 200 464919
+[INFO] django.server 2023-09-21 17:17:45,236 - basehttp 614197 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:17:45,237 - basehttp 614197 : "GET /media/post_images/Bitcoin_kncvmhS.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:17:45,239 - basehttp 614197 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:17:52,978 - basehttp 614197 : "GET /create-post/ HTTP/1.1" 200 26287
+[INFO] django.server 2023-09-21 17:17:55,340 - basehttp 614197 : "POST /create-post/ HTTP/1.1" 200 26341
+[INFO] django.server 2023-09-21 17:18:03,827 - basehttp 614197 : "GET /home/ HTTP/1.1" 200 464919
+[INFO] django.server 2023-09-21 17:18:03,917 - basehttp 614197 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:18:03,918 - basehttp 614197 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:18:03,920 - basehttp 614197 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:18:11,723 - basehttp 614197 : "GET /home/ HTTP/1.1" 200 464919
+[INFO] django.server 2023-09-21 17:18:14,675 - basehttp 614197 : "GET /create-post/ HTTP/1.1" 200 26287
+[INFO] django.server 2023-09-21 17:18:17,434 - basehttp 614197 : "POST /create-post/ HTTP/1.1" 200 26341
+[INFO] django.server 2023-09-21 17:18:20,802 - basehttp 614197 : "POST /create-post/ HTTP/1.1" 200 26341
+[INFO] django.server 2023-09-21 17:23:58,743 - basehttp 614197 : "POST /create-post/ HTTP/1.1" 200 26341
+[INFO] django.server 2023-09-21 17:24:03,257 - basehttp 614197 : "POST /create-post/ HTTP/1.1" 200 26341
+[INFO] django.server 2023-09-21 17:24:10,588 - basehttp 614197 : "GET /create-post/ HTTP/1.1" 200 26287
+[INFO] django.server 2023-09-21 17:24:16,310 - basehttp 614197 : "GET / HTTP/1.1" 200 464919
+[INFO] django.server 2023-09-21 17:24:16,367 - basehttp 614197 : "GET /media/post_images/Bitcoin_kncvmhS.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:24:16,368 - basehttp 614197 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:24:16,402 - basehttp 614197 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:24:16,403 - basehttp 614197 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:24:16,405 - basehttp 614197 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:24:16,407 - basehttp 614197 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:24:16,408 - basehttp 614197 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:24:16,410 - basehttp 614197 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:24:16,429 - basehttp 614197 : "GET /media/post_images/Bitcoin.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 17:24:16,437 - basehttp 614197 : "GET /media/post_images/Real_4k.jpg HTTP/1.1" 200 811509
+[INFO] django.server 2023-09-21 17:26:45,549 - basehttp 616187 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 17:26:48,902 - basehttp 616187 : "GET / HTTP/1.1" 200 468699
+[INFO] django.server 2023-09-21 17:26:57,941 - basehttp 616187 : "GET /create-post/ HTTP/1.1" 200 26287
+[INFO] django.server 2023-09-21 17:27:00,315 - basehttp 616187 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 17:27:03,484 - basehttp 616187 : "GET / HTTP/1.1" 200 472479
+[INFO] django.server 2023-09-21 17:27:09,896 - basehttp 616187 : "GET /create-post/ HTTP/1.1" 200 26287
+[INFO] django.server 2023-09-21 17:27:12,076 - basehttp 616187 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 17:27:15,503 - basehttp 616187 : "GET / HTTP/1.1" 200 476259
+[INFO] django.server 2023-09-21 17:29:49,715 - basehttp 616936 : "GET /create-post/ HTTP/1.1" 200 26287
+[INFO] django.server 2023-09-21 17:29:52,055 - basehttp 616936 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 17:29:55,177 - basehttp 616936 : "GET / HTTP/1.1" 200 480022
+[INFO] django.server 2023-09-21 17:29:56,752 - basehttp 616936 : "GET /create-post/ HTTP/1.1" 200 26287
+[INFO] django.server 2023-09-21 17:29:59,130 - basehttp 616936 : "POST /create-post/ HTTP/1.1" 200 26341
+[INFO] django.server 2023-09-21 17:33:27,659 - basehttp 616936 : "POST /create-post/ HTTP/1.1" 200 26341
+[INFO] django.server 2023-09-21 17:33:31,583 - basehttp 616936 : "POST /create-post/ HTTP/1.1" 200 26341
+[DEBUG] main.views 2023-09-21 17:34:28,629 - views 618004 : {}
+[DEBUG] main.views 2023-09-21 17:34:28,629 - views 618004 : {}
+[INFO] django.server 2023-09-21 17:34:28,673 - basehttp 618004 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 17:34:32,257 - basehttp 618004 : "GET / HTTP/1.1" 200 482869
+[INFO] django.server 2023-09-21 17:34:32,306 - basehttp 618004 : "GET /media/post_images/Bitcoin_kncvmhS.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:34:32,334 - basehttp 618004 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:34:32,334 - basehttp 618004 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:34:32,334 - basehttp 618004 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:34:32,335 - basehttp 618004 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:34:32,335 - basehttp 618004 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:34:32,335 - basehttp 618004 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:34:32,348 - basehttp 618004 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:34:32,352 - basehttp 618004 : "GET /media/post_images/Bitcoin.jpg HTTP/1.1" 304 0
+[DEBUG] main.views 2023-09-21 17:34:55,075 - views 618004 : {'jth142': datetime.datetime(2023, 9, 21, 17, 34, 28, 629791)}
+[DEBUG] main.views 2023-09-21 17:34:55,075 - views 618004 : {'jth142': 1}
+[INFO] django.server 2023-09-21 17:34:55,233 - basehttp 618004 : "GET /create-post/ HTTP/1.1" 200 26287
+[DEBUG] main.views 2023-09-21 17:35:06,374 - views 618004 : {'jth142': datetime.datetime(2023, 9, 21, 17, 34, 28, 629791)}
+[DEBUG] main.views 2023-09-21 17:35:06,374 - views 618004 : {'jth142': 1}
+[INFO] django.server 2023-09-21 17:35:06,521 - basehttp 618004 : "POST /create-post/ HTTP/1.1" 200 26341
+[DEBUG] main.views 2023-09-21 17:35:29,167 - views 618266 : {}
+[DEBUG] main.views 2023-09-21 17:35:29,167 - views 618266 : {}
+[INFO] django.server 2023-09-21 17:35:29,215 - basehttp 618266 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 17:35:33,176 - basehttp 618266 : "GET / HTTP/1.1" 200 485716
+[DEBUG] main.views 2023-09-21 17:35:35,433 - views 618266 : {'jth142': datetime.datetime(2023, 9, 21, 17, 35, 29, 167940)}
+[DEBUG] main.views 2023-09-21 17:35:35,434 - views 618266 : {'jth142': 1}
+[INFO] django.server 2023-09-21 17:35:35,624 - basehttp 618266 : "GET /create-post/ HTTP/1.1" 200 26287
+[DEBUG] main.views 2023-09-21 17:35:37,834 - views 618266 : {'jth142': datetime.datetime(2023, 9, 21, 17, 35, 29, 167940)}
+[DEBUG] main.views 2023-09-21 17:35:37,834 - views 618266 : {'jth142': 1}
+[INFO] django.server 2023-09-21 17:35:37,978 - basehttp 618266 : "POST /create-post/ HTTP/1.1" 200 26341
+[DEBUG] main.views 2023-09-21 17:36:08,540 - views 618266 : {'jth142': datetime.datetime(2023, 9, 21, 17, 35, 29, 167940)}
+[DEBUG] main.views 2023-09-21 17:36:08,540 - views 618266 : {'jth142': 2}
+[INFO] django.server 2023-09-21 17:36:08,719 - basehttp 618266 : "POST /create-post/ HTTP/1.1" 200 26353
+[DEBUG] main.views 2023-09-21 17:36:19,820 - views 618266 : {'jth142': datetime.datetime(2023, 9, 21, 17, 35, 29, 167940)}
+[DEBUG] main.views 2023-09-21 17:36:19,821 - views 618266 : {'jth142': 3}
+[INFO] django.server 2023-09-21 17:36:19,950 - basehttp 618266 : "POST /create-post/ HTTP/1.1" 200 26353
+[DEBUG] main.views 2023-09-21 17:36:45,434 - views 618266 : {'jth142': datetime.datetime(2023, 9, 21, 17, 35, 29, 167940)}
+[DEBUG] main.views 2023-09-21 17:36:45,434 - views 618266 : {'jth142': 4}
+[INFO] django.server 2023-09-21 17:36:45,537 - basehttp 618266 : "POST /create-post/ HTTP/1.1" 200 26353
+[DEBUG] main.views 2023-09-21 17:37:31,532 - views 618266 : {'jth142': datetime.datetime(2023, 9, 21, 17, 35, 29, 167940)}
+[DEBUG] main.views 2023-09-21 17:37:31,532 - views 618266 : {'jth142': 2}
+[INFO] django.server 2023-09-21 17:37:31,677 - basehttp 618266 : "POST /create-post/ HTTP/1.1" 200 26353
+[DEBUG] main.views 2023-09-21 17:37:39,697 - views 618266 : {'jth142': datetime.datetime(2023, 9, 21, 17, 35, 29, 167940)}
+[DEBUG] main.views 2023-09-21 17:37:39,697 - views 618266 : {'jth142': 2}
+[INFO] django.server 2023-09-21 17:37:39,846 - basehttp 618266 : "POST /create-post/ HTTP/1.1" 200 26353
+[DEBUG] main.views 2023-09-21 17:37:49,556 - views 618266 : {'jth142': datetime.datetime(2023, 9, 21, 17, 35, 29, 167940)}
+[DEBUG] main.views 2023-09-21 17:37:49,556 - views 618266 : {'jth142': 2}
+[INFO] django.server 2023-09-21 17:37:49,692 - basehttp 618266 : "POST /create-post/ HTTP/1.1" 200 26353
+[DEBUG] main.views 2023-09-21 17:39:57,718 - views 619299 : {}
+[DEBUG] main.views 2023-09-21 17:39:57,718 - views 619299 : {}
+[INFO] django.server 2023-09-21 17:39:57,760 - basehttp 619299 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 17:40:01,292 - basehttp 619299 : "GET / HTTP/1.1" 200 488567
+[INFO] django.server 2023-09-21 17:40:01,371 - basehttp 619299 : "GET /media/post_images/Real_4k.jpg HTTP/1.1" 304 0
+[DEBUG] main.views 2023-09-21 17:40:03,202 - views 619299 : {'jth142': datetime.datetime(2023, 9, 21, 17, 39, 57, 718613)}
+[DEBUG] main.views 2023-09-21 17:40:03,203 - views 619299 : {'jth142': 1}
+[INFO] django.server 2023-09-21 17:40:03,411 - basehttp 619299 : "GET /create-post/ HTTP/1.1" 200 26299
+[DEBUG] main.views 2023-09-21 17:40:05,696 - views 619299 : {'jth142': datetime.datetime(2023, 9, 21, 17, 39, 57, 718613)}
+[DEBUG] main.views 2023-09-21 17:40:05,696 - views 619299 : {'jth142': 1}
+[ERROR] django.request 2023-09-21 17:40:05,962 - log 619299 : Internal Server Error: /create-post/
+Traceback (most recent call last):
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/.venv/lib/python3.10/site-packages/django/contrib/auth/decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+  File "/csse/users/jth141/Desktop/SENG406/Assignment 3/secure-coding/main/views.py", line 109, in create_post
+    logger.info("Post attempt failed. User: '" + username + "', attempts: '" + post_attempts[username] + "'. ")
+TypeError: can only concatenate str (not "int") to str
+[ERROR] django.server 2023-09-21 17:40:05,971 - basehttp 619299 : "POST /create-post/ HTTP/1.1" 500 86403
+[DEBUG] main.views 2023-09-21 17:40:28,106 - views 619426 : {}
+[DEBUG] main.views 2023-09-21 17:40:28,106 - views 619426 : {}
+[INFO] django.server 2023-09-21 17:40:28,150 - basehttp 619426 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 17:40:31,483 - basehttp 619426 : "GET / HTTP/1.1" 200 491418
+[DEBUG] main.views 2023-09-21 17:40:33,875 - views 619426 : {'jth142': datetime.datetime(2023, 9, 21, 17, 40, 28, 106543)}
+[DEBUG] main.views 2023-09-21 17:40:33,875 - views 619426 : {'jth142': 1}
+[INFO] django.server 2023-09-21 17:40:34,032 - basehttp 619426 : "GET /create-post/ HTTP/1.1" 200 26299
+[DEBUG] main.views 2023-09-21 17:40:36,633 - views 619426 : {'jth142': datetime.datetime(2023, 9, 21, 17, 40, 28, 106543)}
+[DEBUG] main.views 2023-09-21 17:40:36,633 - views 619426 : {'jth142': 1}
+[INFO] main.views 2023-09-21 17:40:36,633 - views 619426 : Post attempt failed. User: 'jth142', attempts: '2'. 
+[INFO] django.server 2023-09-21 17:40:36,794 - basehttp 619426 : "POST /create-post/ HTTP/1.1" 200 26353
+[DEBUG] main.views 2023-09-21 17:40:55,504 - views 619426 : {'jth142': datetime.datetime(2023, 9, 21, 17, 40, 28, 106543)}
+[DEBUG] main.views 2023-09-21 17:40:55,504 - views 619426 : {'jth142': 2}
+[INFO] main.views 2023-09-21 17:40:55,504 - views 619426 : Post attempt failed. User: 'jth142', attempts: '3'. 
+[INFO] django.server 2023-09-21 17:40:55,644 - basehttp 619426 : "POST /create-post/ HTTP/1.1" 200 26353
+[DEBUG] main.views 2023-09-21 17:41:07,255 - views 619426 : {'jth142': datetime.datetime(2023, 9, 21, 17, 40, 28, 106543)}
+[DEBUG] main.views 2023-09-21 17:41:07,255 - views 619426 : {'jth142': 3}
+[INFO] main.views 2023-09-21 17:41:07,255 - views 619426 : Post attempt failed. User: 'jth142', attempts: '4'. 
+[INFO] django.server 2023-09-21 17:41:07,361 - basehttp 619426 : "POST /create-post/ HTTP/1.1" 200 26353
+[DEBUG] main.views 2023-09-21 17:43:41,711 - views 619426 : {'jth142': datetime.datetime(2023, 9, 21, 17, 40, 28, 106543)}
+[DEBUG] main.views 2023-09-21 17:43:41,712 - views 619426 : {'jth142': 4}
+[INFO] django.server 2023-09-21 17:43:41,753 - basehttp 619426 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 17:43:44,970 - basehttp 619426 : "GET / HTTP/1.1" 200 494272
+[INFO] django.server 2023-09-21 17:43:45,028 - basehttp 619426 : "GET /media/post_images/Bitcoin_kncvmhS.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:43:45,055 - basehttp 619426 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:43:45,056 - basehttp 619426 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:43:45,058 - basehttp 619426 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:43:45,058 - basehttp 619426 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:43:45,059 - basehttp 619426 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:43:45,059 - basehttp 619426 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:43:45,074 - basehttp 619426 : "GET /media/post_images/Bitcoin.jpg HTTP/1.1" 304 0
+[INFO] django.server 2023-09-21 17:43:45,074 - basehttp 619426 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 304 0
+[DEBUG] main.views 2023-09-21 17:43:58,804 - views 619426 : {'jth142': datetime.datetime(2023, 9, 21, 17, 43, 41, 712704)}
+[DEBUG] main.views 2023-09-21 17:43:58,805 - views 619426 : {'jth142': 1}
+[INFO] django.server 2023-09-21 17:43:58,955 - basehttp 619426 : "GET /create-post/ HTTP/1.1" 200 26299
+[DEBUG] main.views 2023-09-21 17:44:02,106 - views 619426 : {'jth142': datetime.datetime(2023, 9, 21, 17, 43, 41, 712704)}
+[DEBUG] main.views 2023-09-21 17:44:02,106 - views 619426 : {'jth142': 1}
+[INFO] main.views 2023-09-21 17:44:02,106 - views 619426 : Post attempt failed. User: 'jth142', attempts: '2'. 
+[INFO] django.server 2023-09-21 17:44:02,243 - basehttp 619426 : "POST /create-post/ HTTP/1.1" 200 26353
+[INFO] django.server 2023-09-21 17:44:07,461 - basehttp 619426 : "GET /home/ HTTP/1.1" 200 494272
+[INFO] django.server 2023-09-21 17:45:29,399 - basehttp 620545 : "GET /create-post/ HTTP/1.1" 200 26299
+[INFO] django.server 2023-09-21 17:45:34,283 - basehttp 620545 : "POST /create-post/ HTTP/1.1" 302 0
+[INFO] django.server 2023-09-21 17:45:38,093 - basehttp 620545 : "GET / HTTP/1.1" 200 497108
+[INFO] django.server 2023-09-21 17:45:39,760 - basehttp 620545 : "GET /create-post/ HTTP/1.1" 200 26299
+[INFO] main.views 2023-09-21 17:45:43,586 - views 620545 : create-post attempt failed. User ID: '11', attempts: '2'. 
+[INFO] django.server 2023-09-21 17:45:43,748 - basehttp 620545 : "POST /create-post/ HTTP/1.1" 200 26353
+[INFO] django.server 2023-09-21 21:03:47,644 - basehttp 606847 : "GET / HTTP/1.1" 200 480022
+[INFO] django.server 2023-09-21 21:03:47,804 - basehttp 606847 : "GET /static/css/themify-icons.css HTTP/1.1" 200 16474
+[INFO] django.server 2023-09-21 21:03:47,819 - basehttp 606847 : "GET /static/css/lightbox.css HTTP/1.1" 200 4352
+[INFO] django.server 2023-09-21 21:03:47,819 - basehttp 606847 : "GET /static/css/emoji.css HTTP/1.1" 200 411332
+[INFO] django.server 2023-09-21 21:03:47,824 - basehttp 606847 : "GET /static/css/style.css HTTP/1.1" 200 302860
+[INFO] django.server 2023-09-21 21:03:47,824 - basehttp 606847 : "GET /static/css/feather.css HTTP/1.1" 200 13391
+[INFO] django.server 2023-09-21 21:03:47,876 - basehttp 606847 : "GET /static/js/lightbox.js HTTP/1.1" 200 20097
+[INFO] django.server 2023-09-21 21:03:48,164 - basehttp 606847 : "GET /static/js/plugin.js HTTP/1.1" 200 250710
+[INFO] django.server 2023-09-21 21:03:48,235 - basehttp 606847 : "GET /static/svg/default_profile_image.svg HTTP/1.1" 200 220
+[INFO] django.server 2023-09-21 21:03:48,348 - basehttp 606847 : "GET /media/post_images/Bitcoin_kncvmhS.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 21:03:48,364 - basehttp 606847 : "GET /media/post_images/Bitcoin_V1uQDmn.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 21:03:48,376 - basehttp 606847 : "GET /media/post_images/Bitcoin_eIuE2Ya.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 21:03:48,382 - basehttp 606847 : "GET /static/vendor/owl-carousel/css/owl.carousel.min.css HTTP/1.1" 200 3351
+[INFO] django.server 2023-09-21 21:03:48,411 - basehttp 606847 : "GET /static/vendor/owl-carousel/css/owl.theme.default.css HTTP/1.1" 200 1380
+[INFO] django.server 2023-09-21 21:03:48,449 - basehttp 606847 : "GET /static/js/scripts.js HTTP/1.1" 200 9730
+[INFO] django.server 2023-09-21 21:03:48,506 - basehttp 606847 : "GET /media/post_images/Bitcoin_7oYxLCA.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 21:03:48,514 - basehttp 606847 : "GET /media/post_images/Bitcoin_Wd5A5F0.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 21:03:48,523 - basehttp 606847 : "GET /media/post_images/Bitcoin_iW81lOn.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 21:03:48,536 - basehttp 606847 : "GET /media/profile_images/leyla.jpg HTTP/1.1" 200 3767
+[INFO] django.server 2023-09-21 21:03:48,556 - basehttp 606847 : "GET /media/profile_images/arj.jpg HTTP/1.1" 200 4881
+[INFO] django.server 2023-09-21 21:03:48,564 - basehttp 606847 : "GET /media/post_images/Bitcoin.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 21:03:48,567 - basehttp 606847 : "GET /media/post_images/books-436498_1280.jpg HTTP/1.1" 200 264819
+[INFO] django.server 2023-09-21 21:03:48,590 - basehttp 606847 : "GET /media/profile_images/heather.jpg HTTP/1.1" 200 4440
+[INFO] django.server 2023-09-21 21:03:48,592 - basehttp 606847 : "GET /media/profile_images/joey.jpg HTTP/1.1" 200 5615
+[INFO] django.server 2023-09-21 21:03:48,614 - basehttp 606847 : "GET /media/profile_images/bob.jpg HTTP/1.1" 200 5616
+[INFO] django.server 2023-09-21 21:03:48,635 - basehttp 606847 : "GET /media/post_images/Bitcoin_QJocQnv.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 21:03:48,655 - basehttp 606847 : "GET /media/profile_images/logo.png HTTP/1.1" 200 3372
+[INFO] django.server 2023-09-21 21:03:48,685 - basehttp 606847 : "GET /media/post_images/coffee-1117933_1280.jpg HTTP/1.1" 200 249491
+[INFO] django.server 2023-09-21 21:03:48,701 - basehttp 606847 : "GET /media/post_images/RE4CSNW_1920x1080.jpg HTTP/1.1" 200 845866
+[INFO] django.server 2023-09-21 21:03:48,720 - basehttp 606847 : "GET /media/post_images/Bitcoin_jAgnHgd.jpg HTTP/1.1" 200 810678
+[INFO] django.server 2023-09-21 21:03:48,737 - basehttp 606847 : "GET /static/svg/preloader.svg HTTP/1.1" 200 686
+[INFO] django.server 2023-09-21 21:03:48,807 - basehttp 606847 : "GET /media/post_images/tianjin-2185510_1280.jpg HTTP/1.1" 200 267061
+[INFO] django.server 2023-09-21 21:03:48,813 - basehttp 606847 : "GET /media/post_images/Real_4k.jpg HTTP/1.1" 200 811509
+[INFO] django.server 2023-09-21 21:03:48,838 - basehttp 606847 : "GET /static/fonts/themify.woff?-fvbane HTTP/1.1" 200 56108
+[INFO] django.server 2023-09-21 21:03:48,847 - basehttp 606847 : "GET /static/fonts/Feather.ttf?sdxovp HTTP/1.1" 200 65112
+[INFO] django.server 2023-09-21 21:03:48,901 - basehttp 606847 : "GET /static/django-browser-reload/reload-listener.js HTTP/1.1" 200 623
+[INFO] django.server 2023-09-21 21:03:48,933 - basehttp 606847 : "GET /static/gif/loading.gif HTTP/1.1" 200 8476
+[INFO] django.server 2023-09-21 21:03:48,935 - basehttp 606847 : "GET /static/django-browser-reload/reload-worker.js HTTP/1.1" 200 2711
+[INFO] django.server 2023-09-21 21:03:48,937 - basehttp 606847 : "GET /static/png/prev.png HTTP/1.1" 200 1360
+[INFO] django.server 2023-09-21 21:03:48,960 - basehttp 606847 : "GET /static/png/close.png HTTP/1.1" 200 280
+[INFO] django.server 2023-09-21 21:03:48,976 - basehttp 606847 : "GET /static/png/next.png HTTP/1.1" 200 1350
