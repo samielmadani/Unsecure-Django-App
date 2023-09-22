@@ -166,6 +166,7 @@ def change_password(request):
                                                     'all_chat_profiles': all_chat_profiles})
 
 
+@login_required(login_url='/login/')
 def all_profiles(request):
     user_profiles = UserProfile.objects.all()
 
